@@ -6,7 +6,13 @@
                 Ithaca A/B Hockey
             </a>
         </div>
-        <div class="header-links-container">
+        <div *ngIf="isMobile">
+            <button class="btn btn-sm btn-dark" (click)="toggleMenu()">
+                <i class="bi bi-list fs-4"></i>
+            </button>
+        </div>
+        <div class="header-links-container" *ngIf="showMenu">
+            
             <div>
                 <a [routerLink]="['/standings']" routerLinkActive="router-link-active">
                     Standings
@@ -20,12 +26,12 @@
             <div>
                 <a [routerLink]="['/sponsors']" routerLinkActive="router-link-active">
                     Sponsors
-                </a>                
+                </a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="header-close-menu-btn">
+<div class="header-close-menu-btn" *ngIf="showMenu" (click)="toggleMenu()">
     &#x2715;
 </div>

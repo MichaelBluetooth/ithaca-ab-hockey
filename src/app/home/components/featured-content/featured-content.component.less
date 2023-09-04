@@ -1,3 +1,5 @@
+@import '../../../../vars.less';
+
 :host {
     height: 100%;
     width: 100%;
@@ -16,4 +18,15 @@
 
 .main-text:hover {
     text-decoration: underline;
+}
+
+.detail-text {
+    font-size: 12px;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: @lg-device) {
+    .detail-text {
+        font-size: inherit;
+    }
 }

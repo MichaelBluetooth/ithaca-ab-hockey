@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,11 +8,30 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   lgDeviceBreakpointPX = 992;
-  showMenu = false;
+  isMobile = false;
+  showMenu = true;
 
-  ngOnInit(){
-    if(window.innerWidth >= 992){
-      this.showMenu = true;
+  constructor(private router: Router){}
+
+  ngOnInit() {
+    this.router.events.subscribe(() => {
+      this.showMenu = false || !this.isMobile;
+      document.body.classList.remove('stop-scrolling');
+    });
+
+    if (window.innerWidth <= 992) {
+      this.isMobile = true;
+      this.showMenu = false;
+    }
+  }
+
+  toggleMenu() {
+    this.showMenu = !this.showMenu;
+
+    if (this.showMenu) {
+      document.body.classList.add('stop-scrolling');
+    } else {
+      document.body.classList.remove('stop-scrolling');
     }
   }
 }

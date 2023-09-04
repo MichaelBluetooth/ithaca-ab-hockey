@@ -2,7 +2,7 @@
 <hr>
 
 <div *ngFor="let sponsor of sponsors" class="mb-3">
-    <div class="sponsor d-flex gap-3">
+    <div class="sponsor">
         <img [src]="'assets/sponsors/' + sponsor.image" width="250px" [alt]="sponsor.name" [title]="sponsor.name">
         <div>
             <h3>
