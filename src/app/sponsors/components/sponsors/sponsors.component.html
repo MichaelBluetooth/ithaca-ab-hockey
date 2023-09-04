@@ -1,0 +1,25 @@
+<h1>Sponsors</h1>
+<hr>
+
+<div *ngFor="let sponsor of sponsors" class="mb-3">
+    <div class="sponsor d-flex gap-3">
+        <img [src]="'assets/sponsors/' + sponsor.image" width="250px" [alt]="sponsor.name" [title]="sponsor.name">
+        <div>
+            <h3>
+                {{sponsor.name}}
+            </h3>
+            <div>
+                <a [href]="sponsor.website" target="_blank">Visit Website</a>
+                <div *ngIf="sponsor.address">
+                    {{sponsor.address}}
+                </div>
+                <div *ngIf="sponsor.phone">
+                    {{sponsor.phone}}
+                </div>
+                <div *ngIf="sponsor.email">
+                    {{sponsor.email}}
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>

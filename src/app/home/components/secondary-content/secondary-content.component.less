@@ -1,0 +1,28 @@
+@import '../../../../vars.less';
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content {
+    width: 100%;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: @lg-device) { 
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .content {
+        width: 50%;
+    }
+}

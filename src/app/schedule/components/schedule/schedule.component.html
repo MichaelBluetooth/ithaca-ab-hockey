@@ -1,0 +1,100 @@
+<h1>
+  Schedule
+</h1>
+<p>
+  Please note this schedule has not been finalized by the board yet!
+</p>
+<hr>
+
+<div class="p-2">
+  <div class="fs-6 fw-bold">Sunday, October 1, 2023</div>
+  <table class="table table-responsive">
+    <thead>
+      <tr>
+        <th class="team-column">Matchup</th>
+        <th class="vs-column"></th>
+        <th class="team-column"></th>
+        <th class="time-column">Time</th>
+        <th class="goalie-column">Goalie Matchup</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="team-column">
+          Registration at C.R.C. for all players
+        </td>
+        <td class="vs-column"></td>
+        <td class="team-column">
+        </td>
+        <td class="time-column">
+          6:00 PM
+        </td>
+        <td class="goalie-column">
+        </td>
+      </tr>
+      <tr>
+        <td class="team-column">
+          A/B Evaluation
+        </td>
+        <td class="vs-column"></td>
+        <td class="team-column">
+        </td>
+        <td class="time-column">
+          6:45 PM
+        </td>
+        <td class="goalie-column">
+        </td>
+      </tr>
+      <tr>
+        <td class="team-column">
+          A/B Evaluation
+        </td>
+        <td class="vs-column"></td>
+        <td class="team-column">
+        </td>
+        <td class="time-column">
+          8:15 PM
+        </td>
+        <td class="goalie-column">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<ng-container *ngFor="let gameDay of schedule | groupGamesByDay">
+  <div class="p-2" [id]="gameDay.date | date:'fullDate'" [class.highlight]="gameDay.date | isToday">
+    <div class="fs-6 fw-bold">{{gameDay.date | date: 'fullDate'}}</div>
+    <table class="table table-responsive">
+      <thead>
+        <tr>
+          <th class="team-column">Matchup</th>
+          <th class="vs-column"></th>
+          <th class="team-column"></th>
+          <th class="time-column">Time</th>
+          <th class="goalie-column">Goalie Matchup</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let game of gameDay.games">
+          <td class="team-column">
+            <img class="d-none d-lg-inline me-2" [src]="game.teamA | teamLogo:teams" height="25px">
+            <span>{{ game.teamA }}</span>
+          </td>
+          <td class="vs-column">vs.</td>
+          <td class="team-column">
+            <img class="d-none d-lg-inline me-2" [src]="game.teamB | teamLogo:teams" height="25px">
+            <span>{{ game.teamB }}</span>
+          </td>
+          <td class="time-column">
+            {{ game.date | date: "shortTime" }}
+          </td>
+          <td class="goalie-column">
+            {{game.goalieA}} vs. {{game.goalieB}}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</ng-container>

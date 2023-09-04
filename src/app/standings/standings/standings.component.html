@@ -1,0 +1,49 @@
+<h1>Standings</h1>
+<hr>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">Team</th>
+            <th scope="col">Points</th>
+            <th scope="col">Games Played</th>
+            <th scope="col">Wins</th>
+            <th scope="col">Losses</th>
+            <th scope="col">Ties</th>
+            <th scope="col">Goals For</th>
+            <th scope="col">Goals Against</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        <tr *ngFor="let team of teams">
+            <td>
+                <img [src]="'assets/teams/' + team.logo" height="30px" [title]="team.color">
+            </td>
+            <td>
+                {{team.name}}
+            </td>
+            <td>
+                {{team.wins + team.losses + team.ties}}
+            </td>
+            <td>
+                {{team.wins + team.losses + team.ties}}
+            </td>
+            <td>
+                {{team.wins}}
+            </td>
+            <td>
+                {{team.losses}}
+            </td>
+            <td>
+                {{team.ties}}
+            </td>
+            <td>
+                {{team.goals_for}}
+            </td>
+            <td>
+                {{team.goals_against}}
+            </td>
+        </tr>
+    </tbody>
+</table>

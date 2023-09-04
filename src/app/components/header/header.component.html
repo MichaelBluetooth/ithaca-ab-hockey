@@ -1,0 +1,31 @@
+<div class="d-flex bg-dark p-2">
+    <div class="container d-flex bg-dark text-light align-items-center justify-content-between">
+        <div class="d-flex flex-grow-1">
+            <a href="#" class="logo d-flex gap-3 align-items-center fs-5">
+                <img src="assets/logo.png" width="35px">
+                Ithaca A/B Hockey
+            </a>
+        </div>
+        <div class="header-links-container">
+            <div>
+                <a [routerLink]="['/standings']" routerLinkActive="router-link-active">
+                    Standings
+                </a>
+            </div>
+            <div>
+                <a [routerLink]="['/schedule']" routerLinkActive="router-link-active">
+                    Schedule
+                </a>
+            </div>
+            <div>
+                <a [routerLink]="['/sponsors']" routerLinkActive="router-link-active">
+                    Sponsors
+                </a>                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header-close-menu-btn">
+    &#x2715;
+</div>

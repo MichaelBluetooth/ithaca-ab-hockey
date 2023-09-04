@@ -1,0 +1,34 @@
+[
+    {
+        "name": "James Orcutt Real Estate, LL.",
+        "website": "https://www.jamesorcutt.com/",
+        "phone": "607-277-4723",
+        "email": "info@jamesorcutt.com",
+        "address": "324 Dryden Road, Ithaca",
+        "image": "orcutt_real_estate.jpg"
+    },
+    {
+        "name": "Mansour Jewelers",
+        "website": "https://www.mansourjewelers.com/",
+        "phone": "607-272-1810",
+        "email": null,
+        "address": "140 E State St, Ithaca, NY 14850",
+        "image": "monsour_jewelers.jpg"
+    },
+    {
+        "name": "Instant Replay Sports",
+        "website": "https://www.facebook.com/InstantReplay14850/",
+        "phone": "info1@instantreplaysports.info",
+        "email": "607-277-7366",
+        "address": "2255 N. Triphammer Road, Ithaca",
+        "image": "instant_replay.jpg"
+    },
+    {
+        "name": "Dianes Downtown Automotive",
+        "website": "https://www.facebook.com/dianesdowntownauto/",
+        "phone": "607-272-2886",
+        "email": "",
+        "address": "435 W State St, Ithaca, NY 14850",
+        "image": "dianes_downtown_automotive.jpg"
+    }
+]

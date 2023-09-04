@@ -1,0 +1,41 @@
+@import '../../../../vars.less';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.left-section {
+    order: 3;
+    width: 100%;
+}
+
+.right-section {
+    order: 2;
+    width: 100%;
+}
+
+.center-section {
+    order: 1;
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: @lg-device) { 
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .left-section {
+        order: 1;
+        width: 25%;
+    }
+    
+    .right-section {
+        order: 3;
+        width: 33%;
+    }
+}

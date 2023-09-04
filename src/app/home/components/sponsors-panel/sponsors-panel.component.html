@@ -1,0 +1,16 @@
+<div class="card shadow">
+    <div class="card-body">
+        <h3>
+            <a [routerLink]="['/sponsors']">
+                Sponsors
+            </a>
+        </h3>
+        <ng-container *ngFor="let sponsor of sponsors; let idx = index;">
+            <div class="p-2 d-flex flex-column gap-3 justify-content-center align-items-center" [class.border-top]="idx > 0">
+                <a [href]="sponsor.website" target="_blank">
+                    <img [src]="'assets/sponsors/' + sponsor.image" width="100%" [alt]="sponsor.name" [title]="sponsor.name">
+                </a>
+            </div>
+        </ng-container>
+    </div>
+</div>

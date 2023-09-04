@@ -1,0 +1,41 @@
+<div class="card shadow">
+    <div class="card-body">
+        <a [routerLink]="['/standings']">
+            <h3>Standings</h3>
+        </a> 
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">PTS</th>
+                    <th scope="col">GP</th>
+                    <th scope="col">W</th>
+                    <th scope="col">L</th>
+                    <th scope="col">T</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let team of teams">
+                    <td>
+                        <img [src]="'assets/teams/' + team.logo" height="25px">
+                    </td>
+                    <td>
+                        {{team.wins + team.losses + team.ties}}
+                    </td>
+                    <td>
+                        {{team.wins + team.losses + team.ties}}
+                    </td>
+                    <td>
+                        {{team.wins}}
+                    </td>
+                    <td>
+                        {{team.losses}}
+                    </td>
+                    <td>
+                        {{team.ties}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
