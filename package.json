@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build-and-deploy": "ng build --base-href=/iaha-site/ && ngh --dir dist/iaha-site"
   },
   "private": true,
   "dependencies": {
