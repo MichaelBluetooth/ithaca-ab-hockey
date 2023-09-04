@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Black Sheep",
+        "color": "black",
+        "logo": "black_team_logo.jpg",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "goals_for": 0,
+        "goals_against": 0
+    },
+    {
+        "name": "Dianes Dipsticks",
+        "color": "Blue",
+        "logo": "blue_team_logo.jpg",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "goals_for": 0,
+        "goals_against": 0
+    },
+    {
+        "name": "Orcutts",
+        "color": "gold",
+        "logo": "gold_team_logo.jpg",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "goals_for": 0,
+        "goals_against": 0
+    },
+    {
+        "name": "Mansours",
+        "color": "white",
+        "logo": "white_team_logo.jpg",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "goals_for": 0,
+        "goals_against": 0
+    },
+    {
+        "name": "C.R.C.",
+        "color": "red",
+        "logo": "red_team_logo.jpg",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "goals_for": 0,
+        "goals_against": 0
+    },
+    {
+        "name": "The MBAs",
+        "color": "Green",
+        "logo": "green_team_logo.jpg",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "goals_for": 0,
+        "goals_against": 0
+    }
+]
