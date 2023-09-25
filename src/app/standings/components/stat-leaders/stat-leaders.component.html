@@ -1,0 +1,57 @@
+<div class="wrapper">
+    <div>
+        <h3>Skaters</h3>
+        <hr>
+        <div class="stats-container">
+            <div>
+                <div class="leader d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <img class="rounded-circle" height="100px" [src]="goalieLeader.img">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="fs-3">{{skaterLeader.name}}</div>
+                        <div class="fs-6">#10 | Black Sheep</div>
+                    </div>
+                    <div class="stat-container d-flex flex-column align-items-center">
+                        <div class="stat-title">Points</div>
+                        <div class="stat-value">43</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="d-flex justify-content-between" *ngFor="let stat of skaterStats | sortBy:'points'">
+                    <div style="margin-right: 120px">{{stat.name}}</div>
+                    <div>{{stat.points}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>Goalies</h3>
+        <hr>
+        <div class="stats-container">
+            <div>
+                <div class="leader d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <img class="rounded-circle" height="100px" [src]="goalieLeader.img">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="fs-3">{{goalieLeader.name}}</div>
+                        <div class="fs-6">#23 | Goalie</div>
+                    </div>
+                    <div class="stat-container d-flex flex-column align-items-center">
+                        <div class="stat-title">Wins</div>
+                        <div class="stat-value">9</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="d-flex justify-content-between" *ngFor="let stat of goalieStats | sortBy:'wins'">
+                    <div style="margin-right: 120px">{{stat.name}}</div>
+                    <div>{{stat.wins}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

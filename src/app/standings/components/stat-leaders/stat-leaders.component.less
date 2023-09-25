@@ -1,0 +1,49 @@
+@import '../../../../vars.less';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.others {
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: @lg-device) { 
+    .wrapper {
+        flex-direction: row;
+    }
+
+    .stats-container {
+        flex-direction: row;
+        gap: 80px;
+        justify-content: space-between;
+        margin: auto;
+    }
+}
+
+.stat-container {
+    margin-top: 20px;
+}
+
+.stat-title {
+    font-size: 10px;
+    margin-bottom: -20px;
+    font-size: 15px;
+    font-weight: bold;;
+}
+
+.stat-value {
+    font-size: 65px;
+    font-weight: bold;
+}
