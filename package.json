@@ -8,7 +8,7 @@
     "build:ci": "ng build --base-href=/ithaca-ab-hockey/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build-and-deploy": "ng build --base-href=/ithaca-ab-hockey/ && ngh --dir dist/ithaca-ab-hockey"
+    "build-and-deploy": "ng build && ngh --dir dist/ithaca-ab-hockey"
   },
   "private": true,
   "dependencies": {
