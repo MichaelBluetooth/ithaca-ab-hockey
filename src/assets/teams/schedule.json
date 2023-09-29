@@ -1,758 +1,758 @@
 [
-  {
-      "date": "2023-10-08T10:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Alex Chang",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-10-08T11:45:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-10-08T13:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "The MBAs",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Matt Hobbs"
-  },
-  {
-      "date": "2023-10-09T12:30:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-10-09T14:00:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "The MBAs",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-10-11T13:15:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "Orcutts",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2023-10-15T10:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Black Sheep",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-10-15T11:45:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "C.R.C.",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-10-15T13:15:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2023-10-16T12:30:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "The MBAs",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-10-16T14:00:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "Black Sheep",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-10-18T13:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "C.R.C.",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2023-10-22T10:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "C.R.C.",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-10-22T11:45:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Orcutts",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-10-22T13:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2023-10-23T12:30:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-10-23T14:00:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "C.R.C.",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-10-25T13:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "The MBAs",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2023-10-29T10:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "The MBAs",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-10-29T11:45:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-10-29T13:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2023-10-30T12:30:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-10-30T14:00:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Orcutts",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-11-01T13:15:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2023-11-05T11:15:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Orcutts",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-11-05T12:45:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "Mansours",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-11-05T14:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Black Sheep",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2023-11-06T13:30:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "C.R.C.",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-11-06T15:00:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Black Sheep",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-11-08T14:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "The MBAs",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2023-11-12T11:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "The MBAs",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-11-12T12:45:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "C.R.C.",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-11-12T14:15:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "Black Sheep",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2023-11-13T13:30:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Black Sheep",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-11-13T15:00:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-11-15T14:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "C.R.C.",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2023-11-19T11:15:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-11-19T12:45:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "The MBAs",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-11-19T14:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Orcutts",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2023-11-20T13:30:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-11-20T15:00:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Orcutts",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-11-22T14:15:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2023-12-03T11:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "The MBAs",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-12-03T12:45:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "The MBAs",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-12-03T14:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Black Sheep",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2023-12-04T13:30:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-12-04T15:00:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Black Sheep",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-12-06T14:15:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "Orcutts",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2023-12-10T11:15:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "Black Sheep",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-12-10T12:45:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "Orcutts",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-12-10T14:15:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "C.R.C.",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2023-12-11T13:30:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "C.R.C.",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-12-11T15:00:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "The MBAs",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-12-13T14:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "Black Sheep",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2023-12-17T11:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2023-12-17T12:45:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "C.R.C.",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-12-17T14:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Black Sheep",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2023-12-18T13:30:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Orcutts",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2023-12-18T15:00:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "Mansours",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2023-12-20T14:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2024-01-07T11:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Orcutts",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2024-01-07T12:45:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Mansours",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-01-07T14:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2024-01-08T13:30:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "Orcutts",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2024-01-08T15:00:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Mansours",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-01-10T14:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Mansours",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2024-01-14T11:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Mansours",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2024-01-14T12:45:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "C.R.C.",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-01-14T14:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Black Sheep",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2024-01-15T13:30:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "C.R.C.",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2024-01-15T15:00:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "The MBAs",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-01-17T14:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "Black Sheep",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2024-01-21T11:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2024-01-21T12:45:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "C.R.C.",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-01-21T14:15:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Orcutts",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2024-01-22T13:30:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "The MBAs",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2024-01-22T15:00:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-01-24T14:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "C.R.C.",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2024-01-28T11:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Mansours",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2024-01-28T12:45:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "The MBAs",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-01-28T14:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2024-01-29T13:30:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2024-01-29T15:00:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Mansours",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-01-31T14:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Orcutts",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2024-02-04T11:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Black Sheep",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2024-02-04T12:45:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Orcutts",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-02-04T14:15:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2024-02-05T13:30:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "The MBAs",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2024-02-05T15:00:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "C.R.C.",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-02-07T14:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Black Sheep",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2024-02-18T11:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2024-02-18T12:45:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Mansours",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-02-18T14:15:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "The MBAs",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2024-02-19T13:30:00.000Z",
-      "teamA": "C.R.C.",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2024-02-19T15:00:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "The MBAs",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-02-21T14:15:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "Orcutts",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2024-02-25T11:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Black Sheep",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2024-02-25T12:45:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "C.R.C.",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-02-25T14:15:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Mansours",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2024-02-26T13:30:00.000Z",
-      "teamA": "Dianes Dipsticks",
-      "teamB": "The MBAs",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2024-02-26T15:00:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "Black Sheep",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-02-28T14:15:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "C.R.C.",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  },
-  {
-      "date": "2024-03-03T11:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "C.R.C.",
-      "goalieA": "Christopher Wirth",
-      "goalieB": "Alton Pace"
-  },
-  {
-      "date": "2024-03-03T12:45:00.000Z",
-      "teamA": "The MBAs",
-      "teamB": "Orcutts",
-      "goalieA": "Thomas Conroy",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-03-03T14:15:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Dan or Rich"
-  },
-  {
-      "date": "2024-03-04T13:30:00.000Z",
-      "teamA": "Orcutts",
-      "teamB": "Dianes Dipsticks",
-      "goalieA": "Matt Hobbs",
-      "goalieB": "Thomas Conroy"
-  },
-  {
-      "date": "2024-03-04T15:00:00.000Z",
-      "teamA": "Mansours",
-      "teamB": "C.R.C.",
-      "goalieA": "Dan or Rich",
-      "goalieB": "Alex Chang"
-  },
-  {
-      "date": "2024-03-06T14:15:00.000Z",
-      "teamA": "Black Sheep",
-      "teamB": "The MBAs",
-      "goalieA": "Dan Dorney",
-      "goalieB": "Rich Ford"
-  }
+    {
+        "date": "2023-10-08T22:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Alex Chang",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-10-08T23:45:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-10-09T01:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "The MBAs",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2023-10-10T00:30:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-10-10T02:00:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "The MBAs",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-10-12T01:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Orcutts",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2023-10-15T22:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Black Sheep",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-10-15T23:45:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "C.R.C.",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-10-16T01:15:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2023-10-17T00:30:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "The MBAs",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-10-17T02:00:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "Black Sheep",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-10-19T01:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "C.R.C.",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2023-10-22T22:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "C.R.C.",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-10-22T23:45:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Orcutts",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-10-23T01:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2023-10-24T00:30:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-10-24T02:00:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "C.R.C.",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-10-26T01:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "The MBAs",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2023-10-29T22:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "The MBAs",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-10-29T23:45:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-10-30T01:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2023-10-31T00:30:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-10-31T02:00:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Orcutts",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-11-02T01:15:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2023-11-05T23:15:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Orcutts",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-11-06T00:45:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Mansours",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-11-06T02:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Black Sheep",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2023-11-07T01:30:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "C.R.C.",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-11-07T03:00:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Black Sheep",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-11-09T02:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "The MBAs",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2023-11-12T23:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "The MBAs",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-11-13T00:45:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "C.R.C.",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-11-13T02:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Black Sheep",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2023-11-14T01:30:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Black Sheep",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-11-14T03:00:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-11-16T02:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "C.R.C.",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2023-11-19T23:15:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-11-20T00:45:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "The MBAs",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-11-20T02:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Orcutts",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2023-11-21T01:30:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-11-21T03:00:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Orcutts",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-11-23T02:15:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2023-12-03T23:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "The MBAs",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-12-04T00:45:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "The MBAs",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-12-04T02:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Black Sheep",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2023-12-05T01:30:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-12-05T03:00:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Black Sheep",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-12-07T02:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Orcutts",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2023-12-10T23:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Black Sheep",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-12-11T00:45:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "Orcutts",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-12-11T02:15:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "C.R.C.",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2023-12-12T01:30:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "C.R.C.",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-12-12T03:00:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "The MBAs",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-12-14T02:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "Black Sheep",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2023-12-17T23:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2023-12-18T00:45:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "C.R.C.",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-12-18T02:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Black Sheep",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2023-12-19T01:30:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Orcutts",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2023-12-19T03:00:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Mansours",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2023-12-21T02:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-01-07T23:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Orcutts",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2024-01-08T00:45:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Mansours",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-01-08T02:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2024-01-09T01:30:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Orcutts",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2024-01-09T03:00:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Mansours",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-01-11T02:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Mansours",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-01-14T23:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Mansours",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2024-01-15T00:45:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "C.R.C.",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-01-15T02:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Black Sheep",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2024-01-16T01:30:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "C.R.C.",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2024-01-16T03:00:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "The MBAs",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-01-18T02:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "Black Sheep",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-01-21T23:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2024-01-22T00:45:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "C.R.C.",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-01-22T02:15:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Orcutts",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2024-01-23T01:30:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "The MBAs",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2024-01-23T03:00:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-01-25T02:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "C.R.C.",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-01-28T23:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Mansours",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2024-01-29T00:45:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "The MBAs",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-01-29T02:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2024-01-30T01:30:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2024-01-30T03:00:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Mansours",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-02-01T02:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Orcutts",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-02-04T23:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Black Sheep",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2024-02-05T00:45:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Orcutts",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-02-05T02:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2024-02-06T01:30:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "The MBAs",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2024-02-06T03:00:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "C.R.C.",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-02-08T02:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Black Sheep",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-02-18T23:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2024-02-19T00:45:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Mansours",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-02-19T02:15:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "The MBAs",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2024-02-20T01:30:00.000Z",
+        "teamA": "C.R.C.",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2024-02-20T03:00:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "The MBAs",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-02-22T02:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Orcutts",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-02-25T23:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Black Sheep",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2024-02-26T00:45:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "C.R.C.",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-02-26T02:15:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Mansours",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2024-02-27T01:30:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "The MBAs",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2024-02-27T03:00:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "Black Sheep",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-02-29T02:15:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "C.R.C.",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-03-03T23:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "C.R.C.",
+        "goalieA": "Christopher Wirth",
+        "goalieB": "Alton Pace"
+    },
+    {
+        "date": "2024-03-04T00:45:00.000Z",
+        "teamA": "The MBAs",
+        "teamB": "Orcutts",
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-03-04T02:15:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan or Rich"
+    },
+    {
+        "date": "2024-03-05T01:30:00.000Z",
+        "teamA": "Orcutts",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
+    },
+    {
+        "date": "2024-03-05T03:00:00.000Z",
+        "teamA": "Mansours",
+        "teamB": "C.R.C.",
+        "goalieA": "Dan or Rich",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-03-07T02:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "The MBAs",
+        "goalieA": "Dan Dorney",
+        "goalieB": "Rich Ford"
+    }
 ]
