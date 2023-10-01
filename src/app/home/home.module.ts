@@ -12,6 +12,7 @@ import { SponsorsPanelComponent } from './components/sponsors-panel/sponsors-pan
 import { LeftSideComponent } from './components/left-side/left-side.component';
 import { CommunityPanelComponent } from './components/community-panel/community-panel.component';
 import { CalendarPanelComponent } from './components/calendar-panel/calendar-panel.component';
+import { DocumentsPanelComponent } from './components/documents-panel/documents-panel.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CalendarPanelComponent } from './components/calendar-panel/calendar-pan
     SponsorsPanelComponent,
     LeftSideComponent,
     CommunityPanelComponent,
-    CalendarPanelComponent
+    CalendarPanelComponent,
+    DocumentsPanelComponent
   ],
   imports: [
     CommonModule,
