@@ -1,0 +1,23 @@
+<!-- <div class="main">
+    <h1>Must Watch</h1>
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?si=wm__tHhaWZk4RGnx&amp;list=PL8tPgYeZwSRUUXdyqQfD9_P6HXXvIVKlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CYPNYEfMceg?si=tZU1_WG1qlI2kfvH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div> -->
+
+<div class="main">
+    <h1>Must Watch</h1>
+    <iframe class="video" [src]="headerUrl" allowfullscreen frameborder="0"></iframe>
+</div>
+
+<div class="secondary">
+    <ng-container *ngFor="let row of rows">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let videoUrl of row">
+                <iframe class="video" [src]="videoUrl" allowfullscreen frameborder="0"></iframe>
+            </div>
+        </div>
+    </ng-container>
+</div>

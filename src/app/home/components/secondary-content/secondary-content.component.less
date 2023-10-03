@@ -1,7 +1,19 @@
 @import '../../../../vars.less';
 
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: inherit;
 }
 
 .wrapper {
