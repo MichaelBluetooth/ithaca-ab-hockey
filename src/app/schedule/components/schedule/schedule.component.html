@@ -2,8 +2,28 @@
   Schedule
 </h1>
 <p>
-  Please note this schedule has not been finalized by the board yet!
+  Please be aware that the the official schedule is available on <a href="https://docs.google.com/spreadsheets/d/1KSGk-EbkXGWFUAMsRAsxo2BDrBx3c_DoYziibktN-Xo/edit#gid=1969887782">the google spreadsheet</a>. There may be a slight delay on this site and the google calendars when there are updates!
 </p>
+
+<h3>Google Calendars</h3>
+<p>Thank you to Suan Yong for creating Google Calendars for each team.</p>
+
+<div class="row mb-2" *ngFor="let row of calendars">
+  <div class="col-md-4" *ngFor="let teamCalendar of row">
+    <div class="fw-bold">{{teamCalendar.team}}</div>
+    <div>
+      <a [href]="teamCalendar.calendar">
+        Google Calendar
+      </a>
+    </div>
+    <div>
+      <a [href]="teamCalendar.ics" target="_blank">
+        Download
+      </a>
+    </div>
+  </div>
+</div>
+
 <hr>
 
 <div class="p-2">

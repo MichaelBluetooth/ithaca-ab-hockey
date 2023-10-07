@@ -9,18 +9,21 @@ import { forkJoin } from 'rxjs';
   styleUrls: ['./schedule.component.less']
 })
 export class ScheduleComponent {
-  teams = [];
-  schedule = [];
+  teams: any[] = [];
+  schedule: any[] = [];
+  calendars: any[] = [];
 
   constructor(private http: HttpClient, private datePipe: DatePipe) { }
 
   ngOnInit() {
     forkJoin([
       this.http.get('assets/teams/standings.json'),
-      this.http.get('assets/teams/schedule.json')
+      this.http.get('assets/teams/schedule.json'),
+      this.http.get('assets/teams/team_calendars.json')
     ]).subscribe((resp: any) => {
       this.teams = resp[0];
       this.schedule = resp[1];
+      this.calendars = this.chunk(resp[2], 3);
     });
   }
 
@@ -34,5 +37,23 @@ export class ScheduleComponent {
         window.scrollTo({ top: y, behavior: 'smooth' });
       }
     }, 250);
+  }
+
+  chunk(items: any[], size: number) {
+    const chunked = [];
+
+    let chunk: any[] = [];
+    for (let i = 1; i < items.length; i++) {
+      if (i > 0 && i % size === 0) {
+        chunked.push(chunk);
+        chunk = [items[i]];
+      } else {
+        chunk.push(items[i]);
+      }
+    }
+    chunked.push(chunk);
+    chunked.reverse();
+
+    return chunked;
   }
 }
