@@ -1,0 +1,32 @@
+[
+    {
+        "team": "Black Sheep",
+        "calendar": "https://calendar.google.com/calendar/u/0?cid=NGNiYjM4YmY2OWY0NjMyMGFjYWE4MTY0NTQ0YzkxZjRjMDkwODYxMjNkZjExNDU0MjQ4MjllNDUxODU3NGJhMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29",
+        "ics": "https://calendar.google.com/calendar/ical/4cbb38bf69f46320acaa8164544c91f4c09086123df1145424829e4518574ba2%40group.calendar.google.com/public/basic.ics"
+    },
+    {
+        "team": "Dianes Dipsticks",
+        "calendar": "https://calendar.google.com/calendar/u/0?cid=OTg3NzhjYWFjMGY3OGY5NTdlNjRjYjIzNDkwNTJhYWFjOTE5NmU2NDRjOTg3OGZhNjQ2ZmUxYWM1NzZhMmJiYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+        "ics": "https://calendar.google.com/calendar/ical/98778caac0f78f957e64cb2349052aaac9196e644c9878fa646fe1ac576a2bbb%40group.calendar.google.com/public/basic.ics"
+    },
+    {
+        "team": "Orcutts",
+        "calendar": "https://calendar.google.com/calendar/u/0?cid=ZWEzODY3MmZkYjc5YTQ5ZmNkYjkxMGYwMGRlZTg2NzFlZGQ4M2U0ZGYyNzdlZDY5ZTQ5NjliMzNkMTVhZmFkOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+        "ics": "https://calendar.google.com/calendar/ical/ea38672fdb79a49fcdb910f00dee8671edd83e4df277ed69e4969b33d15afad9%40group.calendar.google.com/public/basic.ics"
+    },
+    {
+        "team": "Mansours",
+        "calendar": "https://calendar.google.com/calendar/u/0?cid=ODk4ODQxN2MyYTllZDlmMmEzNzM2MjMyOGFiZWE5OGY1ZmZjYmJlYjI3MDJlNGQ2ZTRmYzJiOTljNmUxMmIwMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+        "ics": "https://calendar.google.com/calendar/ical/8988417c2a9ed9f2a37362328abea98f5ffcbbeb2702e4d6e4fc2b99c6e12b00%40group.calendar.google.com/public/basic.ics"
+    },
+    {
+        "team": "Instant Replay",
+        "calendar": "https://calendar.google.com/calendar/u/0?cid=MGMxNTJkOGM1MmQzNzMzYzU3NjBlMjY5MWJmYzlkMmYyYzQxMTQ2MjA3NzgzMTZjYzVjOTI0YWRlODg5ZTIxN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+        "ics": "https://calendar.google.com/calendar/ical/0c152d8c52d3733c5760e2691bfc9d2f2c4114620778316cc5c924ade889e217%40group.calendar.google.com/public/basic.ics"
+    },
+    {
+        "team": "Outlaws",
+        "calendar": "https://calendar.google.com/calendar/u/0?cid=NWU2MzA5ODhjNWMzMThkOGYyMzc5MzgzNGYyYWVjOGU5MTM5MWI0NjIyNWQ5MzQ4NTBkZDNjM2ZjOTAzYjA4YUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+        "ics": "https://calendar.google.com/calendar/ical/5e630988c5c318d8f23793834f2aec8e91391b46225d934850dd3c3fc903b08a%40group.calendar.google.com/public/basic.ics"
+    }
+]
