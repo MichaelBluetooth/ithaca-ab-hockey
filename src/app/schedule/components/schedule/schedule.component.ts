@@ -43,7 +43,7 @@ export class ScheduleComponent {
     const chunked = [];
 
     let chunk: any[] = [];
-    for (let i = 1; i < items.length; i++) {
+    for (let i = 0; i < items.length; i++) {
       if (i > 0 && i % size === 0) {
         chunked.push(chunk);
         chunk = [items[i]];
@@ -52,7 +52,6 @@ export class ScheduleComponent {
       }
     }
     chunked.push(chunk);
-    chunked.reverse();
 
     return chunked;
   }
