@@ -16,7 +16,7 @@
         </tr>
     </thead>
     <tbody class="table-group-divider">
-        <tr *ngFor="let team of teams">
+        <tr *ngFor="let team of teams | sortStandings">
             <td>
                 <img [src]="'assets/teams/' + team.logo" height="30px" [title]="team.color">
             </td>
@@ -24,7 +24,7 @@
                 {{team.name}}
             </td>
             <td>
-                {{team.wins + team.losses + team.ties}}
+                {{(team.wins * 2) + team.ties}}
             </td>
             <td>
                 {{team.wins + team.losses + team.ties}}

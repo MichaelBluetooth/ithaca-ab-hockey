@@ -13,6 +13,7 @@ import { LeftSideComponent } from './components/left-side/left-side.component';
 import { CommunityPanelComponent } from './components/community-panel/community-panel.component';
 import { CalendarPanelComponent } from './components/calendar-panel/calendar-panel.component';
 import { DocumentsPanelComponent } from './components/documents-panel/documents-panel.component';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DocumentsPanelComponent } from './components/documents-panel/documents-
   imports: [
     CommonModule,
     HomeRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    CoreModule
   ]
 })
 export class HomeModule { }
