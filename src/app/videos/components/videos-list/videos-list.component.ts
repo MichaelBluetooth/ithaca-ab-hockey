@@ -8,8 +8,9 @@ import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 })
 export class VideosListComponent {
   videoUrls = [
+    "https://www.youtube.com/embed/g3tFTx5pseU",
     "https://www.youtube.com/embed/sx-14ueDDHU",
-    "https://www.youtube.com/embed/CYPNYEfMceg"
+    "https://www.youtube.com/embed/CYPNYEfMceg",    
   ];
 
   constructor(private domSanitizer: DomSanitizer) {}
