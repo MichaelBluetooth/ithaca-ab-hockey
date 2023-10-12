@@ -13,11 +13,11 @@
         "name": "Dianes Dipsticks",
         "color": "Blue",
         "logo": "blue_team_logo.jpg",
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "ties": 0,
-        "goals_for": 1,
-        "goals_against": 9
+        "goals_for": 9,
+        "goals_against": 11
     },
     {
         "name": "Orcutts",
@@ -54,9 +54,9 @@
         "color": "Green",
         "logo": "green_team_logo.jpg",
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "goals_for": 0,
-        "goals_against": 1
+        "goals_for": 2,
+        "goals_against": 3
     }
 ]
