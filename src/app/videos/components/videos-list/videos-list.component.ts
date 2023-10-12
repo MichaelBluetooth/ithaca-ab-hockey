@@ -7,7 +7,9 @@ import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
   styleUrls: ['./videos-list.component.less']
 })
 export class VideosListComponent {
-  videoUrls = [
+  
+  videoUrls = [ //Newest at the top!
+    "https://www.youtube.com/embed/yq3AekUa5mQ",
     "https://www.youtube.com/embed/g3tFTx5pseU",
     "https://www.youtube.com/embed/sx-14ueDDHU",
     "https://www.youtube.com/embed/CYPNYEfMceg",    
@@ -24,7 +26,7 @@ export class VideosListComponent {
 
     let chunk: any[] = [];
     for (let i = 1; i < this.videoUrls.length; i++) {
-      if (i > 0 && i % 3 === 0) {
+      if (i === 1 && i % 3 === 0) {
         chunked.push(chunk);
         chunk = [this.domSanitizer.bypassSecurityTrustResourceUrl(this.videoUrls[i])];
       } else {
