@@ -31,7 +31,9 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5
       with:
+        token: ${{ secrets.PAT }}
         commit-message: Update standings + schedule
+        title: 'Update standings + schedule'
         branch: update-standings-and-schedule
         delete-branch: true
         labels: |
