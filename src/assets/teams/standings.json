@@ -1,13 +1,14 @@
 [
     {
         "name": "Black Sheep",
-        "color": "black",
+        "color": "Black",
         "logo": "black_team_logo.jpg",
         "wins": 2,
         "losses": 0,
         "ties": 0,
         "goals_for": 10,
-        "goals_against": 1
+        "goals_against": 1,
+        "enet_goals": 0
     },
     {
         "name": "Dianes Dipsticks",
@@ -17,7 +18,8 @@
         "losses": 1,
         "ties": 0,
         "goals_for": 9,
-        "goals_against": 11
+        "goals_against": 11,
+        "enet_goals": 0
     },
     {
         "name": "Orcutts",
@@ -27,7 +29,8 @@
         "losses": 1,
         "ties": 0,
         "goals_for": 9,
-        "goals_against": 3
+        "goals_against": 3,
+        "enet_goals": 0
     },
     {
         "name": "Mansours",
@@ -37,7 +40,8 @@
         "losses": 1,
         "ties": 0,
         "goals_for": 7,
-        "goals_against": 13
+        "goals_against": 13,
+        "enet_goals": 1
     },
     {
         "name": "Instant Replay",
@@ -47,7 +51,8 @@
         "losses": 1,
         "ties": 0,
         "goals_for": 5,
-        "goals_against": 5
+        "goals_against": 5,
+        "enet_goals": 1
     },
     {
         "name": "Outlaws",
@@ -57,6 +62,7 @@
         "losses": 2,
         "ties": 0,
         "goals_for": 2,
-        "goals_against": 3
+        "goals_against": 9,
+        "enet_goals": 0
     }
 ]
