@@ -89,19 +89,17 @@ const download = (url) => {
 }
 
 const toRealDate = (dateRaw, timeRaw) => {
-    const dateParts = dateRaw.split('/');
-    const month = dateParts[0];
-    const day = Number(dateParts[1]);
-    const timeParts = timeRaw.split(':')
-    const hour = Number(timeParts[0]);
-    const minutes = Number(timeParts[1]);
-    let year = 2023;
-    if (month === '1' || month === '2' || month === '3') {
-        year = 2024;
+    const dateNum = Date.parse(dateRaw + ' ' + timeRaw);
+    const date = new Date(dateNum);
+
+    const month = date.getMonth();
+    if (month === 0 || month === 1 || month === 2) {
+        date.setYear(2024)
+    } else {
+        date.setYear(2023)
     }
 
-    //2023-09-25T16:23:03.026Z
-    return new Date(year, month - 1, day, hour, minutes);
+    return date;
 }
 
 download(schedule_url).then(csvTxt => {
@@ -113,25 +111,23 @@ download(schedule_url).then(csvTxt => {
     }
 
     const schedule = [];
-    const scheduleRows = rows.splice(schedule_start_row + 1 , rows.length);
-    scheduleRows.forEach(line => {        
+    const scheduleRows = rows.splice(schedule_start_row + 1, rows.length);
+    scheduleRows.forEach(line => {
         const data = line.replace(/"/g, "").split(',');
 
-        const dateRaw = data[1].split(' ')[1]; //First column has value "2/12" and we only want 2/12
-        const timeRaw = data[2].split(' ')[0]; //Second column has value "10:00 pm EDT" and we only want 10:00
-        const isPM = data[2].toLowerCase().indexOf('pm') > -1; //Second column has value "10:00 pm EDT" and we only want PM or AM
+        const dateRaw = data[1];
+        const timeRaw = data[2];
         const teamA = data[3];
         const teamB = data[4];
         const goalieA = data[5];
         const goalieB = data[6];
-        const scoreA = +data[7];        
+        const scoreA = +data[7];
         const scoreB = +data[8];
         const eNetA = +data[9];
         const eNetB = +data[10];
 
-        if (dateRaw && timeRaw && teamA && teamB && goalieA && goalieB) {            
+        if (dateRaw && timeRaw && teamA && teamB && goalieA && goalieB) {
             const date = toRealDate(dateRaw, timeRaw);
-            date.setHours(date.getHours() + (isPM ? 12 : 0));
 
             schedule.push({
                 date: date.toISOString(),
@@ -139,24 +135,24 @@ download(schedule_url).then(csvTxt => {
                 teamB: TeamKey[teamB].name,
                 goalieA: goalieA,
                 goalieB: goalieB
-            });            
+            });
         }
 
-        if(TeamKey[teamA] && TeamKey[teamB] && (scoreA > 0 || scoreB > 0)){
+        if (TeamKey[teamA] && TeamKey[teamB] && (scoreA > 0 || scoreB > 0)) {
             TeamKey[teamA].goals_for += scoreA;
             TeamKey[teamB].goals_for += scoreB;
 
             TeamKey[teamA].goals_against += scoreB;
             TeamKey[teamB].goals_against += scoreA;
 
-            if(eNetA){
+            if (eNetA) {
                 TeamKey[teamA].enet_goals += eNetA;
             }
 
-            if(eNetB){
+            if (eNetB) {
                 TeamKey[teamB].enet_goals += eNetB;
             }
-            
+
             TeamKey[teamA].wins += scoreA > scoreB ? 1 : 0;
             TeamKey[teamB].wins += scoreB > scoreA ? 1 : 0;
 
