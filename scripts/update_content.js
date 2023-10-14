@@ -165,13 +165,13 @@ download(schedule_url).then(csvTxt => {
         }
     });
 
-    fs.writeFile('../src/assets/teams/schedule.json', JSON.stringify(schedule, null, 4), function (err) {
+    fs.writeFile('./src/assets/teams/schedule.json', JSON.stringify(schedule, null, 4), function (err) {
         if (err) {
             console.log(err);
         }
     });
 
-    fs.writeFile('../src/assets/teams/standings.json', JSON.stringify(Object.values(TeamKey), null, 4), function (err) {
+    fs.writeFile('./src/assets/teams/standings.json', JSON.stringify(Object.values(TeamKey), null, 4), function (err) {
         if (err) {
             console.log(err);
         }
