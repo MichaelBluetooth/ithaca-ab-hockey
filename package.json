@@ -8,6 +8,7 @@
     "build:ci": "ng build --base-href=/ithaca-ab-hockey/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "update-schedule-and-standings": "node ./scripts/update_content.js",
     "build-and-deploy": "ng build && ngh --dir dist/ithaca-ab-hockey --cname=ithaca-ab-hockey.org"
   },
   "private": true,
