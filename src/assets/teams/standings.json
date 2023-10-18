@@ -7,8 +7,7 @@
         "losses": 1,
         "ties": 0,
         "goals_for": 22,
-        "goals_against": 10,
-        "enet_goals": 0
+        "goals_against": 10
     },
     {
         "name": "Dianes Dipsticks",
@@ -18,8 +17,7 @@
         "losses": 2,
         "ties": 0,
         "goals_for": 17,
-        "goals_against": 17,
-        "enet_goals": 0
+        "goals_against": 17
     },
     {
         "name": "Orcutts",
@@ -29,8 +27,7 @@
         "losses": 2,
         "ties": 0,
         "goals_for": 15,
-        "goals_against": 16,
-        "enet_goals": 0
+        "goals_against": 16
     },
     {
         "name": "Mansours",
@@ -40,8 +37,7 @@
         "losses": 2,
         "ties": 0,
         "goals_for": 16,
-        "goals_against": 20,
-        "enet_goals": 1
+        "goals_against": 20
     },
     {
         "name": "Instant Replay",
@@ -51,8 +47,7 @@
         "losses": 2,
         "ties": 0,
         "goals_for": 7,
-        "goals_against": 10,
-        "enet_goals": 1
+        "goals_against": 10
     },
     {
         "name": "Outlaws",
@@ -62,7 +57,6 @@
         "losses": 2,
         "ties": 0,
         "goals_for": 7,
-        "goals_against": 11,
-        "enet_goals": 0
+        "goals_against": 11
     }
 ]
