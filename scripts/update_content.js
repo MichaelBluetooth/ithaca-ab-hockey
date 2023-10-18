@@ -1,6 +1,37 @@
 const { https } = require('follow-redirects');
 const fs = require('fs');
 
+const toRealDate = (dateRaw, timeRaw) => {
+    const date = dateRaw.split(' ')[1]; //comes in as "Sunday, 10/1"    
+    const monthNumeric = +date.split('/')[0];
+    const month = monthNumeric.toString().padStart(2, '0');
+    const dayNumeric = +date.split('/')[1];
+    const day = dayNumeric.toString().padStart(2, '0');
+
+    let year = 2023;
+    if (monthNumeric === 1 || monthNumeric === 2 || monthNumeric === 3) {
+        year = 2024;
+    }
+
+    let daylightSavingsTime = false;
+    if (monthNumeric === 11 && dayNumeric >= 5 || monthNumeric === 12 || monthNumeric === 1 || monthNumeric === 2 || monthNumeric === 3) {
+        //if it's november and it's the 5th or greater
+        // OR it's january
+        // OR it's feb
+        // OR it's march
+        // ...date math is hard...
+        daylightSavingsTime = true;
+    }
+
+    const isPM = timeRaw.toLowerCase().indexOf('pm') > -1;
+    const time = timeRaw.split(' ')[0].toString().padStart(2, '0');
+    const hour = (+(time.split(':')[0]) + 12).toString().padStart(2, '0');
+    const minute = (+(time.split(':')[1])).toString().padStart(2, '0');
+
+    const iso = `${year}-${month}-${day}T${hour}:${minute}:00-0${daylightSavingsTime ? '5' : '4'}:00`;
+    return new Date(iso);
+}
+
 const schedule_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSTibFX7z4uGvq5oHrHY-aUG7L5dyFSMSPIkLJoDYmwOM-ugsN9T9nIwkzDKF0Sfc7vevA3BT9rjxUp/pub?gid=1969887782&single=true&output=csv';
 const schedule_start_row = 10;
 
@@ -14,7 +45,6 @@ const TeamKey = {
         ties: 0,
         goals_for: 0,
         goals_against: 0,
-        enet_goals: 0
     },
     'B': {
         name: 'Dianes Dipsticks',
@@ -25,7 +55,6 @@ const TeamKey = {
         ties: 0,
         goals_for: 0,
         goals_against: 0,
-        enet_goals: 0
     },
     'C': {
         name: 'Orcutts',
@@ -36,7 +65,6 @@ const TeamKey = {
         ties: 0,
         goals_for: 0,
         goals_against: 0,
-        enet_goals: 0
     },
     'D': {
         name: 'Mansours',
@@ -47,7 +75,6 @@ const TeamKey = {
         ties: 0,
         goals_for: 0,
         goals_against: 0,
-        enet_goals: 0
     },
     'E': {
         name: 'Instant Replay',
@@ -58,7 +85,6 @@ const TeamKey = {
         ties: 0,
         goals_for: 0,
         goals_against: 0,
-        enet_goals: 0
     },
     'F': {
         name: 'Outlaws',
@@ -69,7 +95,6 @@ const TeamKey = {
         ties: 0,
         goals_for: 0,
         goals_against: 0,
-        enet_goals: 0
     }
 };
 
@@ -88,26 +113,12 @@ const download = (url) => {
     });
 }
 
-const toRealDate = (dateRaw, timeRaw) => {
-    const dateNum = Date.parse(dateRaw + ' ' + timeRaw);
-    const date = new Date(dateNum);
-
-    const month = date.getMonth();
-    if (month === 0 || month === 1 || month === 2) {
-        date.setYear(2024)
-    } else {
-        date.setYear(2023)
-    }
-
-    return date;
-}
-
 download(schedule_url).then(csvTxt => {
     const rows = csvTxt.split('\n');
 
     //Sanity Check - assert we're certain we know where the schedule starts
     if (!rows[schedule_start_row].startsWith('Date,Time,Team 1,Team 2,Goalie 1,Goalie 2,Score,,Empty Net Goals')) {
-        throw Error(`There's a problem with the schedule, the ${schedule_start_row} row should have been the schedule header`);
+        throw Error(`There's a problem with the schedule, the ${schedule_start_row} row should have been the schedule header, but was ${rows[schedule_start_row]}`);
     }
 
     const schedule = [];
@@ -144,14 +155,6 @@ download(schedule_url).then(csvTxt => {
 
             TeamKey[teamA].goals_against += scoreB;
             TeamKey[teamB].goals_against += scoreA;
-
-            if (eNetA) {
-                TeamKey[teamA].enet_goals += eNetA;
-            }
-
-            if (eNetB) {
-                TeamKey[teamB].enet_goals += eNetB;
-            }
 
             TeamKey[teamA].wins += scoreA > scoreB ? 1 : 0;
             TeamKey[teamB].wins += scoreB > scoreA ? 1 : 0;
