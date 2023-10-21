@@ -80,14 +80,14 @@
         "date": "2023-10-19T01:15:00.000Z",
         "teamA": "Orcutts",
         "teamB": "Instant Replay",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Rich Ford"
+        "goalieA": "Rich Ford",
+        "goalieB": "Dan Dorney"
     },
     {
         "date": "2023-10-22T22:15:00.000Z",
         "teamA": "Black Sheep",
         "teamB": "Instant Replay",
-        "goalieA": "Christopher Wirth",
+        "goalieA": "Alex Chang",
         "goalieB": "Alton Pace"
     },
     {
@@ -102,7 +102,7 @@
         "teamA": "Mansours",
         "teamB": "Dianes Dipsticks",
         "goalieA": "Matt Hobbs",
-        "goalieB": "Dan or Rich"
+        "goalieB": "Rich Ford"
     },
     {
         "date": "2023-10-24T00:30:00.000Z",
@@ -115,8 +115,8 @@
         "date": "2023-10-24T02:00:00.000Z",
         "teamA": "Mansours",
         "teamB": "Instant Replay",
-        "goalieA": "Dan or Rich",
-        "goalieB": "Alex Chang"
+        "goalieA": "Dan Dorney",
+        "goalieB": "Matt Hobbs"
     },
     {
         "date": "2023-10-26T01:15:00.000Z",

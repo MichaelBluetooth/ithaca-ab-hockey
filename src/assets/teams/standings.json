@@ -24,10 +24,10 @@
         "color": "gold",
         "logo": "gold_team_logo.jpg",
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "goals_for": 15,
-        "goals_against": 16
+        "goals_for": 20,
+        "goals_against": 22
     },
     {
         "name": "Mansours",
@@ -43,11 +43,11 @@
         "name": "Instant Replay",
         "color": "red",
         "logo": "red_team_logo.jpg",
-        "wins": 1,
+        "wins": 2,
         "losses": 2,
         "ties": 0,
-        "goals_for": 7,
-        "goals_against": 10
+        "goals_for": 13,
+        "goals_against": 15
     },
     {
         "name": "Outlaws",
