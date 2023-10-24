@@ -3,60 +3,60 @@
         "name": "Black Sheep",
         "color": "Black",
         "logo": "black_team_logo.jpg",
-        "wins": 3,
+        "wins": 4,
         "losses": 1,
         "ties": 0,
-        "goals_for": 22,
-        "goals_against": 10
+        "goals_for": 26,
+        "goals_against": 12
     },
     {
         "name": "Dianes Dipsticks",
         "color": "Blue",
         "logo": "blue_team_logo.jpg",
-        "wins": 2,
+        "wins": 3,
         "losses": 2,
         "ties": 0,
-        "goals_for": 17,
-        "goals_against": 17
+        "goals_for": 23,
+        "goals_against": 19
     },
     {
         "name": "Orcutts",
         "color": "gold",
         "logo": "gold_team_logo.jpg",
-        "wins": 2,
+        "wins": 3,
         "losses": 3,
         "ties": 0,
-        "goals_for": 20,
-        "goals_against": 22
+        "goals_for": 25,
+        "goals_against": 25
     },
     {
         "name": "Mansours",
         "color": "white",
         "logo": "white_team_logo.jpg",
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "goals_for": 16,
-        "goals_against": 20
+        "goals_for": 18,
+        "goals_against": 26
     },
     {
         "name": "Instant Replay",
         "color": "red",
         "logo": "red_team_logo.jpg",
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "goals_for": 13,
-        "goals_against": 15
+        "goals_for": 15,
+        "goals_against": 19
     },
     {
         "name": "Outlaws",
         "color": "Green",
         "logo": "green_team_logo.jpg",
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "goals_for": 7,
-        "goals_against": 11
+        "goals_for": 10,
+        "goals_against": 16
     }
 ]
