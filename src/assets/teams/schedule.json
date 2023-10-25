@@ -108,8 +108,8 @@
         "date": "2023-10-24T00:30:00.000Z",
         "teamA": "Orcutts",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Matt Hobbs"
     },
     {
         "date": "2023-10-24T02:00:00.000Z",
@@ -122,7 +122,7 @@
         "date": "2023-10-26T01:15:00.000Z",
         "teamA": "Black Sheep",
         "teamB": "Outlaws",
-        "goalieA": "Dan Dorney",
+        "goalieA": "Alex Chang",
         "goalieB": "Rich Ford"
     },
     {

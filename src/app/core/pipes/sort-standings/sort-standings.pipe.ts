@@ -16,13 +16,18 @@ export class SortStandingsPipe implements PipeTransform {
       const goalsAgainstA = a.goals_against;
       const goalsAgainstB = b.goals_against;
 
+      const gamesPlayedA = a.wins + a.losses + a.ties;
+      const gamesPlayedB = b.wins + b.losses + b.ties;
+
       if (ptsA !== ptsB) {
         return ptsA > ptsB ? -1 : 1;
+      } else if (gamesPlayedA !== gamesPlayedB) {
+        return gamesPlayedA > gamesPlayedB ? 1 : -1;
       } else if (goalsForA !== goalsForB) {
         return goalsForA > goalsForB ? -1 : 1;
       } else if (goalsAgainstA !== goalsAgainstB) {
         return goalsAgainstB > goalsAgainstB ? -1 : 1;
-      }else {
+      } else {
         //idk what the tie breaker would be here...flip a coin!?
         return 0;
       }
