@@ -17,7 +17,7 @@ export class SecondaryContentComponent {
   sections: SecondaryContent[] = [
     {
       title: '10/25 - Sheep Shot!',
-      description: 'Black Sheep baaaaatle their way to victory over Outlaws with 6-3 win',
+      description: 'Black Sheep baaaaattle their way to victory over Outlaws with 6-3 win',
       image: 'assets/images/blacksheep_explosion.png'
     },
     {
