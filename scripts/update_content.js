@@ -161,6 +161,9 @@ download(schedule_url).then(csvTxt => {
 
             TeamKey[teamA].losses += scoreB > scoreA ? 1 : 0;
             TeamKey[teamB].losses += scoreA > scoreB ? 1 : 0;
+
+            TeamKey[teamA].ties += scoreA === scoreB ? 1 : 0;
+            TeamKey[teamB].ties += scoreA === scoreB ? 1 : 0;
         }
     });
 

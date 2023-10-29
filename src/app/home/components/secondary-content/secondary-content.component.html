@@ -1,52 +1,42 @@
 <div class="wrapper">
-    <div class="content d-flex flex-grow">
-        <a href="https://www.youtube.com/watch?v=uy6twlPX7yw">
+    <ng-container *ngFor="let section of sections | slice:0:2">
+        <ng-template #card>
             <div class="card">
-                <img src="assets/images/orcutt_vs_dianes_10-23-2023.png" height="200" class="card-img-top">
+                <img [src]="section.image" height="200" class="card-img-top">
                 <div class="card-body">
-                    <div class="card-title fw-bold">10/23 - Thomas "Conn Smythe" Conway</div>
-                    <p class="card-text">Conway records shut out as Orcutts overcome Dipsticks, 4-0</p>
+                    <div class="card-title fw-bold">{{section.title}}</div>
+                    <p class="card-text">{{section.description}}</p>
                 </div>
             </div>
-        </a>
-    </div>
-    <div class="content d-flex flex-grow">
-        <a href="https://www.youtube.com/watch?v=yr_6vEwIAU0">
-            <div class="card">
-                <img src="assets/images/instantreplay_vs_mansours_10-23-2023.png" height="200" class="card-img-top">
-                <div class="card-body">
-                    <div class="card-title fw-bold">10/23 - Even Steven</div>
-                    <p class="card-text">Mansours and Instant Replay record season first tie game, 4-4</p>
-                </div>
+        </ng-template>
+
+        <div class="content d-flex flex-grow">
+            <a [href]="section.link" *ngIf="section.link">
+                <ng-container *ngTemplateOutlet="card"></ng-container>
+            </a>
+            <div *ngIf="!section.link">
+                <ng-container *ngTemplateOutlet="card"></ng-container>
             </div>
-        </a>
-    </div>
+        </div>  
+
+    </ng-container>
 </div>
 
-<div>
-    <a class="d-flex align-items-center gap-3" href="https://www.youtube.com/watch?v=NyDGtILYUq4">
-        <img src="assets/images/dianes_vs_mansours_10-22-2023.png" width="35%" class="rounded">
-        <div>
-            <div class="fw-bold">10/22 - Dipsticks Shine Brighter Than Jewelers</div>
-            <p>Dianes Dipsticks overcome Mansours Jewelers 6-2</p>
-        </div>
-    </a>
-</div>
-<div>
-    <div class="d-flex align-items-center gap-3">
-        <img src="assets/images/blacksheep_vs_instantreplay_10-22-2023.png" width="35%" class="rounded">
-        <div>
-            <div class="fw-bold">10/22 - Black Sheep Win!</div>
-            <p>Pull the wool over Instant Replay, win 4-2</p>
-        </div>
-    </div>
-</div>
-<div>
-    <div class="d-flex align-items-center gap-3">
-        <img src="assets/images/orcutt_real_estate.png" width="35%" class="rounded">
-        <div>
-            <div class="fw-bold">10/22 - Peak Pineapple</div>
-            <p>Orcutt Pineapples Squeeze Past MBAs, win 5-3.</p>
+<ng-container *ngFor="let section of sections | slice:2:sections.length">
+    <ng-template #contentContainer>
+        <img [src]="section.image" width="35%" class="rounded" [class.border]="section.borderedImage">
+            <div>
+                <div class="fw-bold">{{section.title}}</div>
+                <p>{{section.description}}</p>
+            </div>
+    </ng-template>
+
+    <div>
+        <a class="d-flex align-items-center gap-3" [href]="section.link" *ngIf="section.link">
+            <ng-container *ngTemplateOutlet="contentContainer"></ng-container>
+        </a>
+        <div class="d-flex align-items-center gap-3" *ngIf="!section.link">
+            <ng-container *ngTemplateOutlet="contentContainer"></ng-container>
         </div>
     </div>
-</div>
+</ng-container>
