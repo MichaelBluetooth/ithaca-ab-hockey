@@ -3,11 +3,11 @@
         "name": "Black Sheep",
         "color": "Black",
         "logo": "black_team_logo.jpg",
-        "wins": 4,
+        "wins": 5,
         "losses": 1,
         "ties": 0,
-        "goals_for": 26,
-        "goals_against": 12
+        "goals_for": 32,
+        "goals_against": 15
     },
     {
         "name": "Dianes Dipsticks",
@@ -35,7 +35,7 @@
         "logo": "white_team_logo.jpg",
         "wins": 2,
         "losses": 3,
-        "ties": 0,
+        "ties": 1,
         "goals_for": 22,
         "goals_against": 30
     },
@@ -45,7 +45,7 @@
         "logo": "red_team_logo.jpg",
         "wins": 2,
         "losses": 3,
-        "ties": 0,
+        "ties": 1,
         "goals_for": 19,
         "goals_against": 23
     },
@@ -54,9 +54,9 @@
         "color": "Green",
         "logo": "green_team_logo.jpg",
         "wins": 1,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "goals_for": 10,
-        "goals_against": 16
+        "goals_for": 13,
+        "goals_against": 22
     }
 ]
