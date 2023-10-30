@@ -143,29 +143,29 @@
         "date": "2023-10-30T01:15:00.000Z",
         "teamA": "Orcutts",
         "teamB": "Mansours",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dan Dorney"
     },
     {
         "date": "2023-10-31T00:30:00.000Z",
         "teamA": "Outlaws",
         "teamB": "Mansours",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
     },
     {
         "date": "2023-10-31T02:00:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Rich Ford",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Rich Ford"
     },
     {
         "date": "2023-11-02T01:15:00.000Z",
         "teamA": "Outlaws",
         "teamB": "Orcutts",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Rich Ford"
+        "goalieA": "Rich Ford",
+        "goalieB": "Dan Dorney"
     },
     {
         "date": "2023-11-05T23:15:00.000Z",
@@ -178,8 +178,8 @@
         "date": "2023-11-06T00:45:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Mansours",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Thomas Conroy"
     },
     {
         "date": "2023-11-06T02:15:00.000Z",
