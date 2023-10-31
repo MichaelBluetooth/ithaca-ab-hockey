@@ -14,6 +14,7 @@ import { CommunityPanelComponent } from './components/community-panel/community-
 import { CalendarPanelComponent } from './components/calendar-panel/calendar-panel.component';
 import { DocumentsPanelComponent } from './components/documents-panel/documents-panel.component';
 import { CoreModule } from '../core/core.module';
+import { InstagramPanelComponent } from './components/instagram-panel/instagram-panel.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CoreModule } from '../core/core.module';
     LeftSideComponent,
     CommunityPanelComponent,
     CalendarPanelComponent,
-    DocumentsPanelComponent
+    DocumentsPanelComponent,
+    InstagramPanelComponent
   ],
   imports: [
     CommonModule,
