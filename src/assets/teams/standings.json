@@ -14,10 +14,10 @@
         "color": "Blue",
         "logo": "blue_team_logo.jpg",
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
         "goals_for": 29,
-        "goals_against": 24
+        "goals_against": 25
     },
     {
         "name": "Orcutts",
@@ -35,18 +35,18 @@
         "logo": "white_team_logo.jpg",
         "wins": 2,
         "losses": 4,
-        "ties": 1,
-        "goals_for": 23,
-        "goals_against": 35
+        "ties": 2,
+        "goals_for": 28,
+        "goals_against": 40
     },
     {
         "name": "Instant Replay",
         "color": "red",
         "logo": "red_team_logo.jpg",
-        "wins": 2,
+        "wins": 3,
         "losses": 4,
         "ties": 1,
-        "goals_for": 22,
+        "goals_for": 23,
         "goals_against": 29
     },
     {
@@ -55,8 +55,8 @@
         "logo": "green_team_logo.jpg",
         "wins": 2,
         "losses": 4,
-        "ties": 0,
-        "goals_for": 19,
-        "goals_against": 25
+        "ties": 1,
+        "goals_for": 24,
+        "goals_against": 30
     }
 ]
