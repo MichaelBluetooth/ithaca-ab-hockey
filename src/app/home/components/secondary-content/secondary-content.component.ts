@@ -16,6 +16,11 @@ interface SecondaryContent {
 export class SecondaryContentComponent {
   sections: SecondaryContent[] = [
     {
+      title: '11/1 - Hobbs Robs Outlaws',
+      description: 'Pineapples serve up a sweet victory over outlaws - win 3-0',
+      image: 'assets/images/hobbs_shutout.png',
+    },
+    {
       title: '10/30 - T-t-t-t-t-tie game!',
       description: 'Outlaws and Mansours Jewelers duke it out, end game with a tie 5-5',
       image: 'assets/images/mansours_vs_outlaws_10-30-2023.png',
