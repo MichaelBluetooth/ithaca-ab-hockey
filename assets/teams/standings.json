@@ -23,10 +23,10 @@
         "name": "Orcutts",
         "color": "gold",
         "logo": "gold_team_logo.jpg",
-        "wins": 5,
+        "wins": 6,
         "losses": 3,
         "ties": 0,
-        "goals_for": 34,
+        "goals_for": 37,
         "goals_against": 26
     },
     {
@@ -54,9 +54,9 @@
         "color": "Green",
         "logo": "green_team_logo.jpg",
         "wins": 2,
-        "losses": 4,
+        "losses": 5,
         "ties": 1,
         "goals_for": 24,
-        "goals_against": 30
+        "goals_against": 33
     }
 ]
