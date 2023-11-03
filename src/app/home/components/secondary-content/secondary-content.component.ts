@@ -19,6 +19,7 @@ export class SecondaryContentComponent {
       title: '11/1 - Hobbs Robs Outlaws',
       description: 'Pineapples serve up a sweet victory over outlaws - win 3-0',
       image: 'assets/images/hobbs_shutout.png',
+      link: "https://www.youtube.com/watch?v=a9SR4djsdM4"
     },
     {
       title: '10/30 - T-t-t-t-t-tie game!',
