@@ -9,6 +9,7 @@ import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 export class VideosListComponent {
   
   videoUrls = [ //Newest at the top!
+    "https://www.youtube.com/embed/EjJbOjL_uvU",
     "https://www.youtube.com/embed/7IXa_gqAzrY",
     "https://www.youtube.com/embed/a9SR4djsdM4",
     "https://www.youtube.com/embed/Zrz6t59Njbk",

@@ -16,37 +16,30 @@ interface SecondaryContent {
 export class SecondaryContentComponent {
   sections: SecondaryContent[] = [
     {
-      title: '11/1 - Hobbs Robs Outlaws',
-      description: 'Pineapples serve up a sweet victory over outlaws - win 3-0',
-      image: 'assets/images/hobbs_shutout.png',
-      link: "https://www.youtube.com/watch?v=a9SR4djsdM4"
+      title: '11/6 - Instant Replay Win Again',
+      description: 'Instant Replay wins 3rd game in row, topple CRC Outlaws 5-3',
+      image: 'assets/images/instantreplay_vs_outlaws_11-6-2023.png',
+      link: 'https://www.youtube.com/watch?v=EjJbOjL_uvU'
     },
     {
-      title: '10/30 - T-t-t-t-t-tie game!',
-      description: 'Outlaws and Mansours Jewelers duke it out, end game with a tie 5-5',
-      image: 'assets/images/mansours_vs_outlaws_10-30-2023.png',
-      link: 'https://www.youtube.com/watch?v=Zrz6t59Njbk'
+      title: "11/6 - All's wool that ends wool",
+      description: 'Black Sheep perform be-ew-tifully, defeat Pineapples 5-2',
+      image: 'assets/images/blacksheep_face.png',
     },
     {
-      title: '10/30 - Rich Ford Shuts The Door',
-      description: 'Earns the shutout as Instant Replay beat Dianes Dipsticks 1-0',
-      image: 'assets/images/instantreplay_vs_dipsticks_10-30-2023.png'
+      title: '11/5 - Goalie Duel!',
+      description: 'Mansours and Dipsticks evenly matched, games ends in tie 1-1',
+      image: 'assets/images/mansours_vs_dipsticks_11-5-2023.png',
     },
     {
-      title: '10/29 - Dianes Dominators',
-      description: 'Dianes Dipsticks dipsy-doodle around Black Sheep, win 6-1',
-      image: 'assets/images/dianes_beat_sheep.png'
+      title: '11/5 - Instant Replay Shear Black Sheep',
+      description: 'Instant Replay beat Black Sheep 4-2 late Sunday night',
+      image: 'assets/images/instantreplay_vs_blacksheep_11-6-2023.png',
+    },
+    {
+      title: '11/5 - Streaking Pineapples',
+      description: 'Juiced Pineapples overcome CRC Outlaws rematch, win 7-3',
+      image: 'assets/images/outlaws_vs_pineapples_11-5-2023.png',
     },    
-    {
-      title: '10/29 - Hobbs To It',
-      description: 'Hobbs leads Pineapples to victory over Jewelers, 5-1',
-      image: 'assets/images/orcutt_vs_mansours_10-29-2023.png',
-      link: 'https://www.youtube.com/watch?v=9ynkFlyZkOA'
-    },    
-    {
-      title: '10/25 - Sheep Shot!',
-      description: 'Black Sheep baaaaattle their way to victory over Outlaws with 6-3 win',
-      image: 'assets/images/blacksheep_explosion.png'
-    }
   ]
 }
