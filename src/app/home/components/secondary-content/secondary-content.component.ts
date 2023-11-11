@@ -24,7 +24,7 @@ export class SecondaryContentComponent {
     {
       title: "11/6 - All's wool that ends wool",
       description: 'Black Sheep perform be-ew-tifully, defeat Pineapples 5-2',
-      image: 'assets/images/blacksheep_face.png',
+      image: 'assets/images/blacksheep_vs_orcutt_11-6-2023.png',
     },
     {
       title: '11/5 - Goalie Duel!',
