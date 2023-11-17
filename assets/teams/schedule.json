@@ -248,8 +248,8 @@
         "date": "2023-11-16T02:15:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Outlaws",
-        "goalieA": "Alton Pace",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2023-11-19T23:15:00.000Z",
@@ -270,7 +270,7 @@
         "teamA": "Black Sheep",
         "teamB": "Orcutts",
         "goalieA": "Matt Hobbs",
-        "goalieB": "Dan or Rich"
+        "goalieB": "Dan Dorney"
     },
     {
         "date": "2023-11-21T01:30:00.000Z",
@@ -283,7 +283,7 @@
         "date": "2023-11-21T03:00:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Orcutts",
-        "goalieA": "Dan or Rich",
+        "goalieA": "Rich Ford",
         "goalieB": "Alex Chang"
     },
     {
