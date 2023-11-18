@@ -18,7 +18,8 @@ export class SecondaryContentComponent {
     {
       title: '11/15 - Dianes Dipsticks Dominate',
       description: 'Dianes Dipsticks defeat CRC Outlaws in decisive 7-2 victory',
-      image: 'assets/images/dianes.png'
+      image: 'assets/images/dianes_vs_outlaws_11-15-2023.png',
+      link: 'https://www.youtube.com/watch?v=5HXekHBaSx4'
     },
     {
       title: '11/13 - Mansours Manhandle Orcutt',
