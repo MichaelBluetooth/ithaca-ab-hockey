@@ -6,6 +6,7 @@
         <tr>
             <th scope="col"></th>
             <th scope="col">Team</th>
+            <th scope="col">Points Per Game</th>
             <th scope="col">Points</th>
             <th scope="col">Games Played</th>
             <th scope="col">Wins</th>
@@ -22,6 +23,9 @@
             </td>
             <td>
                 {{team.name}}
+            </td>
+            <td>
+                {{team | ptsPerGame}}
             </td>
             <td>
                 {{(team.wins * 2) + team.ties}}

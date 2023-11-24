@@ -7,7 +7,7 @@
             <thead>
                 <tr>
                     <th scope="col"></th>
-                    <th scope="col">PTS</th>
+                    <th scope="col">PPG</th>
                     <th scope="col">GP</th>
                     <th scope="col">W</th>
                     <th scope="col">L</th>
@@ -20,7 +20,7 @@
                         <img [src]="'assets/teams/' + team.logo" height="25px">
                     </td>
                     <td>
-                        {{(team.wins * 2) + team.ties}}
+                        {{team | ptsPerGame}}
                     </td>
                     <td>
                         {{team.wins + team.losses + team.ties}}

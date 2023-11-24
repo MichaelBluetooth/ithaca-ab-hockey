@@ -1,9 +1,12 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { PtsPerGamePipe } from '../pts-per-game/pts-per-game.pipe';
 
 @Pipe({
   name: 'sortStandings'
 })
 export class SortStandingsPipe implements PipeTransform {
+
+  constructor(private ptsPerGameCalculator: PtsPerGamePipe){}
 
   transform(teams: any[]): any[] {
     teams.sort((a, b) => {
@@ -19,7 +22,12 @@ export class SortStandingsPipe implements PipeTransform {
       const gamesPlayedA = a.wins + a.losses + a.ties;
       const gamesPlayedB = b.wins + b.losses + b.ties;
 
-      if (ptsA !== ptsB) {
+      const ptsPerGameA = this.ptsPerGameCalculator.transform(a);
+      const ptsPerGameB = this.ptsPerGameCalculator.transform(b);
+
+      if(ptsPerGameA !== ptsPerGameB){
+        return ptsPerGameA > ptsPerGameB ? -1 : 1;
+      } else if (ptsA !== ptsB) {
         return ptsA > ptsB ? -1 : 1;
       } else if (gamesPlayedA !== gamesPlayedB) {
         return gamesPlayedA > gamesPlayedB ? 1 : -1;
