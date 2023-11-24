@@ -23,7 +23,7 @@ export class SecondaryContentComponent {
     },
     {
       title: '11/20 - Instant Replay and Orcutt tie, 1-1',
-      description: 'Goalies Dan Dorney and Matt Hobbs stop nearly everything, leading to season first tie game',
+      description: 'Goalies Dan Dorney and Matt Hobbs stop nearly everything, leading to tie game',
       image: 'assets/images/instanreplay_vs_orcutt_11-20-2023.png',
     },
     {
