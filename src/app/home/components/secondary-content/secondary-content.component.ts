@@ -24,7 +24,8 @@ export class SecondaryContentComponent {
     {
       title: '11/20 - Instant Replay and Orcutt tie, 1-1',
       description: 'Goalies Dan Dorney and Matt Hobbs stop nearly everything, leading to tie game',
-      image: 'assets/images/instanreplay_vs_orcutt_11-20-2023.png',
+      image: 'assets/images/orcutt_vs_instantreplay_11-20-2023.png',
+      link: 'https://www.youtube.com/watch?v=4wtlBK1rTAA'
     },
     {
       title: '11/19 - MBAs taught a lesson by Mansours',
