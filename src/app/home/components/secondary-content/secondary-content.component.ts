@@ -16,6 +16,11 @@ interface SecondaryContent {
 export class SecondaryContentComponent {
   sections: SecondaryContent[] = [
     {
+      title: '11/29 - Dianes and Outlaws evenly matched',
+      description: 'Dianes Dipsticks and CRC Outlaws both give thanks to goalies Hobbs and Dornery, end in tie 4-4',
+      image: 'assets/images/turkey.png',
+    },
+    {
       title: '11/20 - Jewelers Shine Bright',
       description: 'Mansour Jewelers on a 3 game win streak defeat Black Sheep 7-3',
       image: 'assets/images/mansour_vs_blacksheep_11-20-2023.png',

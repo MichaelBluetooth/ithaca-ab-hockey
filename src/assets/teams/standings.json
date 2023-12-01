@@ -15,9 +15,9 @@
         "logo": "blue_team_logo.jpg",
         "wins": 6,
         "losses": 5,
-        "ties": 1,
-        "goals_for": 42,
-        "goals_against": 33
+        "ties": 2,
+        "goals_for": 46,
+        "goals_against": 37
     },
     {
         "name": "Orcutts",
@@ -55,8 +55,8 @@
         "logo": "green_team_logo.jpg",
         "wins": 3,
         "losses": 12,
-        "ties": 1,
-        "goals_for": 42,
-        "goals_against": 76
+        "ties": 2,
+        "goals_for": 46,
+        "goals_against": 80
     }
 ]
