@@ -297,22 +297,22 @@
         "date": "2023-12-03T23:15:00.000Z",
         "teamA": "Orcutts",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Christopher Wirth",
+        "goalieA": "Matt Hobbs",
         "goalieB": "Alton Pace"
     },
     {
         "date": "2023-12-04T00:45:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Outlaws",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Adam Leach"
+        "goalieA": "Adam Leach",
+        "goalieB": "Thomas Conroy"
     },
     {
         "date": "2023-12-04T02:15:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Black Sheep",
         "goalieA": "Matt Hobbs",
-        "goalieB": "Dan Dorney"
+        "goalieB": "Thomas Conroy"
     },
     {
         "date": "2023-12-05T01:30:00.000Z",
@@ -326,7 +326,7 @@
         "teamA": "Outlaws",
         "teamB": "Black Sheep",
         "goalieA": "Rich Ford",
-        "goalieB": "Alton Pace"
+        "goalieB": "Dan Dorney"
     },
     {
         "date": "2023-12-07T02:15:00.000Z",
@@ -339,22 +339,22 @@
         "date": "2023-12-10T23:15:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Black Sheep",
-        "goalieA": "Christopher Wirth",
+        "goalieA": "Thomas Conroy",
         "goalieB": "Alton Pace"
     },
     {
         "date": "2023-12-11T00:45:00.000Z",
         "teamA": "Mansours",
         "teamB": "Orcutts",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alex Chang"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Thomas Conroy"
     },
     {
         "date": "2023-12-11T02:15:00.000Z",
         "teamA": "Outlaws",
         "teamB": "Instant Replay",
         "goalieA": "Matt Hobbs",
-        "goalieB": "Dan or Rich"
+        "goalieB": "Rich Ford"
     },
     {
         "date": "2023-12-12T01:30:00.000Z",
@@ -367,8 +367,8 @@
         "date": "2023-12-12T03:00:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Outlaws",
-        "goalieA": "Dan or Rich",
-        "goalieB": "Alex Chang"
+        "goalieA": "Dan Dorney",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2023-12-14T02:15:00.000Z",
@@ -396,7 +396,7 @@
         "teamA": "Orcutts",
         "teamB": "Black Sheep",
         "goalieA": "Matt Hobbs",
-        "goalieB": "Dan or Rich"
+        "goalieB": "Dan Dorney"
     },
     {
         "date": "2023-12-19T01:30:00.000Z",
@@ -409,7 +409,7 @@
         "date": "2023-12-19T03:00:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Mansours",
-        "goalieA": "Dan or Rich",
+        "goalieA": "Rich Ford",
         "goalieB": "Alton Pace"
     },
     {
