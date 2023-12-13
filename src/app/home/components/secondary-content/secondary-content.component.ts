@@ -16,38 +16,29 @@ interface SecondaryContent {
 export class SecondaryContentComponent {
   sections: SecondaryContent[] = [
     {
-      title: '11/29 - Dianes and Outlaws evenly matched',
-      description: 'Dianes Dipsticks and CRC Outlaws both give thanks to goalies Hobbs and Dornery, end in tie 4-4',
-      image: 'assets/images/turkey.png',
+      title: '12/11 - Instant Replay Sports Surging',
+      description: 'Orcutt Pineapples fall to Instant Replay, lose 2-6',
+      image: 'assets/images/instant-replay.png'
     },
     {
-      title: '11/20 - Jewelers Shine Bright',
-      description: 'Mansour Jewelers on a 3 game win streak defeat Black Sheep 7-3',
-      image: 'assets/images/mansour_vs_blacksheep_11-20-2023.png',
-      link: 'https://www.youtube.com/watch?v=6bs4opMax3E'
+      title: '12/11 - Holiday Hero',
+      description: 'E.Net has busy weekend, scores twice in two games',
+      image: 'assets/images/who_is_e_net.png'
     },
     {
-      title: '11/20 - Instant Replay and Orcutt tie, 1-1',
-      description: 'Goalies Dan Dorney and Matt Hobbs stop nearly everything, leading to tie game',
-      image: 'assets/images/orcutt_vs_instantreplay_11-20-2023.png',
-      link: 'https://www.youtube.com/watch?v=4wtlBK1rTAA'
+      title: '12/10 - CRC Outlaws Win 4-1',
+      description: 'Outlaws putting together decent streak, going 3-0-1 in their last four',
+      image: 'assets/images/outlaws.png'
     },
     {
-      title: '11/19 - MBAs taught a lesson by Mansours',
-      description: 'Mansours Jewelers open the week by defeating CRC Outlaws 6-2',
-      image: 'assets/images/mansour_vs_mbas.png',
+      title: '12/10 - Orcutt Pineapples 6, Mansours 3',
+      description: 'Pineapples declare victory over Mansours',
+      image: 'assets/images/orcutt_real_estate.png'
     },
     {
-      title: '11/19 - Black Sheep fall to Orcutts',
-      description: 'Late flurry by Black sheep not enough to overcome early deficit, lose 5-3',
-      image: 'assets/images/blacksheep_vs_orcutt_11-19-2023.png',
-      link: 'https://www.youtube.com/watch?v=mj9MrDUEcHw'
-    },
-    {
-      title: '11/15 - Dianes Dipsticks Dominate',
-      description: 'Dianes Dipsticks defeat CRC Outlaws in decisive 7-2 victory',
-      image: 'assets/images/dianes_vs_outlaws_11-15-2023.png',
-      link: 'https://www.youtube.com/watch?v=5HXekHBaSx4'
+      title: '12/10 - Black Sheep Shine',
+      description: 'Black Sheep sharp in 5-2 victory over Dianes Dipsticks',
+      image: 'assets/images/blacksheep_face.png'
     }
   ]
 }
