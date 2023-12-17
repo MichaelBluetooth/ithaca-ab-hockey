@@ -18,7 +18,8 @@ export class SecondaryContentComponent {
     {
       title: '12/11 - Instant Replay Sports Surging',
       description: 'Orcutt Pineapples fall to surging Instant Replay Sports, lose 2-6',
-      image: 'assets/images/instant-replay.png'
+      image: 'assets/images/instantreplay_vs_orcutt_12-11-2023.png',
+      link: 'https://www.youtube.com/watch?v=h9OFj-iM1_o'
     },
     {
       title: '12/11 - Holiday Hero',
