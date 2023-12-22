@@ -16,32 +16,47 @@ interface SecondaryContent {
 export class SecondaryContentComponent {
   sections: SecondaryContent[] = [
     {
-      title: '12/11 - Instant Replay Sports Surging',
-      description: 'Orcutt Pineapples fall to surging Instant Replay Sports, lose 2-6',
-      image: 'assets/images/instantreplay_vs_orcutt_12-11-2023.png',
-      link: 'https://www.youtube.com/watch?v=h9OFj-iM1_o'
+      title: '12/20 - Dianes Defeat Instant Replay',
+      description: 'Goalie Rich Ford remains hot, helps Dipsticks defeat Instant Replay 6-3',
+      image: 'assets/images/dianes.png',
+      link: ''
     },
     {
-      title: '12/11 - Holiday Hero',
-      description: 'E.Net has busy weekend, scores twice in two games',
-      image: 'assets/images/who_is_e_net.png'
+      title: '12/18 - Jewelers Down Dianes Dipsticks',
+      description: 'Mansour Jewelers remain hot, default Dianes Dipsticks 3-2',
+      image: 'assets/images/mansours.png',
+      link: ''
     },
     {
-      title: '12/10 - CRC Outlaws Win 4-1',
-      description: 'Outlaws putting together decent streak, going 3-0-1 in their last four',
-      image: 'assets/images/outlaws_vs_instantreplay_12-10-2023.png',
-      link: 'https://www.youtube.com/watch?v=PNmFA-Xifzs'
+      title: '12/18 - Black Sheep Streak',
+      description: 'Pineapples fall to streaking Black Sheep in Monday night rematch - lose 4-6',
+      image: 'assets/images/blacksheep_vs_orcutt_12-18-2023.png',
+      link: 'https://www.youtube.com/watch?v=PktX9a2RLUk'
     },
     {
-      title: '12/10 - Orcutt Pineapples 6, Mansours 3',
-      description: 'Pineapples declare victory over Mansours',
-      image: 'assets/images/orcutt_vs_mansours_12-10-2023.png',
-      link: 'https://www.youtube.com/watch?v=uZ3QV-GzivY'
+      title: '12/17 - Back in Black (Sheep)',
+      description: 'Black Sheep double down on their double header victories, defeat Orcutt Pineapples 6-4',
+      image: 'assets/images/blacksheep_vs_orcutt_12-17-2023.png',
+      link: 'https://www.youtube.com/watch?v=yvi9ZiNG_Wo'
     },
     {
-      title: '12/10 - Black Sheep Shine',
-      description: 'Black Sheep sharp in 5-2 victory over Dianes Dipsticks',
-      image: 'assets/images/blacksheep_face.png'
+      title: '12/17 - E. Net: league hero',
+      description: 'E. Net comes up big for Sheep, scored lone goal in in 1-0 win against CRC Outlaws',
+      image: 'assets/images/who_is_e_net.png',
+      link: '',
+      borderedImage: true
+    },
+    {
+      title: '12/17 - Jewelers Jump Ahead',
+      description: 'Dipsticks fall to Mansour Jewelers, 2-5',
+      image: 'assets/images/mansours.png',
+      link: ''
+    },
+    {
+      title: '12/13 - Black Sheep Sharp',
+      description: 'Black Sheep defeat Mansour Jewelers 5-3',
+      image: 'assets/images/blacksheep_face.png',
+      link: ''
     }
   ]
 }
