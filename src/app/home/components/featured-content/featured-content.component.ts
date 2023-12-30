@@ -11,6 +11,6 @@ export class FeaturedContentComponent {
 
   constructor(domSanitizer: DomSanitizer) {
     // this.videoUrl = domSanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/CYPNYEfMceg?autoplay=0');
-    this.videoUrl = domSanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/PktX9a2RLUk");
+    this.videoUrl = domSanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/t8Yn6XVS4EE");
   }
 }

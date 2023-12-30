@@ -23,9 +23,9 @@ export class SecondaryContentComponent {
     },
     {
       title: '12/18 - Jewelers Down Dianes Dipsticks',
-      description: 'Mansour Jewelers remain hot, default Dianes Dipsticks 3-2',
-      image: 'assets/images/mansours.png',
-      link: ''
+      description: 'Mansour Jewelers remain hot, defeat Dianes Dipsticks 3-2',
+      image: 'assets/images/dianes_vs_mansours_12-18-2023.png',
+      link: 'https://www.youtube.com/watch?v=P9t8eheOnIk'
     },
     {
       title: '12/18 - Black Sheep Streak',
