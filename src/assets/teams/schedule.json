@@ -438,7 +438,7 @@
         "teamA": "Black Sheep",
         "teamB": "Dianes Dipsticks",
         "goalieA": "Matt Hobbs",
-        "goalieB": "Dan or Rich"
+        "goalieB": "Rich Ford"
     },
     {
         "date": "2024-01-09T01:30:00.000Z",
@@ -451,7 +451,7 @@
         "date": "2024-01-09T03:00:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Mansours",
-        "goalieA": "Dan or Rich",
+        "goalieA": "Dan Dorney",
         "goalieB": "Alex Chang"
     },
     {
@@ -480,7 +480,7 @@
         "teamA": "Orcutts",
         "teamB": "Black Sheep",
         "goalieA": "Matt Hobbs",
-        "goalieB": "Dan or Rich"
+        "goalieB": "Dan Dorney"
     },
     {
         "date": "2024-01-16T01:30:00.000Z",
@@ -493,7 +493,7 @@
         "date": "2024-01-16T03:00:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Outlaws",
-        "goalieA": "Dan or Rich",
+        "goalieA": "Rich Ford",
         "goalieB": "Alex Chang"
     },
     {
@@ -522,7 +522,7 @@
         "teamA": "Outlaws",
         "teamB": "Orcutts",
         "goalieA": "Matt Hobbs",
-        "goalieB": "Dan or Rich"
+        "goalieB": "Rich Ford"
     },
     {
         "date": "2024-01-23T01:30:00.000Z",
@@ -535,7 +535,7 @@
         "date": "2024-01-23T03:00:00.000Z",
         "teamA": "Orcutts",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Dan or Rich",
+        "goalieA": "Dan Dorney",
         "goalieB": "Alex Chang"
     },
     {
