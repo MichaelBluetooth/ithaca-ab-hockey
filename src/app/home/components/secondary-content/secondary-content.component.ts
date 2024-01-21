@@ -17,33 +17,39 @@ export class SecondaryContentComponent {
   
   sections: SecondaryContent[] = [
     {
-      title: '1/9 - Mansour Jewelers Remain HOT, win 9-3',
-      description: 'Black Sheep fall to streaking Mansour Jewelers Wednesday night',
+      title: '1/17 - Black Sheep Finally Stop Mansours Streak',
+      description: 'Black Sheep and Mansour Jewelers evenly matched, tie 2-2',
+      image: 'assets/images/blacksheep_vs_mansour.png',
+      link: ''
+    },
+    {
+      title: '1/15 - E. Net scores again',
+      description: 'E. Net, projected league MVP, scores yet another game winning goal',
+      image: 'assets/images/who_is_e_net.png',
+      link: ''
+    },
+    {
+      title: '1/15 - Instant Replayed Routed by Pineapples',
+      description: 'Instant Replay Falls to Orcutt Pineapples, lose 6-3',
+      image: 'assets/images/instantreplay_vs_orcutt_1-15-2024.png',
+      link: 'https://www.youtube.com/watch?v=GFrOHsggQ38'
+    },
+    {
+      title: '1/14 - Pineapples Pulverize Sheep',
+      description: 'Orcutt Pineapples defeat Black Sheep, 8-1',
+      image: 'assets/images/blacksheep_vs_orcutt_1-14-2024.png',
+      link: 'https://www.youtube.com/watch?v=bOLadGspOn8'
+    },
+    {
+      title: '1/14 - Instant Replay: 7, Dianes: 4',
+      description: 'Instant Replay go 1-1 in their double header weekend',
+      image: 'assets/images/dianes_vs_instant_replay_1-14-2024.png',
+      link: 'https://www.youtube.com/watch?v=B2O9ur3DahU'
+    },
+    {
+      title: '1/14 - Red, White and Ice',
+      description: 'Mansour Jewelers continue winning streak, defeat Instant Replay 4-2',
       image: 'assets/images/mansours.png',
-      link: ''
-    },
-    {
-      title: '1/8 - Dianes Dipsticks Hold On, win 4-3',
-      description: 'Late flurry by Pineapples not enough to overcome strong play by Dipsticks',
-      image: 'assets/images/orcutt_vs_dianes_1-11-2024.png',
-      link: 'https://www.youtube.com/watch?v=4e9EnV35uLw'
-    },
-    {
-      title: '1/7 - Black and Blue',
-      description: 'Dianes Dipsticks defeat league leader Black Sheep 6-2',
-      image: 'assets/images/dianes_vs_blacksheep_1-7-2024.png',
-      link: 'https://www.youtube.com/watch?v=oj-bN7J05BA'
-    },
-    {
-      title: '1/7 - Orcutt Pineapples Double Header, Part 2',
-      description: 'Orcutt Pineapples, fresh off their first game of a double header fall to red hot Mansour Jewelers. Lose 6-1.',
-      image: 'assets/images/dianes.png',
-      link: ''
-    },
-    {
-      title: '1/7 - Orcutt Pineapples Double Header, Part 1',
-      description: 'Orcutt Pineapples win their first of a double header, defeat Instant Replay 3-2.',
-      image: 'assets/images/orcutt_real_estate.png',
       link: ''
     }
   ]
