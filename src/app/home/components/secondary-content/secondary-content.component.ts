@@ -36,13 +36,13 @@ export class SecondaryContentComponent {
     },
     {
       title: '1/21 - Black Sheep defeat Instant Replay',
-      description: 'Alex Chang solid in 4-1 win',
+      description: 'Goalie Alex Chang solid in 4-1 win',
       image: 'assets/images/blacksheep_face.png',
       link: ''
     },
     {
       title: '1/21 - Mansour 3, Dianes 2',
-      description: 'Evan Mielbrecht makes season debut with a win',
+      description: 'Goaltender Evan Mielbrecht makes season debut with a win',
       image: 'assets/images/mansours.png',
       link: ''
     },
