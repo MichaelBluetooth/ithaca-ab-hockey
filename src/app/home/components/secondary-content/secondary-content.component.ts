@@ -17,40 +17,34 @@ export class SecondaryContentComponent {
   
   sections: SecondaryContent[] = [
     {
-      title: '1/17 - Black Sheep Finally Stop Mansours Streak',
-      description: 'Black Sheep and Mansour Jewelers evenly matched, tie 2-2',
-      image: 'assets/images/blacksheep_vs_mansour.png',
+      title: '1/22 - Dianes D-d-d-d-dominate',
+      description: 'Dianes play some hockey, play great, score 8. Orcutts were there too.',
+      image: 'assets/images/dianes.png',
       link: ''
     },
     {
-      title: '1/15 - E. Net scores again',
-      description: 'E. Net, projected league MVP, scores yet another game winning goal',
+      title: '1/22 - Black Sheep Showdown',
+      description: 'Hobbs and Conroy both strong as Black Sheep edge Outlaws in 4-3 victory',
+      image: 'assets/images/blacksheep_vs_outlaws_1-22-2024.png',
+      link: 'https://www.youtube.com/watch?v=WEZ6fvQpEz8'
+    },
+    {
+      title: '1/21 - E. Net leads Orcutt in 1-0 win',
+      description: 'E. Net, projected league MVP, scores yet ANOTHER game winning goal',
       image: 'assets/images/who_is_e_net.png',
+      borderedImage: true
+    },
+    {
+      title: '1/21 - Black Sheep defeat Instant Replay',
+      description: 'Alex Chang solid in 4-1 win',
+      image: 'assets/images/blacksheep_face.png',
       link: ''
     },
     {
-      title: '1/15 - Instant Replayed Routed by Pineapples',
-      description: 'Instant Replay Falls to Orcutt Pineapples, lose 6-3',
-      image: 'assets/images/instantreplay_vs_orcutt_1-15-2024.png',
-      link: 'https://www.youtube.com/watch?v=GFrOHsggQ38'
-    },
-    {
-      title: '1/14 - Pineapples Pulverize Sheep',
-      description: 'Orcutt Pineapples defeat Black Sheep, 8-1',
-      image: 'assets/images/blacksheep_vs_orcutt_1-14-2024.png',
-      link: 'https://www.youtube.com/watch?v=bOLadGspOn8'
-    },
-    {
-      title: '1/14 - Instant Replay: 7, Dianes: 4',
-      description: 'Instant Replay go 1-1 in their double header weekend',
-      image: 'assets/images/dianes_vs_instant_replay_1-14-2024.png',
-      link: 'https://www.youtube.com/watch?v=B2O9ur3DahU'
-    },
-    {
-      title: '1/14 - Red, White and Ice',
-      description: 'Mansour Jewelers continue winning streak, defeat Instant Replay 4-2',
+      title: '1/21 - Mansour 3, Dianes 2',
+      description: 'Evan Mielbrecht makes season debut with a win',
       image: 'assets/images/mansours.png',
       link: ''
-    }
+    },
   ]
 }
