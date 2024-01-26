@@ -17,10 +17,15 @@ export class SecondaryContentComponent {
   
   sections: SecondaryContent[] = [
     {
+      title: '1/24 - Instant Replay Defeat Mansour Jewelers',
+      description: 'Goalies Dan Dorney and Rich Ford solid in low-scoring affair. Instant Replay win 3-1.',
+      image: 'assets/images/instant-replay.png'
+    },
+    {
       title: '1/22 - Dianes D-d-d-d-dominate',
       description: 'Dianes play some hockey, play great, score 8. Orcutts were there too.',
-      image: 'assets/images/dianes.png',
-      link: ''
+      image: 'assets/images/dianes_vs_orcutt_1-22-2024.png',
+      link: 'https://www.youtube.com/watch?v=NjMwfCAhUso'
     },
     {
       title: '1/22 - Black Sheep Showdown',

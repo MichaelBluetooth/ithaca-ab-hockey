@@ -34,20 +34,20 @@
         "color": "white",
         "logo": "white_team_logo.jpg",
         "wins": 13,
-        "losses": 8,
+        "losses": 9,
         "ties": 4,
-        "goals_for": 98,
-        "goals_against": 85
+        "goals_for": 99,
+        "goals_against": 88
     },
     {
         "name": "Instant Replay",
         "color": "red",
         "logo": "red_team_logo.jpg",
-        "wins": 10,
+        "wins": 11,
         "losses": 13,
         "ties": 2,
-        "goals_for": 74,
-        "goals_against": 78
+        "goals_for": 77,
+        "goals_against": 79
     },
     {
         "name": "Outlaws",
