@@ -549,15 +549,15 @@
         "date": "2024-01-28T23:15:00.000Z",
         "teamA": "Orcutts",
         "teamB": "Mansours",
-        "goalieA": "Adam Leach",
-        "goalieB": "Alton Pace"
+        "goalieA": "Alton Pace",
+        "goalieB": "Adam Leach"
     },
     {
         "date": "2024-01-29T00:45:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Outlaws",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Thomas Conroy"
     },
     {
         "date": "2024-01-29T02:15:00.000Z",
@@ -570,8 +570,8 @@
         "date": "2024-01-30T01:30:00.000Z",
         "teamA": "Outlaws",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
+        "goalieA": "Thomas Conroy",
+        "goalieB": "Matt Hobbs"
     },
     {
         "date": "2024-01-30T03:00:00.000Z",
@@ -591,7 +591,7 @@
         "date": "2024-02-04T23:15:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Black Sheep",
-        "goalieA": "Christopher Wirth",
+        "goalieA": "Evan Mielbrecht",
         "goalieB": "Alton Pace"
     },
     {
@@ -662,7 +662,7 @@
         "teamA": "Black Sheep",
         "teamB": "Outlaws",
         "goalieA": "Rich Ford",
-        "goalieB": "Alex Chang"
+        "goalieB": "Matt Hobbs"
     },
     {
         "date": "2024-02-22T02:15:00.000Z",
