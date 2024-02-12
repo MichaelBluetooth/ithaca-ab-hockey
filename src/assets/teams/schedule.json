@@ -605,8 +605,8 @@
         "date": "2024-02-05T02:15:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Mansours",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Rich Ford"
+        "goalieA": "Rich Ford",
+        "goalieB": "Matt Hobbs"
     },
     {
         "date": "2024-02-06T01:30:00.000Z",
@@ -619,8 +619,8 @@
         "date": "2024-02-06T03:00:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Instant Replay",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Dan Dorney"
     },
     {
         "date": "2024-02-08T02:15:00.000Z",
@@ -641,7 +641,7 @@
         "teamA": "Orcutts",
         "teamB": "Mansours",
         "goalieA": "Thomas Conroy",
-        "goalieB": "Alex Chang"
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2024-02-19T02:15:00.000Z",
