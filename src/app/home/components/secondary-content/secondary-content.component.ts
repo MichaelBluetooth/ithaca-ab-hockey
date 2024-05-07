@@ -19,7 +19,7 @@ export class SecondaryContentComponent {
     {
       title: "Outlaws WIN IT ALL",
       description: "Congratulations to the MBA team and goaltender Rich Ford!",
-      image: "assets/images/outlaws.png",
+      image: "assets/images/2024_champs.png",
       link: "https://www.youtube.com/watch?v=u8vVIxWCWNc"
     },
     {
