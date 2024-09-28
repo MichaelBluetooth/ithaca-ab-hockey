@@ -1,11 +1,11 @@
 [
     {
-        "name": "James Orcutt Real Estate, LL.",
-        "website": "https://www.jamesorcutt.com/",
-        "phone": "607-277-4723",
-        "email": "info@jamesorcutt.com",
-        "address": "324 Dryden Road, Ithaca",
-        "image": "orcutt_real_estate.jpg"
+        "name": "Ice Cream Bar",
+        "website": "https://icbtburg.com/",
+        "phone": "607.387.9656",
+        "email": "sarah@icbtburg.com",
+        "address": "207 East Main St Trumansburg, NY 14886",
+        "image": "ice_cream_bar.jpg"
     },
     {
         "name": "Mansour Jewelers",
@@ -16,19 +16,27 @@
         "image": "monsour_jewelers.jpg"
     },
     {
-        "name": "Instant Replay Sports",
-        "website": "https://www.facebook.com/InstantReplay14850/",
-        "phone": "info1@instantreplaysports.info",
-        "email": "607-277-7366",
-        "address": "2255 N. Triphammer Road, Ithaca",
-        "image": "instant_replay.jpg"
-    },
-    {
         "name": "Dianes Downtown Automotive",
         "website": "https://www.facebook.com/dianesdowntownauto/",
         "phone": "607-272-2886",
         "email": "",
         "address": "435 W State St, Ithaca, NY 14850",
         "image": "dianes_downtown_automotive.jpg"
-    }
+    },    
+    {
+        "name": "James Orcutt Real Estate, LLC.",
+        "website": "https://www.jamesorcutt.com/",
+        "phone": "607-277-4723",
+        "email": "info@jamesorcutt.com",
+        "address": "324 Dryden Road, Ithaca",
+        "image": "orcutt_real_estate.jpg"
+    },
+    {
+        "name": "Instant Replay Sports",
+        "website": "https://www.facebook.com/InstantReplay14850/",
+        "phone": "info1@instantreplaysports.info",
+        "email": "607-277-7366",
+        "address": "2255 N. Triphammer Road, Ithaca",
+        "image": "instant_replay.jpg"
+    }   
 ]
