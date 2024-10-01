@@ -5,23 +5,19 @@
                 Schedule
             </a>
         </h4>
-        <div class="fw-bold">
-            2024 League Evaluation Skates (Sept 9)
-        </div>
-        <div>
-            <a href="https://www.signupgenius.com/go/10C0A44A5A82BA7F49-50837514-ableague#/">
-                Sign Up here
-            </a>
-        </div>
-        <div>
-            <ul>
-                <li>
-                    6:30 - 7:45pm
-                </li>
-                <li>
-                    8:00 - 9:15pm
-                </li>
-            </ul>
-        </div>
+        <div *ngIf="upcoming.length > 0">
+            <div *ngFor="let gameDay of upcoming | groupGamesByDay" style="margin-bottom: 16px;">
+                <div class="fw-bold">
+                    {{gameDay.date | date}}                    
+                </div>
+                <div *ngFor="let game of gameDay.games">
+                    <img class="d-none d-lg-inline me-2" [src]="game.teamA | teamLogo:teams" height="25px">
+                    vs
+                    <img class="d-none d-lg-inline me-2" [src]="game.teamB | teamLogo:teams" height="25px">
+                    @
+                    {{game.date | date:'shortTime'}}
+                </div>
+            </div>
+        </div>        
     </div>
 </div>

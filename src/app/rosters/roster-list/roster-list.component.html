@@ -1,0 +1,12 @@
+<h1>2024-2025 Season Rosters</h1>
+<p>
+    Welcome new players to the 2024/2025 CRC Adult Hockey League!
+</p>
+<div *ngFor="let team of teams">
+    <h2>{{team.team}}</h2>
+    <ul>
+        <li *ngFor="let player of team.roster">
+            {{player}}
+        </li>
+    </ul>
+</div>

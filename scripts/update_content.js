@@ -8,9 +8,9 @@ const toRealDate = (dateRaw, timeRaw) => {
     const dayNumeric = +date.split('/')[1];
     const day = dayNumeric.toString().padStart(2, '0');
 
-    let year = 2023;
+    let year = 2024;
     if (monthNumeric === 1 || monthNumeric === 2 || monthNumeric === 3) {
-        year = 2024;
+        year = 2025;
     }
 
     let daylightSavingsTime = false;
@@ -32,7 +32,7 @@ const toRealDate = (dateRaw, timeRaw) => {
     return new Date(iso);
 }
 
-const schedule_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSTibFX7z4uGvq5oHrHY-aUG7L5dyFSMSPIkLJoDYmwOM-ugsN9T9nIwkzDKF0Sfc7vevA3BT9rjxUp/pub?gid=1969887782&single=true&output=csv';
+const schedule_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS7dqw8sMQi6mYeboh9_aKJztFjQ5UFQgHnnSdKs4pahijaSa0bzHad3_KytbgPVRXpKCgAcR6mjfkR/pub?gid=1969887782&single=true&output=csv';
 const schedule_start_row = 10;
 
 const TeamKey = {
@@ -57,7 +57,7 @@ const TeamKey = {
         goals_against: 0,
     },
     'C': {
-        name: 'Orcutts',
+        name: 'Orcutt Real Estate',
         color: "gold",
         logo: "gold_team_logo.jpg",
         wins: 0,
@@ -67,7 +67,7 @@ const TeamKey = {
         goals_against: 0,
     },
     'D': {
-        name: 'Mansours',
+        name: 'Mansour Jewelers',
         color: "white",
         logo: "white_team_logo.jpg",
         wins: 0,
@@ -77,6 +77,16 @@ const TeamKey = {
         goals_against: 0,
     },
     'E': {
+        name: 'Ice Cream Bar',
+        color: "Teal",
+        logo: "teal_team_logo.jpg",
+        wins: 0,
+        losses: 0,
+        ties: 0,
+        goals_for: 0,
+        goals_against: 0,
+    },
+    'F': {
         name: 'Instant Replay',
         color: "red",
         logo: "red_team_logo.jpg",
@@ -86,16 +96,6 @@ const TeamKey = {
         goals_for: 0,
         goals_against: 0,
     },
-    'F': {
-        name: 'Outlaws',
-        color: "Green",
-        logo: "green_team_logo.jpg",
-        wins: 0,
-        losses: 0,
-        ties: 0,
-        goals_for: 0,
-        goals_against: 0,
-    }
 };
 
 const download = (url) => {
@@ -117,7 +117,7 @@ download(schedule_url).then(csvTxt => {
     const rows = csvTxt.split('\n');
 
     //Sanity Check - assert we're certain we know where the schedule starts
-    if (!rows[schedule_start_row].startsWith('Date,Time,Team 1,Team 2,Goalie 1,Goalie 2,Score,,Empty Net Goals')) {
+    if (!rows[schedule_start_row].startsWith('Date,Time,Team 1,Team 2')) {
         throw Error(`There's a problem with the schedule, the ${schedule_start_row} row should have been the schedule header, but was ${rows[schedule_start_row]}`);
     }
 

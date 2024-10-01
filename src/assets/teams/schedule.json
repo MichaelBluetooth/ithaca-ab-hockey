@@ -1,758 +1,268 @@
 [
     {
-        "date": "2023-10-08T22:15:00.000Z",
+        "date": "2024-10-06T22:30:00.000Z",
         "teamA": "Black Sheep",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Alton Pace",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2023-10-08T23:45:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Mansours",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2023-10-09T01:15:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Outlaws",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-10-10T00:30:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Mansours",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-10-10T02:00:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Orcutts",
-        "goalieA": "Alex Chang",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2023-10-12T01:15:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Outlaws",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2023-10-15T22:15:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Black Sheep",
-        "goalieA": "Christopher Wirth",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2023-10-15T23:45:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Instant Replay",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2023-10-16T01:15:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Mansours",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-10-17T00:30:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Orcutts",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-10-17T02:00:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Black Sheep",
-        "goalieA": "Alex Chang",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2023-10-19T01:15:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Instant Replay",
-        "goalieA": "Rich Ford",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2023-10-22T22:15:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Instant Replay",
-        "goalieA": "Alex Chang",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2023-10-22T23:45:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Orcutts",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2023-10-23T01:15:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2023-10-24T00:30:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-10-24T02:00:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Instant Replay",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-10-26T01:15:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Outlaws",
-        "goalieA": "Rich Ford",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2023-10-29T22:15:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Outlaws",
-        "goalieA": "Christopher Wirth",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2023-10-29T23:45:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Alex Chang",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-10-30T01:15:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Mansours",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2023-10-31T00:30:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Mansours",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-10-31T02:00:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Alex Chang",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2023-11-02T01:15:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Orcutts",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-11-05T23:15:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Orcutts",
-        "goalieA": "Alton Pace",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2023-11-06T00:45:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Mansours",
-        "goalieA": "Alex Chang",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-11-06T02:15:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Black Sheep",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2023-11-07T01:30:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Instant Replay",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-11-07T03:00:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Black Sheep",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2023-11-09T02:15:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Outlaws",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-11-12T23:15:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Outlaws",
-        "goalieA": "Alex Chang",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2023-11-13T00:45:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Instant Replay",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2023-11-13T02:15:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Black Sheep",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-11-14T01:30:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Black Sheep",
-        "goalieA": "Alton Pace",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-11-14T03:00:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Mansours",
-        "goalieA": "Alex Chang",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2023-11-16T02:15:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Outlaws",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2023-11-19T23:15:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Alton Pace",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2023-11-20T00:45:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Outlaws",
-        "goalieA": "Alex Chang",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-11-20T02:15:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Orcutts",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-11-21T01:30:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Mansours",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-11-21T03:00:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Orcutts",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-11-30T02:15:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-12-03T23:15:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2023-12-04T00:45:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Outlaws",
         "goalieA": "Adam Leach",
-        "goalieB": "Thomas Conroy"
+        "goalieB": "Alex Chang"
     },
     {
-        "date": "2023-12-04T02:15:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Black Sheep",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-12-05T01:30:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Mansours",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-12-05T03:00:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Black Sheep",
-        "goalieA": "Rich Ford",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2023-12-07T02:15:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Orcutts",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2023-12-10T23:15:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Black Sheep",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2023-12-11T00:45:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Orcutts",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-12-11T02:15:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Instant Replay",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2023-12-12T01:30:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Instant Replay",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2023-12-12T03:00:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Outlaws",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2023-12-14T02:15:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Black Sheep",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2023-12-17T23:15:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2023-12-18T00:45:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Instant Replay",
-        "goalieA": "Thomas Conroy",
+        "date": "2024-10-07T00:00:00.000Z",
+        "teamA": "Orcutt Real Estate",
+        "teamB": "Mansour Jewelers",
+        "goalieA": "Alton Pace",
         "goalieB": "Matt Hobbs"
     },
     {
-        "date": "2023-12-18T02:15:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Black Sheep",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2023-12-19T01:30:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Orcutts",
-        "goalieA": "Rich Ford",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2023-12-19T03:00:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Mansours",
-        "goalieA": "Matt Hobbs",
+        "date": "2024-10-07T01:30:00.000Z",
+        "teamA": "Ice Cream Bar",
+        "teamB": "Instant Replay",
+        "goalieA": "Dylan Riker",
         "goalieB": "Rich Ford"
     },
     {
-        "date": "2023-12-21T02:15:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Rich Ford",
-        "goalieB": "Dan Dorney"
+        "date": "2024-10-08T01:15:00.000Z",
+        "teamA": "Ice Cream Bar",
+        "teamB": "Mansour Jewelers",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alton Pace"
     },
     {
-        "date": "2024-01-07T23:15:00.000Z",
+        "date": "2024-10-10T01:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Instant Replay",
+        "goalieA": "Rich Ford",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-10-13T22:30:00.000Z",
+        "teamA": "Orcutt Real Estate",
+        "teamB": "Black Sheep",
+        "goalieA": "Alton Pace",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2024-10-14T00:00:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Ice Cream Bar",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-10-14T01:30:00.000Z",
         "teamA": "Instant Replay",
-        "teamB": "Orcutts",
+        "teamB": "Mansour Jewelers",
+        "goalieA": "Dylan Riker",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-10-15T01:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Orcutt Real Estate",
+        "goalieA": "Alton Pace",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2024-10-17T01:15:00.000Z",
+        "teamA": "Orcutt Real Estate",
+        "teamB": "Ice Cream Bar",
+        "goalieA": "Rich Ford",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-10-20T22:30:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Ice Cream Bar",
         "goalieA": "Alton Pace",
         "goalieB": "Alex Chang"
     },
     {
-        "date": "2024-01-08T00:45:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Mansours",
-        "goalieA": "Thomas Conroy",
+        "date": "2024-10-21T00:00:00.000Z",
+        "teamA": "Instant Replay",
+        "teamB": "Orcutt Real Estate",
+        "goalieA": "Alton Pace",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2024-10-21T01:30:00.000Z",
+        "teamA": "Mansour Jewelers",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Dylan Riker",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-10-22T01:15:00.000Z",
+        "teamA": "Orcutt Real Estate",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Alton Pace",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2024-10-24T01:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Instant Replay",
+        "goalieA": "Rich Ford",
         "goalieB": "Alex Chang"
     },
     {
-        "date": "2024-01-08T02:15:00.000Z",
+        "date": "2024-10-27T22:30:00.000Z",
+        "teamA": "Orcutt Real Estate",
+        "teamB": "Mansour Jewelers",
+        "goalieA": "Adam Leach",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-10-28T00:00:00.000Z",
         "teamA": "Black Sheep",
         "teamB": "Dianes Dipsticks",
+        "goalieA": "Alex Chang",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2024-10-28T01:30:00.000Z",
+        "teamA": "Ice Cream Bar",
+        "teamB": "Instant Replay",
+        "goalieA": "Dylan Riker",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-10-29T01:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Mansour Jewelers",
         "goalieA": "Rich Ford",
         "goalieB": "Matt Hobbs"
     },
     {
-        "date": "2024-01-09T01:30:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Orcutts",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2024-01-09T03:00:00.000Z",
+        "date": "2024-10-31T01:15:00.000Z",
         "teamA": "Instant Replay",
-        "teamB": "Mansours",
-        "goalieA": "Dan Dorney",
+        "teamB": "Mansour Jewelers",
+        "goalieA": "Rich Ford",
         "goalieB": "Alex Chang"
     },
     {
-        "date": "2024-01-11T02:15:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Mansours",
-        "goalieA": "Rich Ford",
-        "goalieB": "Dan Dorney"
+        "date": "2024-11-03T22:30:00.000Z",
+        "teamA": "Ice Cream Bar",
+        "teamB": "Black Sheep",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alex Chang"
     },
     {
-        "date": "2024-01-14T23:15:00.000Z",
+        "date": "2024-11-04T00:00:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Mansour Jewelers",
+        "goalieA": "Alton Pace",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2024-11-04T01:30:00.000Z",
         "teamA": "Instant Replay",
-        "teamB": "Mansours",
+        "teamB": "Orcutt Real Estate",
+        "goalieA": "Dylan Riker",
+        "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2024-11-05T01:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Ice Cream Bar",
+        "goalieA": "Alton Pace",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2024-11-07T02:15:00.000Z",
+        "teamA": "Mansour Jewelers",
+        "teamB": "Instant Replay",
+        "goalieA": "Rich Ford",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-11-10T23:30:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Black Sheep",
         "goalieA": "Alton Pace",
         "goalieB": "Alex Chang"
     },
     {
-        "date": "2024-01-15T00:45:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Instant Replay",
-        "goalieA": "Alex Chang",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2024-01-15T02:15:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Black Sheep",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2024-01-16T01:30:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Instant Replay",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Matt Hobbs"
-    },
-    {
-        "date": "2024-01-16T03:00:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Outlaws",
-        "goalieA": "Rich Ford",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2024-01-18T02:15:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Black Sheep",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2024-01-21T23:15:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Evan Mielbrecht",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2024-01-22T00:45:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Instant Replay",
-        "goalieA": "Alex Chang",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2024-01-22T02:15:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Orcutts",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2024-01-23T01:30:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Outlaws",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2024-01-23T03:00:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2024-01-25T02:15:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Instant Replay",
-        "goalieA": "Rich Ford",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2024-01-28T23:15:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Mansours",
+        "date": "2024-11-11T01:00:00.000Z",
+        "teamA": "Orcutt Real Estate",
+        "teamB": "Ice Cream Bar",
         "goalieA": "Alton Pace",
-        "goalieB": "Adam Leach"
-    },
-    {
-        "date": "2024-01-29T00:45:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Outlaws",
-        "goalieA": "Alex Chang",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2024-01-29T02:15:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2024-01-30T01:30:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Thomas Conroy",
         "goalieB": "Matt Hobbs"
     },
     {
-        "date": "2024-01-30T03:00:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Mansours",
-        "goalieA": "Rich Ford",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2024-02-01T02:15:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Orcutts",
-        "goalieA": "Dan Dorney",
+        "date": "2024-11-11T02:30:00.000Z",
+        "teamA": "Mansour Jewelers",
+        "teamB": "Instant Replay",
+        "goalieA": "Matt Hobbs",
         "goalieB": "Rich Ford"
     },
     {
-        "date": "2024-02-04T23:15:00.000Z",
+        "date": "2024-11-12T02:15:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Black Sheep",
-        "goalieA": "Evan Mielbrecht",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2024-02-05T00:45:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Orcutts",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2024-02-05T02:15:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Mansours",
-        "goalieA": "Rich Ford",
+        "goalieA": "Alton Pace",
         "goalieB": "Matt Hobbs"
     },
     {
-        "date": "2024-02-06T01:30:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Outlaws",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2024-02-06T03:00:00.000Z",
+        "date": "2024-11-14T02:15:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Instant Replay",
-        "goalieA": "Alex Chang",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2024-02-08T02:15:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Black Sheep",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2024-02-18T23:15:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "Christopher Wirth",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2024-02-19T00:45:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Mansours",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2024-02-19T02:15:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Outlaws",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Dan Dorney"
-    },
-    {
-        "date": "2024-02-20T01:30:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Mansours",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2024-02-20T03:00:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Outlaws",
         "goalieA": "Rich Ford",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-11-17T23:30:00.000Z",
+        "teamA": "Ice Cream Bar",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Alton Pace",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-11-18T01:00:00.000Z",
+        "teamA": "Mansour Jewelers",
+        "teamB": "Instant Replay",
+        "goalieA": "Alton Pace",
         "goalieB": "Matt Hobbs"
     },
     {
-        "date": "2024-02-22T02:15:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Orcutts",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2024-02-25T23:15:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Black Sheep",
-        "goalieA": "Christopher Wirth",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2024-02-26T00:45:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Instant Replay",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2024-02-26T02:15:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Mansours",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2024-02-27T01:30:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Outlaws",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2024-02-27T03:00:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Black Sheep",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2024-02-29T02:15:00.000Z",
-        "teamA": "Orcutts",
-        "teamB": "Instant Replay",
-        "goalieA": "Dan Dorney",
-        "goalieB": "Rich Ford"
-    },
-    {
-        "date": "2024-03-03T23:15:00.000Z",
+        "date": "2024-11-18T02:30:00.000Z",
         "teamA": "Black Sheep",
-        "teamB": "Instant Replay",
-        "goalieA": "Christopher Wirth",
-        "goalieB": "Alton Pace"
-    },
-    {
-        "date": "2024-03-04T00:45:00.000Z",
-        "teamA": "Outlaws",
-        "teamB": "Orcutts",
-        "goalieA": "Thomas Conroy",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2024-03-04T02:15:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Dianes Dipsticks",
+        "teamB": "Orcutt Real Estate",
         "goalieA": "Matt Hobbs",
-        "goalieB": "Dan Dorney"
+        "goalieB": "Rich Ford"
     },
     {
-        "date": "2024-03-05T01:30:00.000Z",
-        "teamA": "Orcutts",
+        "date": "2024-11-19T02:15:00.000Z",
+        "teamA": "Black Sheep",
+        "teamB": "Mansour Jewelers",
+        "goalieA": "Alton Pace",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2024-11-21T02:15:00.000Z",
+        "teamA": "Instant Replay",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Thomas Conroy"
-    },
-    {
-        "date": "2024-03-05T03:00:00.000Z",
-        "teamA": "Mansours",
-        "teamB": "Instant Replay",
         "goalieA": "Rich Ford",
         "goalieB": "Alex Chang"
     },
     {
-        "date": "2024-03-07T02:15:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Outlaws",
-        "goalieA": "Dan Dorney",
+        "date": "2024-11-24T23:30:00.000Z",
+        "teamA": "Orcutt Real Estate",
+        "teamB": "Dianes Dipsticks",
+        "goalieA": "Alton Pace",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2024-11-25T01:00:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Mansour Jewelers",
+        "goalieA": "Alton Pace",
+        "goalieB": "Matt Hobbs"
+    },
+    {
+        "date": "2024-11-25T02:30:00.000Z",
+        "teamA": "Ice Cream Bar",
+        "teamB": "Black Sheep",
+        "goalieA": "Matt Hobbs",
         "goalieB": "Rich Ford"
     }
 ]

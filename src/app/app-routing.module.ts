@@ -19,8 +19,8 @@ const routes: Routes = [
     loadChildren: () => import('./schedule/schedule.module').then(m => m.ScheduleModule)
   },
   {
-    path: 'videos',
-    loadChildren: () => import('./videos/videos.module').then(m => m.VideosModule)
+    path: 'rosters',
+    loadChildren: () => import('./rosters/rosters.module').then(m => m.RostersModule)
   }
 ];
 

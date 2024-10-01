@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { ScheduledGame } from '../models/scheduled-game';
+import { ScheduledGame } from '../../../schedule/models/scheduled-game';
 
 @Pipe({
   name: 'groupGamesByDay',

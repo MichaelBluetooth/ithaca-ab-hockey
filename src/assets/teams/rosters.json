@@ -1,0 +1,115 @@
+[
+    {
+        "team": "Black Sheep",
+        "roster": [
+            "Christopher Byrne (Captain)",
+            "Patrick Cummings",
+            "John Scott",
+            "Tom Clayton",
+            "Frank Piliero",
+            "Marc Purdy",
+            "Mike Petrich",
+            "Marty Van Der Heide",
+            "Beau Berman",
+            "Andrew Boucher",
+            "Lauri Kytomaa",
+            "Frank Phillips",
+            "Casey Williamson",
+            "Thomas Andrist",
+            "Tyler Nevill (aka Germano)"
+        ]
+    },
+    {
+        "team": "Dianes Dipsticks",
+        "roster": [
+            "Alex Hayes (Captain)",
+            "Jared Smith",
+            "JT Walters",
+            "George Hansen",
+            "Wyatt Flanders",
+            "Dakota Potenza",
+            "Richard Kiely",
+            "Parker Hubbell",
+            "Jacob Grippin",
+            "Cameron Riley",
+            "David Burke",
+            "Jodi Schmohe",
+            "Travis Hidlay"
+        ]
+    },
+    {
+        "team": "Orcutt Real Estate",
+        "roster": [
+            "Nicolau Spadoni",
+            "James Orcutt (Captain)",
+            "Matthew Bischoff",
+            "Jess Link",
+            "Kenny Hall",
+            "Conor McKendy",
+            "Shane Hutchinson",
+            "David Maldow",
+            "Matt Dorsey",
+            "Nick Downs",
+            "John Goodrow",
+            "Suan Yong",
+            "August Choder",
+            "Russel Kastner"
+        ]
+    },
+    {
+        "team": "Mansour Jewlers",
+        "roster": [
+            "Peter Enns (Captain)",
+            "Joshua Streets",
+            "Dane Jackson",
+            "Russell barkley",
+            "Elrik McCheyne",
+            "Jeff Rosato",
+            "Tim Pasto",
+            "Carson Case",
+            "Brandon French",
+            "Collin Case",
+            "Taylor Mattus",
+            "Michael Abdulky",
+            "Joe Cleary",
+            "David Erickson"
+        ]
+    },
+    {
+        "team": "Ice Cream Bar",
+        "roster": [
+            "Danny Mazzarella",
+            "Kevin Broderick",
+            "Daniel Urda",
+            "Cody Kurbiec",
+            "Derin Ozturk",
+            "Austin Bunce",
+            "Andrej Singer",
+            "Joshua Cargen",
+            "Sophia Koenig (Captain)",
+            "Tristan Cooper",
+            "Dylan Cooper",
+            "Josh Kerkaert",
+            "Doug Mancuso",
+            "Kellie Joyce"
+        ]
+    },
+    {
+        "team": "Instant Replay",
+        "roster": [
+            "Mike Stella ",
+            "Ryan Lohin",
+            "Conor O'Reilly",
+            "Jake Atkinson",
+            "Justin Platis",
+            "Connor Hudson",
+            "David Kunau",
+            "Christian Kunau",
+            "Thomas Wright",
+            "Andrew Rossi ",
+            "Jackson Sequist",
+            "Nathan Peterson",
+            "Adler Smith"
+        ]
+    }
+]

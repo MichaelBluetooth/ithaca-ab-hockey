@@ -10,6 +10,8 @@ export class PtsPerGamePipe implements PipeTransform {
     const gamesPlayed = team.wins + team.losses + team.ties;
     const totalPts = team.wins*2 + team.ties;
 
-    return (totalPts/gamesPlayed).toFixed(2);
+    const ret = (totalPts/gamesPlayed).toFixed(2);
+
+    return ret === "NaN" ? "0" : ret;
   }
 }

@@ -2,34 +2,11 @@
   Schedule
 </h1>
 
-<p>Official schedule for the 2024 season is yet to be announced. You can sign up for the 2024 season <a
-    href="https://www.signupgenius.com/go/10C0A44A5A82BA7F49-48362254-2425#/">here</a>.
+<p>
+  The schedule is still being finalized, so please check back! The official schedule is available on <a href="https://docs.google.com/spreadsheets/d/1ttVHnN5RidBciGpv9I9GDgvQnjQ9VYObOI0zsuOd8kY/edit?gid=1969887782#gid=1969887782">the google spreadsheet</a>.
 </p>
 
-<div class="fw-bold">
-  2024 League Evaluation Skates
-</div>
-<div>
-  <a href="https://www.signupgenius.com/go/10C0A44A5A82BA7F49-50837514-ableague#/">
-    Sign Up Here
-  </a>
-</div>
-<div>
-  <ul>
-    <li>
-      6:30 - 7:45pm
-    </li>
-    <li>
-      8:00 - 9:15pm
-    </li>
-  </ul>
-</div>
-
-<!-- <p>
-  Please be aware that the the official schedule is available on <a href="https://docs.google.com/spreadsheets/d/1KSGk-EbkXGWFUAMsRAsxo2BDrBx3c_DoYziibktN-Xo/edit#gid=1969887782">the google spreadsheet</a>. There may be a slight delay on this site and the google calendars when there are updates!
-</p>
-
-<h3>Google Calendars</h3>
+<!-- <h3>Google Calendars</h3>
 <p>Thank you to Suan Yong for creating Google Calendars for each team.</p>
 
 <div class="row mb-2" *ngFor="let row of calendars">
@@ -46,66 +23,9 @@
       </a>
     </div>
   </div>
-</div>
+</div> -->
 
 <hr>
-
-<div class="p-2">
-  <div class="fs-6 fw-bold">Sunday, October 1, 2023</div>
-  <table class="table table-responsive">
-    <thead>
-      <tr>
-        <th class="team-column">Matchup</th>
-        <th class="vs-column"></th>
-        <th class="team-column"></th>
-        <th class="time-column">Time</th>
-        <th class="goalie-column">Goalie Matchup</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="team-column">
-          Registration at C.R.C. for all players
-        </td>
-        <td class="vs-column"></td>
-        <td class="team-column">
-        </td>
-        <td class="time-column">
-          6:00 PM
-        </td>
-        <td class="goalie-column">
-        </td>
-      </tr>
-      <tr>
-        <td class="team-column">
-          A/B Evaluation
-        </td>
-        <td class="vs-column"></td>
-        <td class="team-column">
-        </td>
-        <td class="time-column">
-          6:45 PM
-        </td>
-        <td class="goalie-column">
-        </td>
-      </tr>
-      <tr>
-        <td class="team-column">
-          A/B Evaluation
-        </td>
-        <td class="vs-column"></td>
-        <td class="team-column">
-        </td>
-        <td class="time-column">
-          8:15 PM
-        </td>
-        <td class="goalie-column">
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
 
 <ng-container *ngFor="let gameDay of schedule | groupGamesByDay">
   <div class="p-2" [id]="gameDay.date | date:'fullDate'" [class.highlight]="gameDay.date | isToday">
@@ -141,4 +61,4 @@
       </tbody>
     </table>
   </div>
-</ng-container> -->
+</ng-container>
