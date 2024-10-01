@@ -11,9 +11,9 @@
                     {{gameDay.date | date}}                    
                 </div>
                 <div *ngFor="let game of gameDay.games">
-                    <img class="d-none d-lg-inline me-2" [src]="game.teamA | teamLogo:teams" height="25px">
+                    <img class="me-2" [src]="game.teamA | teamLogo:teams" height="25px">
                     vs
-                    <img class="d-none d-lg-inline me-2" [src]="game.teamB | teamLogo:teams" height="25px">
+                    <img class="me-2" [src]="game.teamB | teamLogo:teams" height="25px">
                     @
                     {{game.date | date:'shortTime'}}
                 </div>
