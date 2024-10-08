@@ -35,9 +35,9 @@
         "logo": "white_team_logo.jpg",
         "wins": 0,
         "losses": 1,
-        "ties": 0,
-        "goals_for": 2,
-        "goals_against": 5
+        "ties": 1,
+        "goals_for": 8,
+        "goals_against": 11
     },
     {
         "name": "Ice Cream Bar",
@@ -45,9 +45,9 @@
         "logo": "teal_team_logo.jpg",
         "wins": 1,
         "losses": 0,
-        "ties": 0,
-        "goals_for": 8,
-        "goals_against": 4
+        "ties": 1,
+        "goals_for": 14,
+        "goals_against": 10
     },
     {
         "name": "Instant Replay",
