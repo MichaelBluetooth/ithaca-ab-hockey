@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
+import { FEATURED_CONTENT } from 'src/app/featured-content';
 
 @Component({
   selector: 'app-featured-content',
@@ -11,6 +12,6 @@ export class FeaturedContentComponent {
 
   constructor(domSanitizer: DomSanitizer) {
     // this.videoUrl = domSanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/CYPNYEfMceg?autoplay=0');
-    this.videoUrl = domSanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/peYtpzMlCgA");
+    this.videoUrl = domSanitizer.bypassSecurityTrustResourceUrl(FEATURED_CONTENT.video);
   }
 }

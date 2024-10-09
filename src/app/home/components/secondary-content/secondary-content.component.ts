@@ -17,22 +17,28 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
-      title: "Intoducing ICE CREAM BAR",
-      description: "Please welcome the newest sponsor in our leage: Ice Cream Bar",
+      title: "10/6 - Double Digit Dipsticks",
+      description: "Dipsticks \"double digit\" Dipsticks beat Sheep, win 10-2",
+      image: "assets/images/dianes_vs_blacksheep_11-12-2023.png",
+      link: ""
+    },
+    {
+      title: "10/6 - Mansour soured by Orcutt",
+      description: "Orcutt Real Estate defeat Mansour Jewelers 5-2",
+      image: "assets/images/orcutt_mansours_preseason.png",
+      link: ""
+    },
+    {
+      title: "10/6 - Ice Cream Bar melt Instant Replay",
+      description: "Instant Replay intimidated by new look, fall 4-8",
       image: "assets/images/icb_mascot.jpg",
-      link: "https://icbtburg.com/"
+      link: ""
     },
     {
-      title: "Outlaws 2024 Champs",
-      description: "Congratulations to the MBA team and goaltender Rich Ford!",
-      image: "assets/images/2024_champs.png",
-      link: "https://www.youtube.com/watch?v=u8vVIxWCWNc"
-    },
-    {
-      title: "2023 Season CRC Plays of the Year",
-      description: "Check out the best plays from the 2023 season right here!",
-      image: "assets/images/lfg_presents_2023.png",
-      link: "https://www.youtube.com/watch?v=3a6thDIr3Es"
+      title: "10/7 - Mansour and ICB evenly matched",
+      description: "Mansour Jewelers and Ice Cream Bar evenly matched in season first tie, 6-6",
+      image: "assets/images/mansours.png",
+      link: ""
     }
   ]
 }
