@@ -26,7 +26,7 @@ export class SecondaryContentComponent {
       title: "10/6 - Mansour soured by Orcutt",
       description: "Orcutt Real Estate defeat Mansour Jewelers 5-2",
       image: "assets/images/orcutt_mansours_preseason.png",
-      link: ""
+      link: "https://www.youtube.com/watch?v=1DgYStaVTVE"
     },
     {
       title: "10/6 - Ice Cream Bar melt Instant Replay",
@@ -38,7 +38,7 @@ export class SecondaryContentComponent {
       title: "10/7 - Mansour and ICB evenly matched",
       description: "Mansour Jewelers and Ice Cream Bar evenly matched in season first tie, 6-6",
       image: "assets/images/mansours.png",
-      link: ""
+      link: "https://www.youtube.com/watch?v=pQtvUcqjcVo"
     }
   ]
 }
