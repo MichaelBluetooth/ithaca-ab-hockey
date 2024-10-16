@@ -4,10 +4,10 @@
         "color": "Black",
         "logo": "black_team_logo.jpg",
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "ties": 1,
-        "goals_for": 5,
-        "goals_against": 5
+        "goals_for": 7,
+        "goals_against": 13
     },
     {
         "name": "Dianes Dipsticks",
@@ -33,11 +33,11 @@
         "name": "Mansour Jewelers",
         "color": "white",
         "logo": "white_team_logo.jpg",
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "ties": 1,
-        "goals_for": 10,
-        "goals_against": 9
+        "goals_for": 18,
+        "goals_against": 11
     },
     {
         "name": "Ice Cream Bar",

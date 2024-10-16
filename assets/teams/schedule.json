@@ -59,8 +59,8 @@
         "date": "2024-10-15T01:15:00.000Z",
         "teamA": "Black Sheep",
         "teamB": "Mansour Jewelers",
-        "goalieA": "Alton Pace",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2024-10-17T01:15:00.000Z",
@@ -73,14 +73,14 @@
         "date": "2024-10-20T22:30:00.000Z",
         "teamA": "Black Sheep",
         "teamB": "Ice Cream Bar",
-        "goalieA": "Alton Pace",
+        "goalieA": "",
         "goalieB": "Alex Chang"
     },
     {
         "date": "2024-10-21T00:00:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Orcutt Real Estate",
-        "goalieA": "Alton Pace",
+        "goalieA": "",
         "goalieB": "Matt Hobbs"
     },
     {
@@ -94,7 +94,7 @@
         "date": "2024-10-22T01:15:00.000Z",
         "teamA": "Orcutt Real Estate",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Alton Pace",
+        "goalieA": "Dylan Riker",
         "goalieB": "Matt Hobbs"
     },
     {
