@@ -144,8 +144,8 @@ download(schedule_url).then(csvTxt => {
                 date: date.toISOString(),
                 teamA: TeamKey[teamA].name,
                 teamB: TeamKey[teamB].name,
-                goalieA: goalieA,
-                goalieB: goalieB
+                goalieA: goalieA?.trim(),
+                goalieB: goalieB?.trim()
             });
         }
 

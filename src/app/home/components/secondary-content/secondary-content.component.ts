@@ -17,28 +17,28 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
-      title: "10/6 - Double Digit Dipsticks",
-      description: "Dipsticks \"double digit\" Dipsticks beat Sheep, win 10-2",
-      image: "assets/images/dianes_vs_blacksheep_11-12-2023.png",
+      title: "10/14 - Mansours Defeat Sheep",
+      description: "Mansour Jewelers beat Black Sheep 8-2",
+      image: "assets/images/mansour_vs_blacksheep_11-20-2023.png",
       link: ""
     },
     {
-      title: "10/6 - Mansour soured by Orcutt",
-      description: "Orcutt Real Estate defeat Mansour Jewelers 5-2",
-      image: "assets/images/orcutt_mansours_preseason.png",
-      link: "https://www.youtube.com/watch?v=1DgYStaVTVE"
-    },
-    {
-      title: "10/6 - Ice Cream Bar melt Instant Replay",
-      description: "Instant Replay intimidated by new look, fall 4-8",
+      title: "10/13 - Ice Cream Bar Stays Hot",
+      description: "Ice Cream Bar defeat Dianes Dipsticks, fall 5-4",
       image: "assets/images/icb_mascot.jpg",
       link: ""
     },
     {
-      title: "10/7 - Mansour and ICB evenly matched",
-      description: "Mansour Jewelers and Ice Cream Bar evenly matched in season first tie, 6-6",
-      image: "assets/images/mansours.png",
-      link: "https://www.youtube.com/watch?v=pQtvUcqjcVo"
-    }
+      title: "10/13 - Orc-can't Cut It",
+      description: "Mansour Jewelers top Orcutt Real Estate 5-4",
+      image: "assets/images/orcutt_mansours_preseason.png",
+      link: "https://www.youtube.com/watch?v=YenAjctMB6k"
+    },
+    {
+      title: "10/13 - Sheep and Orcutt Tie",
+      description: "Orcutt Real Estate and Black Sheep evenly matched, 5-5",
+      image: "assets/images/blacksheep_vs_orcutt_11-6-2023.png",
+      link: "https://www.youtube.com/watch?v=YenAjctMB6k"
+    }    
   ]
 }

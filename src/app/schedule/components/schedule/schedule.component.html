@@ -55,7 +55,7 @@
             {{ game.date | date: "shortTime" }}
           </td>
           <td class="goalie-column">
-            {{game.goalieA}} & {{game.goalieB}}
+            {{game.goalieA | goalieName}} & {{game.goalieB | goalieName}}
           </td>
         </tr>
       </tbody>
