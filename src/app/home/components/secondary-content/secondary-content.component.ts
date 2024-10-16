@@ -24,20 +24,20 @@ export class SecondaryContentComponent {
     },
     {
       title: "10/13 - Ice Cream Bar Stays Hot",
-      description: "Ice Cream Bar defeat Dianes Dipsticks, fall 5-4",
+      description: "Ice Cream Bar defeat Dianes Dipsticks, 5-4",
       image: "assets/images/icb_mascot.jpg",
       link: ""
     },
     {
       title: "10/13 - Orc-can't Cut It",
       description: "Mansour Jewelers top Orcutt Real Estate 5-4",
-      image: "assets/images/orcutt_mansours_preseason.png",
+      image: "assets/images/mansour_vs_orcutt_11-13-2024.png",
       link: "https://www.youtube.com/watch?v=YenAjctMB6k"
     },
     {
       title: "10/13 - Sheep and Orcutt Tie",
       description: "Orcutt Real Estate and Black Sheep evenly matched, 5-5",
-      image: "assets/images/blacksheep_vs_orcutt_11-6-2023.png",
+      image: "assets/images/orcutt_vs_blacksheep_11-13-2024.png",
       link: "https://www.youtube.com/watch?v=YenAjctMB6k"
     }    
   ]
