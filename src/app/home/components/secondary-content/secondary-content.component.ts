@@ -17,6 +17,12 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
+      title: "10/16 - Melted Ice Cream?!",
+      description: "Orcutt Real Estate melt Ice Cream Bar, win 6-3",
+      image: "assets/images/dianes_vs_orcutt_1-22-2024.png",
+      link: ""
+    },
+    {
       title: "10/14 - Mansours Defeat Sheep",
       description: "Mansour Jewelers beat Black Sheep 8-2",
       image: "assets/images/mansour_vs_blacksheep_11-20-2023.png",
