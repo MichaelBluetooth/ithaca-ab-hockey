@@ -23,11 +23,11 @@
         "name": "Orcutt Real Estate",
         "color": "gold",
         "logo": "gold_team_logo.jpg",
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "ties": 1,
-        "goals_for": 8,
-        "goals_against": 9
+        "goals_for": 14,
+        "goals_against": 12
     },
     {
         "name": "Mansour Jewelers",
@@ -44,10 +44,10 @@
         "color": "Teal",
         "logo": "teal_team_logo.jpg",
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "ties": 1,
-        "goals_for": 11,
-        "goals_against": 10
+        "goals_for": 14,
+        "goals_against": 16
     },
     {
         "name": "Instant Replay",
