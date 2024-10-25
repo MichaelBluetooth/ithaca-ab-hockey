@@ -17,34 +17,28 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
-      title: "10/16 - Melted Ice Cream?!",
-      description: "Orcutt Real Estate melt Ice Cream Bar, win 6-3",
-      image: "assets/images/dianes_vs_orcutt_1-22-2024.png",
+      title: "10/21 - Dianes Dipsticks Dangle Orcutt",
+      description: "Dianes Dipsticks defeat Orcutt Real Estate in back-and-forth game, win 6-5",
+      image: "assets/images/dianes_vs_orcutt_10-24-2024.PNG",
+      link: "https://www.youtube.com/watch?v=vGJJ34YSpKw"
+    },
+    {
+      title: "10/20 - Mansour Jewelers Still Undefeated",
+      description: "Mansour Jewelers remain undefeated in regulation, beat Dianes 5-4",
+      image: "assets/images/mansours_vs_dipsticks_11-5-2023.png",
       link: ""
     },
     {
-      title: "10/14 - Mansours Defeat Sheep",
-      description: "Mansour Jewelers beat Black Sheep 8-2",
-      image: "assets/images/mansour_vs_blacksheep_11-20-2023.png",
-      link: ""
+      title: "10/20 - Instant Replay Defeat Orcutt",
+      description: "Instant Replay defeat Orcutt Real Estate in high scoring game, win 7-6",
+      image: "assets/images/instantreplay_vs_orcutt_10-20-2024.png",
+      link: "https://www.youtube.com/watch?v=Bil4KC8PVRE"
     },
     {
-      title: "10/13 - Ice Cream Bar Stays Hot",
-      description: "Ice Cream Bar defeat Dianes Dipsticks, 5-4",
-      image: "assets/images/icb_mascot.jpg",
-      link: ""
-    },
-    {
-      title: "10/13 - Orc-can't Cut It",
-      description: "Mansour Jewelers top Orcutt Real Estate 5-4",
-      image: "assets/images/mansour_vs_orcutt_11-13-2024.png",
-      link: "https://www.youtube.com/watch?v=YenAjctMB6k"
-    },
-    {
-      title: "10/13 - Sheep and Orcutt Tie",
-      description: "Orcutt Real Estate and Black Sheep evenly matched, 5-5",
-      image: "assets/images/orcutt_vs_blacksheep_11-13-2024.png",
-      link: "https://www.youtube.com/watch?v=YenAjctMB6k"
+      title: "10/20 - Black Sheep Victorious",
+      description: "Black Sheep defeat Ice Cream Bar as E.Net scores first of of the season, win 5-3",
+      image: "assets/images/blacksheep_vs_icecreambar_10-20-2024.PNG",
+      link: "https://www.youtube.com/watch?v=c647rYoeclY"
     }    
   ]
 }
