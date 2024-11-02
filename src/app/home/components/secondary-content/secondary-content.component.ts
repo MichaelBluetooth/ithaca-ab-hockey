@@ -17,28 +17,34 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
-      title: "10/21 - Dianes Dipsticks Dangle Orcutt",
-      description: "Dianes Dipsticks defeat Orcutt Real Estate in back-and-forth game, win 6-5",
-      image: "assets/images/dianes_vs_orcutt_10-24-2024.PNG",
-      link: "https://www.youtube.com/watch?v=vGJJ34YSpKw"
-    },
-    {
-      title: "10/20 - Mansour Jewelers Still Undefeated",
-      description: "Mansour Jewelers remain undefeated in regulation, beat Dianes 5-4",
-      image: "assets/images/mansours_vs_dipsticks_11-5-2023.png",
+      title: "10/30 - Mansour Jewelers ON FIRE",
+      description: "Top Dog Mansour Jewelers beat Instant Replay, 5-2",
+      image: "assets/images/instantreplay_vs_mansours_10-23-2023.png",
       link: ""
     },
     {
-      title: "10/20 - Instant Replay Defeat Orcutt",
-      description: "Instant Replay defeat Orcutt Real Estate in high scoring game, win 7-6",
-      image: "assets/images/instantreplay_vs_orcutt_10-20-2024.png",
-      link: "https://www.youtube.com/watch?v=Bil4KC8PVRE"
+      title: "10/27 - Repeat Victory?",
+      description: "Mansour Jewelers win 6-2 again, defeat Black Sheep",
+      image: "assets/images/instantreplay_vs_icecreambar_10.27.2024.PNG",
+      link: ""
     },
     {
-      title: "10/20 - Black Sheep Victorious",
-      description: "Black Sheep defeat Ice Cream Bar as E.Net scores first of of the season, win 5-3",
-      image: "assets/images/blacksheep_vs_icecreambar_10-20-2024.PNG",
-      link: "https://www.youtube.com/watch?v=c647rYoeclY"
-    }    
+      title: "10/27 - Instant Replay Win",
+      description: "Instant Replay edge Ice Cream Bar in 5-4 win",
+      image: "assets/images/instantreplay_vs_icecreambar_10.27.2024.PNG",
+      link: "https://www.youtube.com/watch?v=G0Y2GgsSwsI"
+    },
+    {
+      title: "10/27 - Dianes Danglers",
+      description: "Dianes Dipsticks beat Black Sheep, 8-4",
+      image: "assets/images/dianes_vs_blacksheep_10.27.2024.PNG",
+      link: "https://www.youtube.com/watch?v=Voxs9G1ly9o"
+    },
+    {
+      title: "10/27 - Mansour Jewelers Stay Hot",
+      description: "Mansour Jewelers remain undefeated in regulation, defeat Orcutt Real Estate 6-2",
+      image: "assets/images/mansour_vs_orcutt_1.png",
+      link: ""
+    }   
   ]
 }
