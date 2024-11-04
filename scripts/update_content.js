@@ -13,9 +13,9 @@ const toRealDate = (dateRaw, timeRaw) => {
         year = 2025;
     }
 
-    let daylightSavingsTime = false;
-    if (monthNumeric === 11 && dayNumeric >= 5 || monthNumeric === 12 || monthNumeric === 1 || monthNumeric === 2 || monthNumeric === 3) {
-        //if it's november and it's the 5th or greater
+    let daylightSavingsTime = true;
+    if (monthNumeric === 11 && dayNumeric >= 3 || monthNumeric === 12 || monthNumeric === 1 || monthNumeric === 2 || monthNumeric === 3) {
+        //if it's november and it's the 3rd or greater
         // OR it's january
         // OR it's feb
         // OR it's march
