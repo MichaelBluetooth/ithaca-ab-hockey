@@ -17,34 +17,34 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
-      title: "10/30 - Mansour Jewelers ON FIRE",
-      description: "Top Dog Mansour Jewelers beat Instant Replay, 5-2",
-      image: "assets/images/instantreplay_vs_mansours_10-23-2023.png",
+      title: "11/6 - Mansour Jewelers Score More",
+      description: "Mansour Jewelers back to their winning ways, defeat Instant Replay 10-5",
+      image: "assets/images/mansours.png",
       link: ""
     },
     {
-      title: "10/27 - Repeat Victory?",
-      description: "Mansour Jewelers win 6-2 again, defeat Black Sheep",
-      image: "assets/images/instantreplay_vs_icecreambar_10.27.2024.PNG",
+      title: "11/4 - Dianes Dominate",
+      description: "Dianes Dipsticks beat Ice Cream Bar in high scoring game, win 8-4",
+      image: "assets/images/dianes_vs_icecreambar_11-4-2024.png",
+      link: "https://www.youtube.com/watch?v=xr_KkT_IhfE"
+    },
+    {
+      title: "11/3 - Ice Cream Bar ices Black Sheep",
+      description: "Ice Cream Bar defeat Black Sheep, win 4-2",
+      image: "assets/sponsors/ice_cream_bar.jpg",
       link: ""
     },
     {
-      title: "10/27 - Instant Replay Win",
-      description: "Instant Replay edge Ice Cream Bar in 5-4 win",
-      image: "assets/images/instantreplay_vs_icecreambar_10.27.2024.PNG",
-      link: "https://www.youtube.com/watch?v=G0Y2GgsSwsI"
+      title: "11/3 - Dianes Dipsticks edge Mansour Jewelers",
+      description: "Mansour Jewelers dealt first loss by Dianes Dipsticks, fall 3-4",
+      image: "assets/images/dianes_vs_mansour_11-3-2024.PNG",
+      link: "https://www.youtube.com/watch?v=ihcZq-shgJw"
     },
     {
-      title: "10/27 - Dianes Danglers",
-      description: "Dianes Dipsticks beat Black Sheep, 8-4",
-      image: "assets/images/dianes_vs_blacksheep_10.27.2024.PNG",
-      link: "https://www.youtube.com/watch?v=Voxs9G1ly9o"
-    },
-    {
-      title: "10/27 - Mansour Jewelers Stay Hot",
-      description: "Mansour Jewelers remain undefeated in regulation, defeat Orcutt Real Estate 6-2",
-      image: "assets/images/mansour_vs_orcutt_1.png",
-      link: ""
-    }   
+      title: "11/3 - No Replays Please",
+      description: "Instant Replay cruise by Orcutt Real Estate, win 7-3",
+      image: "assets/images/orcutt_vs_instantreplay_11-3-2024.png",
+      link: "https://www.youtube.com/watch?v=U_H8OD9ZPuo"
+    }
   ]
 }
