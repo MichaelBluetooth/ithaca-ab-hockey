@@ -37,8 +37,8 @@ export class SecondaryContentComponent {
     {
       title: "11/17 - Instant Replay Edge Mansour",
       description: "Instant Replay narrowly defeat Mansour Jewelers in 6-5 victory",
-      image: "assets/images/instantreplay_vs_mansours_10-23-2023.png",
-      link: ""
+      image: "assets/images/instantreplay_vs_mansour_11-17-2024.png",
+      link: "https://www.youtube.com/watch?v=dMLw6fFlImc"
     },
     {
       title: "11/17 - Ice Cream Bar melted by Dianes",
