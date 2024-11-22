@@ -15,35 +15,35 @@ interface SecondaryContent {
 })
 export class SecondaryContentComponent {
 
-  sections: SecondaryContent[] = [
+  sections: SecondaryContent[] = [    
     {
-      title: "11/13 - Dianes Dipsticks Contenders?",
-      description: "Dianes Dipsticks remain close to Mansours in standings, defeat Instant Replay 8-3",
+      title: "11/20 - Dianes Disticks dupe Instant Replay",
+      description: "Dianes Disticks defeat Instant Replay 9-3",
       image: "assets/images/dianes_vs_instant_replay_1-14-2024.png",
       link: ""
     },
     {
-      title: "11/11 - Instant Replay Defeat Sheep",
-      description: "Instant Replay defeat struggling Black Sheep by like...a lot",
-      image: "assets/images/blacksheep_vs_instantreplay_10-22-2023.png",
+      title: "11/18 - Hobbs To It",
+      description: "Goaltender Matt Hobbs leads Mansour Jewelers to victory with shutout, 5-0",
+      image: "assets/images/blacksheep_vs_mansours_10-16-2023.png",
       link: ""
     },
     {
-      title: "11/10 - Mansour and Instant Replay tie",
-      description: "Mansour Jewelers and Instant Replay evenly matched in 4-4 tie",
-      image: "assets/images/mansour_vs_mbas.png",
+      title: "11/17 - Pineapples Victorious",
+      description: "Orcutt Real Estate overcome Black Sheep in 8-4 win",
+      image: "assets/images/orcutt_vs_blacksheep_11-13-2024.png",
       link: ""
     },
     {
-      title: "11/10 - Orcutt Edges Ice Cream Bar",
-      description: "Orcutt Real Estate get early lead, manage to hold off Ice Cream Bar in 5-4 win",
-      image: "assets/images/orcutt_vs_dianes_10-23-2023.png",
+      title: "11/17 - Instant Replay Edge Mansour",
+      description: "Instant Replay narrowly defeat Mansour Jewelers in 6-5 victory",
+      image: "assets/images/instantreplay_vs_mansours_10-23-2023.png",
       link: ""
     },
     {
-      title: "11/10 - Dianes Remain Hot",
-      description: "Dianes Dipsticks remain hot, defeat Black Sheep 10-4",
-      image: "assets/images/dianes_vs_blacksheep_1-7-2024.png",
+      title: "11/17 - Ice Cream Bar melted by Dianes",
+      description: "Dianes Dipsticks claim top spot in victory over Ice Cream Bar, 6-2",
+      image: "assets/images/dianes_vs_icecreambar_11-4-2024.png",
       link: ""
     }
   ]
