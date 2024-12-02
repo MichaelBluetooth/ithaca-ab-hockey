@@ -269,8 +269,8 @@
         "date": "2024-12-03T02:15:00.000Z",
         "teamA": "Ice Cream Bar",
         "teamB": "Instant Replay",
-        "goalieA": "Alton Pace",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alex Chang"
     },
     {
         "date": "2024-12-05T02:15:00.000Z",
@@ -281,8 +281,8 @@
     },
     {
         "date": "2024-12-08T23:30:00.000Z",
-        "teamA": "Dianes Dipsticks",
-        "teamB": "Black Sheep",
+        "teamA": "Instant Replay",
+        "teamB": "Ice Cream Bar",
         "goalieA": "Alton Pace",
         "goalieB": "Alex Chang"
     },
@@ -291,12 +291,12 @@
         "teamA": "Mansour Jewelers",
         "teamB": "Orcutt Real Estate",
         "goalieA": "Alton Pace",
-        "goalieB": "??"
+        "goalieB": "Alex Chang"
     },
     {
         "date": "2024-12-09T02:30:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Ice Cream Bar",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Black Sheep",
         "goalieA": "Dylan Riker",
         "goalieB": "Rich Ford"
     },
@@ -316,10 +316,10 @@
     },
     {
         "date": "2024-12-15T23:30:00.000Z",
-        "teamA": "Mansour Jewelers",
-        "teamB": "Dianes Dipsticks",
+        "teamA": "Black Sheep",
+        "teamB": "Orcutt Real Estate",
         "goalieA": "Matt Hobbs",
-        "goalieB": "??"
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2024-12-16T01:00:00.000Z",
@@ -330,8 +330,8 @@
     },
     {
         "date": "2024-12-16T02:30:00.000Z",
-        "teamA": "Orcutt Real Estate",
-        "teamB": "Black Sheep",
+        "teamA": "Mansour Jewelers",
+        "teamB": "Dianes Dipsticks",
         "goalieA": "Dylan Riker",
         "goalieB": "Rich Ford"
     },
@@ -347,13 +347,13 @@
         "teamA": "Ice Cream Bar",
         "teamB": "Dianes Dipsticks",
         "goalieA": "Rich Ford",
-        "goalieB": "??"
+        "goalieB": "Matt Hobbs"
     },
     {
         "date": "2025-01-05T23:30:00.000Z",
         "teamA": "Mansour Jewelers",
         "teamB": "Ice Cream Bar",
-        "goalieA": "??",
+        "goalieA": "Alton Pace",
         "goalieB": "Alex Chang"
     },
     {
@@ -415,15 +415,15 @@
     {
         "date": "2025-01-16T02:15:00.000Z",
         "teamA": "Dianes Dipsticks",
-        "teamB": "Instant Replay",
+        "teamB": "Mansour Jewelers",
         "goalieA": "Rich Ford",
         "goalieB": "Alex Chang"
     },
     {
         "date": "2025-01-19T23:30:00.000Z",
-        "teamA": "Mansour Jewelers",
-        "teamB": "Dianes Dipsticks",
-        "goalieA": "??",
+        "teamA": "Instant Replay",
+        "teamB": "Orcutt Real Estate",
+        "goalieA": "Alton Pace",
         "goalieB": "Alex Chang"
     },
     {
@@ -435,8 +435,8 @@
     },
     {
         "date": "2025-01-20T02:30:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Orcutt Real Estate",
+        "teamA": "Mansour Jewelers",
+        "teamB": "Dianes Dipsticks",
         "goalieA": "Dylan Riker",
         "goalieB": "Rich Ford"
     },
@@ -526,42 +526,42 @@
     },
     {
         "date": "2025-02-16T23:30:00.000Z",
-        "teamA": "Black Sheep",
+        "teamA": "Instant Replay",
         "teamB": "Dianes Dipsticks",
         "goalieA": "??",
         "goalieB": "Alex Chang"
     },
     {
         "date": "2025-02-17T01:00:00.000Z",
-        "teamA": "Orcutt Real Estate",
-        "teamB": "Mansour Jewelers",
+        "teamA": "Ice Cream Bar",
+        "teamB": "Instant Replay",
         "goalieA": "Alton Pace",
         "goalieB": "Matt Hobbs"
     },
     {
         "date": "2025-02-17T02:30:00.000Z",
-        "teamA": "Ice Cream Bar",
-        "teamB": "Instant Replay",
+        "teamA": "Orcutt Real Estate",
+        "teamB": "Mansour Jewelers",
         "goalieA": "Dylan Riker",
         "goalieB": "Rich Ford"
     },
     {
         "date": "2025-02-18T02:15:00.000Z",
         "teamA": "Ice Cream Bar",
-        "teamB": "Mansour Jewelers",
+        "teamB": "Instant Replay",
         "goalieA": "Alton Pace",
         "goalieB": "Matt Hobbs"
     },
     {
         "date": "2025-02-20T02:15:00.000Z",
         "teamA": "Dianes Dipsticks",
-        "teamB": "Instant Replay",
+        "teamB": "Black Sheep",
         "goalieA": "Rich Ford",
         "goalieB": "Alex Chang"
     },
     {
         "date": "2025-02-23T23:30:00.000Z",
-        "teamA": "Orcutt Real Estate",
+        "teamA": "Instant Replay",
         "teamB": "Black Sheep",
         "goalieA": "??",
         "goalieB": "Alex Chang"
@@ -582,7 +582,7 @@
     },
     {
         "date": "2025-02-25T02:15:00.000Z",
-        "teamA": "Instant Replay",
+        "teamA": "Orcutt Real Estate",
         "teamB": "Black Sheep",
         "goalieA": "Alton Pace",
         "goalieB": "Matt Hobbs"
@@ -596,8 +596,8 @@
     },
     {
         "date": "2025-03-02T23:30:00.000Z",
-        "teamA": "Black Sheep",
-        "teamB": "Mansour Jewelers",
+        "teamA": "Orcutt Real Estate",
+        "teamB": "Black Sheep",
         "goalieA": "??",
         "goalieB": "Alex Chang"
     },
@@ -610,8 +610,8 @@
     },
     {
         "date": "2025-03-03T02:30:00.000Z",
-        "teamA": "Orcutt Real Estate",
-        "teamB": "Instant Replay",
+        "teamA": "Instant Replay",
+        "teamB": "Mansour Jewelers",
         "goalieA": "Dylan Riker",
         "goalieB": "Rich Ford"
     },
