@@ -17,22 +17,28 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
-      title: "11/24 - Black Sheep Show",
-      description: "Black Sheep secure victory over Ice Cream Bar, win 4-2",
-      image: "assets/images/blacksheep_face.png",
+      title: "12/11 - Masour Win!",
+      description: "Mansour Jewelers overpower Black Sheep, win 6-3",
+      image: "assets/images/mansour_vs_blacksheep_11-20-2023.png",
       link: ""
     },
     {
-      title: "11/24 - Dianes Dipsticks Dominate",
-      description: "Dianes win both games in back-to-back matches against Orcutt and Mansour",
-      image: "assets/images/dianes.png",
+      title: "12/9 - Orcutt Hang On",
+      description: "Orcutt Realestate hold off Ice Cream Bar, win 5-4",
+      image: "assets/images/orcutt_vs_mansours_12-10-2023.png",
       link: ""
     },
     {
-      title: "11/20 - Dipsticks vs. Instant Replay",
-      description: "Dianes start busy weekend off with a 9-3 victory over Instant Replay",
-      image: "assets/images/dianes_vs_instant_replay_1-14-2024.png",
+      title: "12/9 - Black Sheep Tie Dianes",
+      description: "Dianes and Black Sheep evenly matched, tie game 4-4",
+      image: "assets/images/dianes_vs_blacksheep_1-28-2024.png",
       link: ""
-    }    
+    },
+    {
+      title: "12/9 - Mansour Stay Hot",
+      description: "Mansour Jewelers continue winning ways after holiday break, defeat Orcutt 5-2",
+      image: "assets/images/mansour_vs_orcutt_1.png",
+      link: ""
+    }
   ]
 }

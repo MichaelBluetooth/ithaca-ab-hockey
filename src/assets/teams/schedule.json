@@ -276,29 +276,22 @@
         "date": "2024-12-05T02:15:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Orcutt Real Estate",
-        "goalieA": "Rich Ford",
-        "goalieB": "Alex Chang"
-    },
-    {
-        "date": "2024-12-08T23:30:00.000Z",
-        "teamA": "Instant Replay",
-        "teamB": "Ice Cream Bar",
-        "goalieA": "Alton Pace",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Rich Ford"
     },
     {
         "date": "2024-12-09T01:00:00.000Z",
         "teamA": "Mansour Jewelers",
         "teamB": "Orcutt Real Estate",
-        "goalieA": "Alton Pace",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2024-12-09T02:30:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Black Sheep",
-        "goalieA": "Dylan Riker",
-        "goalieB": "Rich Ford"
+        "goalieA": "Rich Ford",
+        "goalieB": "Dylan Riker"
     },
     {
         "date": "2024-12-10T02:15:00.000Z",
@@ -311,14 +304,14 @@
         "date": "2024-12-12T02:15:00.000Z",
         "teamA": "Mansour Jewelers",
         "teamB": "Black Sheep",
-        "goalieA": "Rich Ford",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Rich Ford"
     },
     {
         "date": "2024-12-15T23:30:00.000Z",
         "teamA": "Black Sheep",
         "teamB": "Orcutt Real Estate",
-        "goalieA": "Matt Hobbs",
+        "goalieA": "Thomas Hess",
         "goalieB": "Alton Pace"
     },
     {
@@ -332,7 +325,7 @@
         "date": "2024-12-16T02:30:00.000Z",
         "teamA": "Mansour Jewelers",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Dylan Riker",
+        "goalieA": "Matt Hobbs",
         "goalieB": "Rich Ford"
     },
     {
@@ -388,7 +381,7 @@
         "date": "2025-01-12T23:30:00.000Z",
         "teamA": "Ice Cream Bar",
         "teamB": "Mansour Jewelers",
-        "goalieA": "??",
+        "goalieA": "Matt Hobbs",
         "goalieB": "Alex Chang"
     },
     {
