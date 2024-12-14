@@ -25,8 +25,8 @@ export class SecondaryContentComponent {
     {
       title: "12/9 - Orcutt Hang On",
       description: "Orcutt Realestate hold off Ice Cream Bar, win 5-4",
-      image: "assets/images/orcutt_vs_mansours_12-10-2023.png",
-      link: ""
+      image: "assets/images/orcutt_vs_icecreambar_12-9-24.jpg",
+      link: "https://www.youtube.com/watch?v=lO8VHNWcljU"
     },
     {
       title: "12/9 - Black Sheep Tie Dianes",
