@@ -17,27 +17,33 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
-      title: "12/11 - Masour Win!",
-      description: "Mansour Jewelers overpower Black Sheep, win 6-3",
-      image: "assets/images/mansour_vs_blacksheep_11-20-2023.png",
+      title: "12/18 - Ice Cream Bar melted by Dianes",
+      description: "Dianes secure one more win before heading into break, win 4-3",
+      image: "assets/images/dianes_vs_icecreambar_11-4-2024.png",
       link: ""
     },
     {
-      title: "12/9 - Orcutt Hang On",
-      description: "Orcutt Realestate hold off Ice Cream Bar, win 5-4",
-      image: "assets/images/orcutt_vs_icecreambar_12-9-24.jpg",
-      link: "https://www.youtube.com/watch?v=lO8VHNWcljU"
-    },
-    {
-      title: "12/9 - Black Sheep Tie Dianes",
-      description: "Dianes and Black Sheep evenly matched, tie game 4-4",
-      image: "assets/images/dianes_vs_blacksheep_1-28-2024.png",
+      title: "12/16 - Orcutt Overcome Sheep",
+      description: "Orcutt Real Estate head into winter break on a 4 game winning streak, win 6-4",
+      image: "assets/images/orcutt_vs_blacksheep_11-13-2024.png",
       link: ""
     },
     {
-      title: "12/9 - Mansour Stay Hot",
-      description: "Mansour Jewelers continue winning ways after holiday break, defeat Orcutt 5-2",
-      image: "assets/images/mansour_vs_orcutt_1.png",
+      title: "12/15 - Dianes Dominance Continues",
+      description: "Dianes defeat Mansour Jewelers 7-4",
+      image: "assets/images/mansour_vs_dianes_12-15-2024.png",
+      link: "https://www.youtube.com/watch?v=pj3FPRtMH18"
+    },
+    {
+      title: "12/15 - Ice Cream Bar Sheer Sheep",
+      description: "Ice Cream Bar defeat Black Sheep 5-4",
+      image: "assets/images/blacksheep_vs_icecreambar_12-15-2024.jpg",
+      link: "https://www.youtube.com/watch?v=3rq-c_Xdvag"
+    },
+    {
+      title: "12/15 - Orcutt Hold On",
+      description: "Orcutt Real Estate narrowly defeat Black Sheep, win 3-2",
+      image: "assets/images/blacksheep_vs_orcutt_1-14-2024.png",
       link: ""
     }
   ]

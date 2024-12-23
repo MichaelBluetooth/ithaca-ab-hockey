@@ -311,15 +311,15 @@
         "date": "2024-12-15T23:30:00.000Z",
         "teamA": "Black Sheep",
         "teamB": "Orcutt Real Estate",
-        "goalieA": "Thomas Hess",
-        "goalieB": "Alton Pace"
+        "goalieA": "Alton Pace",
+        "goalieB": "Thomas Hess"
     },
     {
         "date": "2024-12-16T01:00:00.000Z",
         "teamA": "Black Sheep",
         "teamB": "Ice Cream Bar",
-        "goalieA": "Alton Pace",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2024-12-16T02:30:00.000Z",
