@@ -1,3 +1,3 @@
 export const FEATURED_CONTENT = {
-  video: 'https://www.youtube.com/embed/pj3FPRtMH18'
+  video: 'https://www.youtube.com/embed/WNd4gGnvGCM'
 };

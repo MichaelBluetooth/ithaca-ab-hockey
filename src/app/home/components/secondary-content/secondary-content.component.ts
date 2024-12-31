@@ -19,14 +19,14 @@ export class SecondaryContentComponent {
     {
       title: "12/18 - Ice Cream Bar melted by Dianes",
       description: "Dianes secure one more win before heading into break, win 4-3",
-      image: "assets/images/dianes_vs_icecreambar_11-4-2024.png",
-      link: ""
+      image: "assets/images/dianes_vs_icecreambar_12-18-2024.png",
+      link: "https://www.youtube.com/watch?v=7rTmX2Jk1pk"
     },
     {
       title: "12/16 - Orcutt Overcome Sheep",
       description: "Orcutt Real Estate head into winter break on a 4 game winning streak, win 6-4",
-      image: "assets/images/orcutt_vs_blacksheep_11-13-2024.png",
-      link: ""
+      image: "assets/images/orcutt_vs_blacksheep_12-16-2024.png",
+      link: "https://www.youtube.com/watch?v=iisGvpu-pcE"
     },
     {
       title: "12/15 - Dianes Dominance Continues",
