@@ -346,8 +346,8 @@
         "date": "2025-01-05T23:30:00.000Z",
         "teamA": "Mansour Jewelers",
         "teamB": "Ice Cream Bar",
-        "goalieA": "Alton Pace",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2025-01-06T01:00:00.000Z",
@@ -367,8 +367,8 @@
         "date": "2025-01-07T02:15:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Orcutt Real Estate",
-        "goalieA": "Alton Pace",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2025-01-09T02:15:00.000Z",
@@ -381,36 +381,36 @@
         "date": "2025-01-12T23:30:00.000Z",
         "teamA": "Ice Cream Bar",
         "teamB": "Mansour Jewelers",
-        "goalieA": "Matt Hobbs",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Matt Hobbs"
     },
     {
         "date": "2025-01-13T01:00:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Ice Cream Bar",
-        "goalieA": "Alton Pace",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Dylan Riker"
     },
     {
         "date": "2025-01-13T02:30:00.000Z",
         "teamA": "Orcutt Real Estate",
         "teamB": "Black Sheep",
-        "goalieA": "Dylan Riker",
-        "goalieB": "Rich Ford"
+        "goalieA": "Rich Ford",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2025-01-14T02:15:00.000Z",
         "teamA": "Orcutt Real Estate",
         "teamB": "Ice Cream Bar",
-        "goalieA": "Alton Pace",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2025-01-16T02:15:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Mansour Jewelers",
-        "goalieA": "Rich Ford",
-        "goalieB": "Alex Chang"
+        "goalieA": "Alex Chang",
+        "goalieB": "Rich Ford"
     },
     {
         "date": "2025-01-19T23:30:00.000Z",
