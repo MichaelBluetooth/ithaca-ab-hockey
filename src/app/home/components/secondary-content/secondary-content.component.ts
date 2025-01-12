@@ -17,33 +17,33 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
-      title: "12/18 - Ice Cream Bar melted by Dianes",
-      description: "Dianes secure one more win before heading into break, win 4-3",
-      image: "assets/images/dianes_vs_icecreambar_12-18-2024.png",
-      link: "https://www.youtube.com/watch?v=7rTmX2Jk1pk"
+      title: "1/8 - Masour defeat Sheep",
+      description: "Mansour Jewelers hold on, narrowly defeat Black Sheep 5-4",
+      image: "assets/images/mansour_vs_blacksheep_11-20-2023.png",
+      link: ""
     },
     {
-      title: "12/16 - Orcutt Overcome Sheep",
-      description: "Orcutt Real Estate head into winter break on a 4 game winning streak, win 6-4",
-      image: "assets/images/orcutt_vs_blacksheep_12-16-2024.png",
-      link: "https://www.youtube.com/watch?v=iisGvpu-pcE"
+      title: "1/6 - Orcutt Wins!",
+      description: "Orcutt Real Estate deliver Dianes Dipsticks rare defeat, win 8-3",
+      image: "assets/images/orcutt_vs_dianes_1-12-2025.png",
+      link: "https://www.youtube.com/watch?v=hxTJsJWGcZk"
     },
     {
-      title: "12/15 - Dianes Dominance Continues",
-      description: "Dianes defeat Mansour Jewelers 7-4",
-      image: "assets/images/mansour_vs_dianes_12-15-2024.png",
-      link: "https://www.youtube.com/watch?v=pj3FPRtMH18"
+      title: "1/5 - Dianes and Sheep Evenly Matched",
+      description: "Late goal by Dianes lead to tie game with Black Sheep, 4-4",
+      image: "assets/images/dianes_vs_blacksheep_1-7-2024.png",
+      link: ""
     },
     {
-      title: "12/15 - Ice Cream Bar Sheer Sheep",
-      description: "Ice Cream Bar defeat Black Sheep 5-4",
-      image: "assets/images/blacksheep_vs_icecreambar_12-15-2024.jpg",
-      link: "https://www.youtube.com/watch?v=3rq-c_Xdvag"
+      title: "1/5 - Double Header Danger",
+      description: "Mansour fall to Orcutt in their 2nd of a back-to-back game, 4-2",
+      image: "assets/images/orcutt_vs_mansours_12-5-2024.png",
+      link: "https://www.youtube.com/watch?v=lwf2SN_EBas"
     },
     {
-      title: "12/15 - Orcutt Hold On",
-      description: "Orcutt Real Estate narrowly defeat Black Sheep, win 3-2",
-      image: "assets/images/blacksheep_vs_orcutt_1-14-2024.png",
+      title: "1/5 - Mansour Wins!",
+      description: "Mansour win first of their double-headers, defeat Ice Cream Bar 5-3",
+      image: "assets/images/mansours.png",
       link: ""
     }
   ]
