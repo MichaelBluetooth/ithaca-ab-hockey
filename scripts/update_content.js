@@ -32,7 +32,7 @@ const toRealDate = (dateRaw, timeRaw) => {
     return new Date(iso);
 }
 
-const schedule_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS7dqw8sMQi6mYeboh9_aKJztFjQ5UFQgHnnSdKs4pahijaSa0bzHad3_KytbgPVRXpKCgAcR6mjfkR/pub?gid=1969887782&single=true&output=csv';
+const schedule_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTYtTbKjtV_G_5AozgDd46hr_6BdavZkxpTnP9Mqs6ieBc2ey8z0m1P1i1pcewMniXpkMY4o7m9NXki/pub?gid=1969887782&single=true&output=csv';
 const schedule_start_row = 10;
 
 const TeamKey = {
