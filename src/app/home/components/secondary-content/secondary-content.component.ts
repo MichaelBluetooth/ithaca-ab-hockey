@@ -17,27 +17,32 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
-      title: "1/20 - Black Sheep Schooled by MBAs",
-      description: "Fresh legged MBAs stay hot, defeat Black Sheep 12-3",
-      image: "assets/images/blacksheep_vs_mbas.png",
+      title: "1/27 - Dianes Score More",
+      description: "Dianes Dipsticks defeat MBAs in high scoring match, 9-6",
+      image: "assets/images/dianes_vs_instant_replay_10-16-2023.png",
       link: ""
     },
     {
-      title: "1/19 - Dianes Defeat Mansour",
-      description: "Dianes Dipsticks topple Mansour Jewelers, win 6-4",
-      image: "assets/images/dianes_vs_mansour_11-3-2024.PNG",
+      title: "1/26 - Black Sheep Fall to MBAs",
+      description: "Black Sheep come up just short in high scoring match, lose to MBAs 8-9",
+      image: "assets/images/blacksheep_vs_mbas_1-29-2025.png",
+    },
+    {
+      title: "1/26 - Or-can't Cut It",
+      description: "Dianes Dipsticks defeat Orcutt Real Estate 5-3",
+      image: "assets/images/dianes_vs_orcutt_1-26-2025.JPG",
+      link: "https://www.youtube.com/watch?v=K6kBgX5Etlw"
+    },
+    {
+      title: "1/26 - Goalie Dual!",
+      description: "Ice Cream Bar beat Mansour 2-1 as goalies Alton Pace and Cy McCrink refuse to let anyone score",
+      image: "assets/images/blacksheep_vs_icecreambar_10-20-2024.PNG",
       link: ""
     },
     {
-      title: "1/19 - Black Sheep and Ice Cream Bar",
-      description: "Black Sheep and Ice Cream Bar end game in a tie, 5-5",
-      image: "assets/images/blacksheep_vs_icecreambar_12-15-2024.jpg",
-      link: ""
-    },
-    {
-      title: "1/19 - Orcutt Taught Lesson By MBAs",
-      description: "MBAs, fresh from break, restart season strong, win 5-3",
-      image: "assets/images/instantreplay_vs_orcutt_12-11-2023.png",
+      title: "1/22 - Orcutt Real Estate Wins",
+      description: "Orcut Real Estate beat Ice Cream Bar 9-6",
+      image: "assets/images/orcutt_vs_icecreambar_12-9-24.jpg",
       link: ""
     }
   ]

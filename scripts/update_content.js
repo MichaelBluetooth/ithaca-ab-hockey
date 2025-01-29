@@ -137,7 +137,7 @@ download(schedule_url).then(csvTxt => {
         const eNetA = +data[9];
         const eNetB = +data[10];
 
-        if (dateRaw && timeRaw && teamA && teamB && goalieA && goalieB) {
+        if (dateRaw && timeRaw && teamA && teamB && goalieA && goalieB && TeamKey[teamA] && TeamKey[teamB]) {
             const date = toRealDate(dateRaw, timeRaw);
 
             schedule.push({
