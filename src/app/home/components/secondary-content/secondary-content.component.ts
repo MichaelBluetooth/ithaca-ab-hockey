@@ -17,32 +17,33 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
-      title: "1/27 - Dianes Score More",
-      description: "Dianes Dipsticks defeat MBAs in high scoring match, 9-6",
-      image: "assets/images/dianes_vs_instant_replay_10-16-2023.png",
+      title: "2/26 - Black Sheep Down",
+      description: "Mansour defeat Black Sheep 7-1",
+      image: "assets/images/blacksheep_vs_mansour_2-26-2025.png",
+      link: "https://www.youtube.com/watch?v=eA8ZziVOOjc"
+    },
+    {
+      title: "2/24 - MBA School Ice Cream Bar",
+      description: "MBAs secure win over Ice Cream Bar, 7-4",
+      image: "assets/images/instantreplay_vs_icecreambar_10.27.2024.PNG",
       link: ""
     },
     {
-      title: "1/26 - Black Sheep Fall to MBAs",
-      description: "Black Sheep come up just short in high scoring match, lose to MBAs 8-9",
-      image: "assets/images/blacksheep_vs_mbas_1-29-2025.png",
-    },
-    {
-      title: "1/26 - Or-can't Cut It",
-      description: "Dianes Dipsticks defeat Orcutt Real Estate 5-3",
-      image: "assets/images/dianes_vs_orcutt_1-26-2025.JPG",
-      link: "https://www.youtube.com/watch?v=K6kBgX5Etlw"
-    },
-    {
-      title: "1/26 - Goalie Dual!",
-      description: "Ice Cream Bar beat Mansour 2-1 as goalies Alton Pace and Cy McCrink refuse to let anyone score",
+      title: "2/23 - Ice Cream Bar Beat Sheep",
+      description: "Ice Cream Bar narrowly defeat sheep, 4-3",
       image: "assets/images/blacksheep_vs_icecreambar_10-20-2024.PNG",
       link: ""
     },
     {
-      title: "1/22 - Orcutt Real Estate Wins",
-      description: "Orcut Real Estate beat Ice Cream Bar 9-6",
-      image: "assets/images/orcutt_vs_icecreambar_12-9-24.jpg",
+      title: "2/23 - Orcutts Falters Against Dianes",
+      description: "Orcutt loses to Dianes in possible round 2 matchup, 2-4",
+      image: "assets/images/dianes_vs_orcutt_1-26-2025.JPG",
+      link: ""
+    },
+    {
+      title: "2/19 - Dianes Beat MBAs",
+      description: "Dianes win by one, beat MBAs 5-4",
+      image: "assets/images/dianes_vs_instant_replay_1-14-2024.png",
       link: ""
     }
   ]
