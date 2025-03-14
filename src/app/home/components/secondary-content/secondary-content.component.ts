@@ -17,34 +17,22 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
-      title: "2/26 - Black Sheep Down",
-      description: "Mansour defeat Black Sheep 7-1",
-      image: "assets/images/blacksheep_vs_mansour_2-26-2025.png",
-      link: "https://www.youtube.com/watch?v=eA8ZziVOOjc"
+      title: "3/9 - MBAs win it all!",
+      description: "MBAs defeat Mansour 6-2 in thrilling final. Possible dynasty in the making.",
+      image: "assets/images/mansour_vs_mba_championship.JPG",
+      link: "https://www.youtube.com/watch?v=Kch9mil9W2M"
     },
     {
-      title: "2/24 - MBA School Ice Cream Bar",
-      description: "MBAs secure win over Ice Cream Bar, 7-4",
-      image: "assets/images/instantreplay_vs_icecreambar_10.27.2024.PNG",
-      link: ""
-    },
-    {
-      title: "2/23 - Ice Cream Bar Beat Sheep",
-      description: "Ice Cream Bar narrowly defeat sheep, 4-3",
-      image: "assets/images/blacksheep_vs_icecreambar_10-20-2024.PNG",
-      link: ""
-    },
-    {
-      title: "2/23 - Orcutts Falters Against Dianes",
-      description: "Orcutt loses to Dianes in possible round 2 matchup, 2-4",
-      image: "assets/images/dianes_vs_orcutt_1-26-2025.JPG",
-      link: ""
-    },
-    {
-      title: "2/19 - Dianes Beat MBAs",
-      description: "Dianes win by one, beat MBAs 5-4",
+      title: "3/5 - MBAs headed to finals",
+      description: "MBAs win 4-1 against Dianes, headed to finals for possible repeat championship win",
       image: "assets/images/dianes_vs_instant_replay_1-14-2024.png",
       link: ""
-    }
+    },
+    {
+      title: "3/3 - Mansour Advances",
+      description: "Mansour overcome Orcutt in overtime, win 3-2",
+      image: "assets/images/mansour_vs_orcutt_3-3-2025.JPG",
+      link: "https://www.youtube.com/watch?v=5UA5WBOX1Ww"
+    }    
   ]
 }
