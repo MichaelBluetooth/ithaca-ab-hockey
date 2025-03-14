@@ -591,8 +591,8 @@
         "date": "2025-03-03T01:00:00.000Z",
         "teamA": "Mansour Jewelers",
         "teamB": "Ice Cream Bar",
-        "goalieA": "Derrick Tomberelli",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Derrick Tomberelli"
     },
     {
         "date": "2025-03-03T02:30:00.000Z",
@@ -600,5 +600,19 @@
         "teamB": "Instant Replay",
         "goalieA": "Dylan Riker",
         "goalieB": "Rich Ford"
+    },
+    {
+        "date": "2025-03-04T02:15:00.000Z",
+        "teamA": "Mansour Jewelers",
+        "teamB": "Orcutt Real Estate",
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alex Chang"
+    },
+    {
+        "date": "2025-03-06T02:15:00.000Z",
+        "teamA": "Dianes Dipsticks",
+        "teamB": "Instant Replay",
+        "goalieA": "Cy McCrink",
+        "goalieB": "Dylan Riker"
     }
 ]

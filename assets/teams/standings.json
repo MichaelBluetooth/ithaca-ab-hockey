@@ -4,59 +4,59 @@
         "color": "Black",
         "logo": "black_team_logo.jpg",
         "wins": 2,
-        "losses": 22,
+        "losses": 23,
         "ties": 4,
-        "goals_for": 97,
-        "goals_against": 191
+        "goals_for": 100,
+        "goals_against": 197
     },
     {
         "name": "Dianes Dipsticks",
         "color": "Blue",
         "logo": "blue_team_logo.jpg",
-        "wins": 20,
-        "losses": 5,
+        "wins": 21,
+        "losses": 6,
         "ties": 3,
-        "goals_for": 165,
-        "goals_against": 110
+        "goals_for": 172,
+        "goals_against": 117
     },
     {
         "name": "Orcutt Real Estate",
         "color": "gold",
         "logo": "gold_team_logo.jpg",
-        "wins": 14,
-        "losses": 12,
+        "wins": 15,
+        "losses": 13,
         "ties": 1,
-        "goals_for": 125,
-        "goals_against": 116
+        "goals_for": 134,
+        "goals_against": 125
     },
     {
         "name": "Mansour Jewelers",
         "color": "white",
         "logo": "white_team_logo.jpg",
-        "wins": 17,
-        "losses": 7,
+        "wins": 18,
+        "losses": 8,
         "ties": 3,
-        "goals_for": 141,
-        "goals_against": 97
+        "goals_for": 148,
+        "goals_against": 107
     },
     {
         "name": "Ice Cream Bar",
         "color": "Teal",
         "logo": "teal_team_logo.jpg",
-        "wins": 9,
+        "wins": 10,
         "losses": 16,
         "ties": 2,
-        "goals_for": 95,
-        "goals_against": 126
+        "goals_for": 103,
+        "goals_against": 130
     },
     {
         "name": "Instant Replay",
         "color": "red",
         "logo": "red_team_logo.jpg",
-        "wins": 11,
-        "losses": 11,
+        "wins": 12,
+        "losses": 12,
         "ties": 1,
-        "goals_for": 144,
-        "goals_against": 127
+        "goals_for": 154,
+        "goals_against": 135
     }
 ]
