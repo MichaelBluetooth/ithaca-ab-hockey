@@ -17,6 +17,12 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
+      title: "ABHL Invites YOU",
+      description: "Hockey is for lovers. ABHL Invites YOU to opening night!",
+      image: "assets/images/special_invite.jpg",
+      link: "https://www.youtube.com/watch?v=uF5WL11_1PU"
+    },
+    {
       title: "3/9 - MBAs win it all!",
       description: "MBAs defeat Mansour 6-2 in thrilling final. Possible dynasty in the making.",
       image: "assets/images/mansour_vs_mba_championship.JPG",
