@@ -39,7 +39,7 @@ const TeamKey = {
     'A': {
         name: 'Black Sheep',
         color: 'Black',
-        logo: 'black_team_logo.jpg',
+        logo: 'black_team_logo_2025.jpg',
         wins: 0,
         losses: 0,
         ties: 0,
