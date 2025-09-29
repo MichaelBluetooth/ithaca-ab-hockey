@@ -17,8 +17,8 @@ export class ScheduleComponent {
 
   ngOnInit() {
     forkJoin([
-      this.http.get('assets/teams/standings.json'),
-      this.http.get('assets/teams/schedule.json'),
+      this.http.get('assets/teams/standings_2025.json'),
+      this.http.get('assets/teams/schedule_2025.json'),
       this.http.get('assets/teams/team_calendars.json')
     ]).subscribe((resp: any) => {
       this.teams = resp[0];

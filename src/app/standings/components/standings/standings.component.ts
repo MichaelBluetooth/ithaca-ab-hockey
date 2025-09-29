@@ -12,7 +12,7 @@ export class StandingsComponent {
   constructor(private http: HttpClient){}
 
   ngOnInit(){
-    this.http.get('assets/teams/standings.json').subscribe((teams: any) => {
+    this.http.get('assets/teams/standings_2025.json').subscribe((teams: any) => {
       this.teams = teams;
     });
   }

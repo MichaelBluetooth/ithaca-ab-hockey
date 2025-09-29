@@ -15,8 +15,8 @@ export class CalendarPanelComponent {
 
   ngOnInit(){
     forkJoin([
-      this.http.get<any[]>('assets/teams/schedule.json'),
-      this.http.get<any[]>('assets/teams/standings.json')
+      this.http.get<any[]>('assets/teams/schedule_2025.json'),
+      this.http.get<any[]>('assets/teams/standings_2025.json')
     ]).subscribe((d) => {
       const nextGames = d[0].filter(c => new Date(c.date) > new Date()).slice(0, 5);
       this.teams = d[1];
