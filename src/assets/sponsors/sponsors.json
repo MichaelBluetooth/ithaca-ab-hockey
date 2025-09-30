@@ -1,5 +1,13 @@
 [
     {
+        "name": "DSP Shows",
+        "website": "https://dspshows.com/",
+        "phone": "607.280.2900",
+        "email": null,
+        "address": "Dan Smalls Presents, Inc P.O. Box 736 Ithaca, NY 14851",
+        "image": "dsp_shows.png"
+    },
+    {
         "name": "Ice Cream Bar",
         "website": "https://icbtburg.com/",
         "phone": "607.387.9656",
