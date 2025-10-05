@@ -1,22 +1,23 @@
 [
     {
-        "team": "Black Sheep",
+        "team": "DSP Shows",
         "roster": [
-            "Christopher Byrne (Captain)",
+            "Mike Petrich (Captain)",
             "Patrick Cummings",
             "John Scott",
-            "Tom Clayton",
             "Frank Piliero",
             "Marc Purdy",
-            "Mike Petrich",
-            "Marty Van Der Heide",
-            "Beau Berman",
+            "Doug Mancuso",
             "Andrew Boucher",
+            "Beau Berman",
             "Lauri Kytomaa",
+            "Andrew Peene",
+            "Marko Novosel",
+            "Dillon Shults",
             "Frank Phillips",
-            "Casey Williamson",
-            "Thomas Andrist",
-            "Tyler Nevill (aka Germano)"
+            "Cooper Schwartz",
+            "Avery Schmidt",
+            "Travis Christie"
         ]
     },
     {
@@ -24,7 +25,6 @@
         "roster": [
             "Alex Hayes (Captain)",
             "Jared Smith",
-            "JT Walters",
             "George Hansen",
             "Wyatt Flanders",
             "Dakota Potenza",
@@ -32,28 +32,30 @@
             "Parker Hubbell",
             "Jacob Grippin",
             "Cameron Riley",
+            "Louis Cook",
             "David Burke",
-            "Jodi Schmohe",
-            "Travis Hidlay"
+            "Nathan Young",
+            "Nicholas Battaglia",
+            "Brent Wilcox",
+            "Reece Wissmueller"
         ]
     },
     {
         "team": "Orcutt Real Estate",
         "roster": [
-            "Nicolau Spadoni",
             "James Orcutt (Captain)",
+            "Nicolau Spadoni",
             "Matthew Bischoff",
             "Jess Link",
             "Kenny Hall",
-            "Conor McKendy",
-            "Shane Hutchinson",
             "David Maldow",
-            "Matt Dorsey",
             "Nick Downs",
             "John Goodrow",
             "Suan Yong",
-            "August Choder",
-            "Russel Kastner"
+            "Russel Kastner",
+            "Pete Maceli",
+            "Evan Whittaker",
+            "Mike Lavere"
         ]
     },
     {
@@ -62,54 +64,60 @@
             "Peter Enns (Captain)",
             "Joshua Streets",
             "Dane Jackson",
-            "Russell barkley",
-            "Elrik McCheyne",
+            "Aidan Cornell ",
             "Jeff Rosato",
+            "Gabe French",
             "Tim Pasto",
             "Carson Case",
             "Brandon French",
-            "Collin Case",
             "Taylor Mattus",
             "Michael Abdulky",
             "Joe Cleary",
-            "David Erickson"
+            "Russell barkley",
+            "Michael Radja",
+            "Daniel Lopez"
         ]
     },
     {
         "team": "Ice Cream Bar",
         "roster": [
-            "Danny Mazzarella",
             "Kevin Broderick",
             "Daniel Urda",
-            "Cody Kurbiec",
             "Derin Ozturk",
             "Austin Bunce",
             "Andrej Singer",
             "Joshua Cargen",
-            "Sophia Koenig (Captain)",
             "Tristan Cooper",
             "Dylan Cooper",
             "Josh Kerkaert",
-            "Doug Mancuso",
-            "Kellie Joyce"
+            "Jonny Wood",
+            "Kyle Howser",
+            "Connor Phillips",
+            "Nathan Dominikoski",
+            "Austin Block"
         ]
     },
     {
         "team": "Instant Replay",
         "roster": [
-            "Mike Stella ",
-            "Ryan Lohin",
-            "Conor O'Reilly",
-            "Jake Atkinson",
-            "Justin Platis",
-            "Connor Hudson",
-            "David Kunau",
+            "Ryan Lohin (Captain)",
+            "Connnor Leblanc",
+            "Alex Berdnikoff",
+            "Andrew Crosby",
+            "Trent Claesson",
+            "Nathan Bol",
+            "Nick Laterza",
+            "John Bohac",
             "Christian Kunau",
             "Thomas Wright",
             "Andrew Rossi ",
             "Jackson Sequist",
             "Nathan Peterson",
-            "Adler Smith"
+            "Tyler Wood",
+            "Justin Platis",
+            "Adler Smith",
+            "Jeffrey Roberts",
+            "David Kunau"
         ]
     }
 ]
