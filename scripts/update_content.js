@@ -1,43 +1,82 @@
 const { https } = require('follow-redirects');
 const fs = require('fs');
 
-const toRealDate = (dateRaw, timeRaw) => {
-    const date = dateRaw.split(' ')[1]; //comes in as "Sunday, 10/1"    
-    const monthNumeric = +date.split('/')[0];
-    const month = monthNumeric.toString().padStart(2, '0');
-    const dayNumeric = +date.split('/')[1];
-    const day = dayNumeric.toString().padStart(2, '0');
+/**
+ * Parse a loose "M/D H[:MM] [am|pm] [optional tz]" string
+ * and return a Date object for the next occurrence on/after Oct 4 2025,
+ * interpreted as America/New_York local time (DST-aware).
+ */
+function parseToNextOccurrence(input,
+  { referenceYear = 2025, referenceMonth = 10, referenceDay = 4, timeZone = 'America/New_York' } = {}
+) {
+  // --- Step 1: Extract parts (ignore trailing text like EDT/EST)
+  const re = /^\s*(\d{1,2})\/(\d{1,2})\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i;
+  const m = String(input).match(re);
+  if (!m) throw new Error('Unrecognized date/time format. Expected "M/D H[:MM] [am|pm]".');
 
-    let year = 2024;
-    if (monthNumeric === 1 || monthNumeric === 2 || monthNumeric === 3) {
-        year = 2025;
+  let [, mm, dd, hh, min, ampm] = m;
+  const month = Number(mm);
+  const day = Number(dd);
+  let hour = Number(hh);
+  const minute = Number(min || 0);
+
+  // --- Step 2: Convert to 24-hour
+  if (ampm) {
+    const a = ampm.toLowerCase();
+    if (a === 'pm' && hour !== 12) hour += 12;
+    if (a === 'am' && hour === 12) hour = 0;
+  }
+
+  // --- Step 3: Decide year (based on reference 10/4/2025)
+  const useYear =
+    month > referenceMonth || (month === referenceMonth && day >= referenceDay)
+      ? referenceYear
+      : referenceYear + 1;
+
+  // --- Step 4: Convert that local wall-clock in America/New_York → actual UTC instant.
+  // We’ll iterate to ensure DST correctness.
+  const fmt = new Intl.DateTimeFormat('en-US', {
+    timeZone,
+    hour12: false,
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+  });
+
+  function zoneParts(ms) {
+    const p = {};
+    for (const part of fmt.formatToParts(new Date(ms))) {
+      if (part.type !== 'literal') p[part.type] = Number(part.value);
     }
+    return p;
+  }
 
-    let daylightSavingsTime = true;
-    if (monthNumeric === 11 && dayNumeric >= 3 || monthNumeric === 12 || monthNumeric === 1 || monthNumeric === 2 || monthNumeric === 3) {
-        //if it's november and it's the 3rd or greater
-        // OR it's january
-        // OR it's feb
-        // OR it's march
-        // ...date math is hard...
-        daylightSavingsTime = true;
-    }
+  function offsetMillis(ms) {
+    const z = zoneParts(ms);
+    const utc = Date.UTC(z.year, z.month - 1, z.day, z.hour, z.minute, z.second);
+    return utc - ms;
+  }
 
-    const isPM = timeRaw.toLowerCase().indexOf('pm') > -1;
-    const time = timeRaw.split(' ')[0].toString().padStart(2, '0');
-    const hour = (+(time.split(':')[0]) + 12).toString().padStart(2, '0');
-    const minute = (+(time.split(':')[1])).toString().padStart(2, '0');
+  let guess = Date.UTC(useYear, month - 1, day, hour, minute);
+  for (let i = 0; i < 4; i++) {
+    const off = offsetMillis(guess);
+    const next = Date.UTC(useYear, month - 1, day, hour, minute) - off;
+    if (Math.abs(next - guess) < 1000) break;
+    guess = next;
+  }
 
-    const iso = `${year}-${month}-${day}T${hour}:${minute}:00-0${daylightSavingsTime ? '5' : '4'}:00`;
-    return new Date(iso);
+  return new Date(guess);
 }
 
-const schedule_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTYtTbKjtV_G_5AozgDd46hr_6BdavZkxpTnP9Mqs6ieBc2ey8z0m1P1i1pcewMniXpkMY4o7m9NXki/pub?gid=1969887782&single=true&output=csv';
+const schedule_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQuaE-p_YSEfBTHlMXSMw-J1EiTen71H41qiiZ_nrSLZGy6O54n35octBxiDgleDWPVv4atF7rVsJ8N/pub?gid=1969887782&single=true&output=csv';
 const schedule_start_row = 10;
 
 const TeamKey = {
     'A': {
-        name: 'Black Sheep',
+        name: 'DSP Shows',
         color: 'Black',
         logo: 'black_team_logo_2025.jpg',
         wins: 0,
@@ -138,7 +177,7 @@ download(schedule_url).then(csvTxt => {
         const eNetB = +data[10];
 
         if (dateRaw && timeRaw && teamA && teamB && goalieA && goalieB && TeamKey[teamA] && TeamKey[teamB]) {
-            const date = toRealDate(dateRaw, timeRaw);
+            const date = parseToNextOccurrence(dateRaw + " " + timeRaw);
 
             schedule.push({
                 date: date.toISOString(),
