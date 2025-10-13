@@ -74,13 +74,13 @@
         "teamA": "DSP Shows",
         "teamB": "Ice Cream Bar",
         "goalieA": "Daniel Darnold",
-        "goalieB": "Alex Chang"
+        "goalieB": "Derrick Tomberelli"
     },
     {
         "date": "2025-10-20T00:00:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Orcutt Real Estate",
-        "goalieA": "Derrick Tomberelli",
+        "goalieA": "Alex Chang",
         "goalieB": "Matt Hobbs"
     },
     {
@@ -94,7 +94,7 @@
         "date": "2025-10-21T01:15:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Ice Cream Bar",
-        "goalieA": "Alton Pace",
+        "goalieA": "Derrick Tomberelli",
         "goalieB": "Matt Hobbs"
     },
     {
@@ -109,13 +109,13 @@
         "teamA": "Orcutt Real Estate",
         "teamB": "Mansour Jewelers",
         "goalieA": "Daniel Darnold",
-        "goalieB": "Alex Chang"
+        "goalieB": "Derrick Tomberelli"
     },
     {
         "date": "2025-10-27T00:00:00.000Z",
         "teamA": "DSP Shows",
         "teamB": "Instant Replay",
-        "goalieA": "Derrick Tomberelli",
+        "goalieA": "Alex Chang",
         "goalieB": "Matt Hobbs"
     },
     {
@@ -129,7 +129,7 @@
         "date": "2025-10-28T01:15:00.000Z",
         "teamA": "DSP Shows",
         "teamB": "Mansour Jewelers",
-        "goalieA": "Alton Pace",
+        "goalieA": "Derrick Tomberelli",
         "goalieB": "Matt Hobbs"
     },
     {
@@ -214,7 +214,7 @@
         "teamA": "Ice Cream Bar",
         "teamB": "Dianes Dipsticks",
         "goalieA": "Daniel Darnold",
-        "goalieB": "Alex Chang"
+        "goalieB": "??"
     },
     {
         "date": "2025-11-17T01:00:00.000Z",
@@ -241,7 +241,7 @@
         "date": "2025-11-20T02:15:00.000Z",
         "teamA": "Instant Replay",
         "teamB": "Dianes Dipsticks",
-        "goalieA": "Alex Chang",
+        "goalieA": "??",
         "goalieB": "Rich Ford"
     },
     {
@@ -249,7 +249,7 @@
         "teamA": "Orcutt Real Estate",
         "teamB": "Dianes Dipsticks",
         "goalieA": "Daniel Darnold",
-        "goalieB": "Alex Chang"
+        "goalieB": "??"
     },
     {
         "date": "2025-11-24T01:00:00.000Z",
