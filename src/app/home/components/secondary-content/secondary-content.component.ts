@@ -17,28 +17,28 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
-      title: "ABHL Invites YOU",
-      description: "Hockey is for lovers. ABHL Invites YOU to opening night!",
-      image: "assets/images/special_invite.jpg",
-      link: "https://www.youtube.com/watch?v=uF5WL11_1PU"
-    },
-    {
-      title: "3/9 - MBAs win it all!",
-      description: "MBAs defeat Mansour 6-2 in thrilling final. Possible dynasty in the making.",
-      image: "assets/images/mansour_vs_mba_championship.JPG",
-      link: "https://www.youtube.com/watch?v=Kch9mil9W2M"
-    },
-    {
-      title: "3/5 - MBAs headed to finals",
-      description: "MBAs win 4-1 against Dianes, headed to finals for possible repeat championship win",
-      image: "assets/images/dianes_vs_instant_replay_1-14-2024.png",
+      title: "10/12 - Dianes Dipsticks defeat Ice Cream Bar",
+      description: "Dianes continue win streak, win 8-5",
+      image: "assets/images/2025-2026/ICB_vs_Dianes.png",
       link: ""
     },
     {
-      title: "3/3 - Mansour Advances",
-      description: "Mansour overcome Orcutt in overtime, win 3-2",
-      image: "assets/images/mansour_vs_orcutt_3-3-2025.JPG",
-      link: "https://www.youtube.com/watch?v=5UA5WBOX1Ww"
-    }    
+      title: "10/12 - Mansour Jewelers Manhandle Orcutt Real Estate",
+      description: "New kits proove effective, win decisively 11-2",
+      image: "assets/images/2025-2026/Mansour_vs_Orcutt.png",
+      link: ""
+    },
+    {
+      title: "10/12 - DSP Shows get first win over Orcutt Real Estate",
+      description: "Orcutt kept it close, but DSP wins 5-4",
+      image: "assets/images/2025-2026/Orcutt_vs_DSP.png",
+      link: ""
+    },
+    {
+      title: "10/8 - Dianes Deal Reigning Champs First Loss",
+      description: "Dianes Dipsticks defeat MBAs 704",
+      image: "assets/images/2025-2026/Dianes_vs_DSP.png",
+      link: ""
+    },    
   ]
 }
