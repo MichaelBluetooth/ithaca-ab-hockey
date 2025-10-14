@@ -52,15 +52,15 @@
         "date": "2025-10-13T01:30:00.000Z",
         "teamA": "Dianes Dipsticks",
         "teamB": "Ice Cream Bar",
-        "goalieA": "Rich Ford",
-        "goalieB": "Dylan Riker"
+        "goalieA": "Dylan Riker",
+        "goalieB": "Rich Ford"
     },
     {
         "date": "2025-10-14T01:15:00.000Z",
         "teamA": "DSP Shows",
         "teamB": "Ice Cream Bar",
-        "goalieA": "Alton Pace",
-        "goalieB": "Matt Hobbs"
+        "goalieA": "Matt Hobbs",
+        "goalieB": "Alton Pace"
     },
     {
         "date": "2025-10-16T01:15:00.000Z",
