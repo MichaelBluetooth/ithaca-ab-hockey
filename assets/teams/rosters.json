@@ -1,5 +1,17 @@
 [
     {
+        "team": "Goalies",
+        "roster": [
+            "Dylan Riker",
+            "Alex Chang",
+            "Derrick Tomberelli",
+            "Daniel Darnold",
+            "Alton Pace",
+            "Matt Hobbs",
+            "Rich Ford"
+        ]
+    },
+    {
         "team": "DSP Shows",
         "roster": [
             "Mike Petrich (Captain)",
