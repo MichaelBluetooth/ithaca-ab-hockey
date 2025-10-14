@@ -4,10 +4,10 @@
         "color": "Black",
         "logo": "black_team_logo_2025.jpg",
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "goals_for": 6,
-        "goals_against": 15
+        "goals_for": 7,
+        "goals_against": 22
     },
     {
         "name": "Dianes Dipsticks",
@@ -43,11 +43,11 @@
         "name": "Ice Cream Bar",
         "color": "Teal",
         "logo": "teal_team_logo.jpg",
-        "wins": 0,
+        "wins": 1,
         "losses": 3,
         "ties": 0,
-        "goals_for": 10,
-        "goals_against": 21
+        "goals_for": 17,
+        "goals_against": 22
     },
     {
         "name": "Instant Replay",
