@@ -17,6 +17,12 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
+      title: "10/13 - Ice Cream Bar Ices DSP Shows",
+      description: "Ice Cream Bar secures first win against DSP Shows, win 8-1",
+      image: "assets/images/2025-2026/ICV_vs_DSP.png",
+      link: ""
+    },
+    {
       title: "10/12 - Dianes Dipsticks defeat Ice Cream Bar",
       description: "Dianes continue win streak, win 8-5",
       image: "assets/images/2025-2026/ICB_vs_Dianes.png",
