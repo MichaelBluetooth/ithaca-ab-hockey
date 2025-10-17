@@ -24,20 +24,20 @@
         "color": "gold",
         "logo": "gold_team_logo.jpg",
         "wins": 0,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "goals_for": 11,
-        "goals_against": 23
+        "goals_for": 14,
+        "goals_against": 29
     },
     {
         "name": "Mansour Jewelers",
         "color": "white",
         "logo": "white_team_logo.jpg",
-        "wins": 3,
+        "wins": 4,
         "losses": 0,
         "ties": 0,
-        "goals_for": 24,
-        "goals_against": 7
+        "goals_for": 30,
+        "goals_against": 10
     },
     {
         "name": "Ice Cream Bar",
