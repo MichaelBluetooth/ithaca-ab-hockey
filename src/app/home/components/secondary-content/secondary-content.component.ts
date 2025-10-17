@@ -17,8 +17,14 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [    
     {
+      title: "10/16 - Orcutt Can't Solve Mansour",
+      description: "Orcutt Real Estate improve, but still can't defeat Mansour Jewelers. Fall 6-3",
+      image: "assets/images/2025-2026/Mansour_vs_Orcutt_2.png",
+      link: ""
+    },
+    {
       title: "10/13 - Ice Cream Bar Ices DSP Shows",
-      description: "Ice Cream Bar secures first win against DSP Shows, win 8-1",
+      description: "Ice Cream Bar secures first win against DSP Shows, win 7-1",
       image: "assets/images/2025-2026/ICV_vs_DSP.png",
       link: ""
     },
