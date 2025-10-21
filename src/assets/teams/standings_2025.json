@@ -43,20 +43,20 @@
         "name": "Ice Cream Bar",
         "color": "Teal",
         "logo": "teal_team_logo.jpg",
-        "wins": 2,
+        "wins": 3,
         "losses": 3,
         "ties": 0,
-        "goals_for": 25,
-        "goals_against": 25
+        "goals_for": 34,
+        "goals_against": 28
     },
     {
         "name": "Instant Replay",
         "color": "red",
         "logo": "red_team_logo.jpg",
         "wins": 2,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "goals_for": 20,
-        "goals_against": 20
+        "goals_for": 23,
+        "goals_against": 29
     }
 ]
