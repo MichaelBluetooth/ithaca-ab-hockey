@@ -1,7 +1,7 @@
 import { DatePipe } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { forkJoin } from 'rxjs';
+import { DataService } from 'src/app/data.service';
 
 @Component({
   selector: 'app-schedule',
@@ -13,18 +13,16 @@ export class ScheduleComponent {
   schedule: any[] = [];
   calendars: any[] = [];
 
-  constructor(private http: HttpClient, private datePipe: DatePipe) { }
+  constructor(private http: HttpClient, private datePipe: DatePipe, private dataService: DataService) { }
 
   ngOnInit() {
-    forkJoin([
-      this.http.get('assets/teams/standings_2025.json'),
-      this.http.get('assets/teams/schedule_2025.json'),
-      this.http.get('assets/teams/team_calendars.json')
-    ]).subscribe((resp: any) => {
-      this.teams = resp[0];
-      this.schedule = resp[1];
-      this.calendars = this.chunk(resp[2], 3);
+    this.http.get('assets/teams/team_calendars.json').subscribe((calendars: any) => {
+      this.calendars = this.chunk(calendars, 3);
     });
+
+    const d = this.dataService.getData();
+    this.schedule = d.schedule;
+    this.teams = d.standings;    
   }
 
   ngAfterViewInit() {

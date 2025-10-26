@@ -1,5 +1,5 @@
-import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { DataService } from 'src/app/data.service';
 
 @Component({
   selector: 'app-standings-panel',
@@ -8,11 +8,9 @@ import { Component } from '@angular/core';
 })
 export class StandingsPanelComponent {
   teams: any[] = [];
-  constructor(private http: HttpClient){}
+  constructor(private data: DataService){}
 
   ngOnInit(){
-    this.http.get('assets/teams/standings_2025.json').subscribe((teams: any) => {
-      this.teams = teams;
-    });
+    this.teams = this.data.getData().standings;
   }
 }
