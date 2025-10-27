@@ -17,34 +17,30 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
-      title: "10/22 - Mansour Gets Back to Winning Ways",
-      description: "Mansour bounces back, gets 9-4 victory over Instant Replay",
-      image: "assets/images/2025-2026/Mansour_vs_InstantReplay.png",
-      link: ""
-    },
-    {
-      title: "10/20 - Dianes Dipsticks Win Streak Continues",
-      description: "Dianes dominate the ice in convincing 9-3 win over Instant Replay Sports",
+      title: "10/26 - Ice Cream Bar Melted by Diane Dipsticks",
+      description: "Dianes Dipsticks continue win streak, defeat Ice Cream Bar 7-5",
       image: "assets/images/2025-2026/InstantReplay_vs_Dianes.png",
       link: ""
     },
     {
-      title: "10/19 - Ice Cream Bar Freezes Out DSP Shows",
-      description: "Ice Cream Bar confident in 8-3 victory, keep DSP Shows on ice from start to finish.",
-      image: "assets/images/2025-2026/ICB_vs_DSP.png",
+      title: "10/26 - Instant Replay Sports Edge DSP Shows",
+      description: "Instant Replay Sports narrowly defeats DSP Shows, 4-3",
+      image: "assets/images/2025-2026/InstantReplay_vs_DSP.png",
       link: ""
     },
     {
-      title: "10/19 - Orcutts Win Drought Still Frozen After 7-8 Loss",
-      description: "Instant Replay defeat winless Orcutt Real Estate in high scoring affair",
-      image: "assets/images/2025-2026/Orcutt_vs_InstantReplay.png",
+      title: "10/26 - Orcutt Can't Cut It",
+      description: "Orcutt left still searching for first in in 2-10 loss to Mansour",
+      image: "assets/images/2025-2026/Mansour_vs_Orcutt_2.png",
       link: ""
     },
+
     {
-      title: "10/19 - Diane's Dipsticks Stay Polished in 8-5 Win",
-      description: "The undefeated Dipsticks kept their shine, handing Mansour Jewelers their first loss of the season in a hard-fought 8-5 matchup.",
-      image: "assets/images/2025-2026/Mansour_vs_Dianes.png",
-      link: ""
-    },
+      title: "10/26 - E. Net Makes First Appearance",
+      description: "ABHL scoring legend nets first goal of the season. ",
+      image: "assets/images/who_is_e_net.png",
+      link: "",
+      borderedImage: true
+    }
   ]
 }
