@@ -17,6 +17,12 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
+      title: "10/27 - DSP Shows Fall To Mansour Jewelers",
+      description: "Mansour Jewelers remain undefeated in busy 3 game week. Win 7-1.",
+      image: "assets/images/2025-2026/Mansour_vs_DSP.png",
+      link: ""
+    },
+    {
       title: "10/26 - Ice Cream Bar Melted by Diane Dipsticks",
       description: "Dianes Dipsticks continue win streak, defeat Ice Cream Bar 7-5",
       image: "assets/images/2025-2026/InstantReplay_vs_Dianes.png",
@@ -26,7 +32,7 @@ export class SecondaryContentComponent {
       title: "10/26 - Instant Replay Sports Edge DSP Shows",
       description: "Instant Replay Sports narrowly defeats DSP Shows, 4-3",
       image: "assets/images/2025-2026/InstantReplay_vs_DSP.png",
-      link: ""
+      link: "https://www.youtube.com/watch?v=BZ6E5ETn1Ag"
     },
     {
       title: "10/26 - Orcutt Can't Cut It",
