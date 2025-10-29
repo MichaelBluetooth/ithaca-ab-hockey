@@ -32,7 +32,7 @@ export class SecondaryContentComponent {
       title: "10/26 - Instant Replay Sports Edge DSP Shows",
       description: "Instant Replay Sports narrowly defeats DSP Shows, 4-3",
       image: "assets/images/2025-2026/InstantReplay_vs_DSP.png",
-      link: "https://www.youtube.com/watch?v=BZ6E5ETn1Ag"
+      link: "https://www.youtube.com/watch?v=LGtYL__CIqM"
     },
     {
       title: "10/26 - Orcutt Can't Cut It",
