@@ -25,8 +25,8 @@ export class SecondaryContentComponent {
     {
       title: "12/7 - Orcutt Streak Just Getting Started",
       description: "Orcutt secure first win of the season over DSP Shows, win 4-3",
-      image: "assets/images/2025-2026/Orcutt_vs_DSP.png",
-      link: ""
+      image: "assets/images/2025-2026/Orcutt_vs_DSP_12.14.2025.PNG",
+      link: "https://www.youtube.com/watch?v=c5pFj4Nq7hw"
     },
     {
       title: "12/7 - Dianes Take The Lead",
