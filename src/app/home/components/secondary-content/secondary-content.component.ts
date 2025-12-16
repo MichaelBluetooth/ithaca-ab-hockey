@@ -19,8 +19,8 @@ export class SecondaryContentComponent {
     {
       title: "12/8 - Orcut Win Streak Over",
       description: "Orcutt, fresh off first win, fall to Ice Cream Bar, 2-6",
-      image: "/assets/images/orcutt_vs_dianes_10-16-2023.png",
-      link: ""
+      image: "/assets/images/2025-2026/ICB_vs_Orcutt_12.28.2025.PNG",
+      link: "https://www.youtube.com/watch?v=hE1ETROcWhk"
     },
     {
       title: "12/7 - Orcutt Streak Just Getting Started",
