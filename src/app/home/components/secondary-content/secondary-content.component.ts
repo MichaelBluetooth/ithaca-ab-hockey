@@ -17,28 +17,22 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
-      title: "12/8 - Orcut Win Streak Over",
-      description: "Orcutt, fresh off first win, fall to Ice Cream Bar, 2-6",
-      image: "/assets/images/2025-2026/ICB_vs_Orcutt_12.28.2025.PNG",
-      link: "https://www.youtube.com/watch?v=hE1ETROcWhk"
-    },
-    {
-      title: "12/7 - Orcutt Streak Just Getting Started",
-      description: "Orcutt secure first win of the season over DSP Shows, win 4-3",
-      image: "assets/images/2025-2026/Orcutt_vs_DSP_12.14.2025.PNG",
-      link: "https://www.youtube.com/watch?v=c5pFj4Nq7hw"
-    },
-    {
-      title: "12/7 - Dianes Take The Lead",
-      description: "Dianes Dipstick emerge at top contenders, defeat Mansour 7-4",
-      image: "/assets/images/2025-2026/Mansour_vs_Dianes_12.7.2025.png",
-      link: "https://www.youtube.com/watch?v=mqVHoCayFl0"
-    },
-    {
-      title: "12/7 - MBAs melt Ice Cream Bar",
-      description: "MBAs dominate game, win 12-0 against Ice Cream Bar",
-      image: "assets/images/2025-2026/InstantReplay_vs_ICB.png",
+      title: "HIGH SCORE!?",
+      description: "2/11 - Instant Replay tops Orcutt Real Estate in high scoring game, 12-19",
+      image: "/assets/images/2025-2026/Orcutt_vs_InstantReplay.png",
       link: ""
-    }    
+    },
+    {
+      title: "Goalie Duel",
+      description: "2/9 - DSP and Mansour tie 2-2 as goalies Hobbs and Pace refuse to lose",
+      image: "/assets/images/2025-2026/Mansour_vs_DSP.png",
+      link: "https://www.youtube.com/watch?v=mHquywQ-V_A"
+    },
+    {
+      title: "MBAs School DSP",
+      description: "2/4 - Instant Replay defeats DSP shows 8-4",
+      image: "/assets/images/2025-2026/InstantReplay_vs_DSP.png",
+      link: ""
+    },
   ]
 }
