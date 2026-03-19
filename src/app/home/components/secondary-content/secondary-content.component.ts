@@ -17,27 +17,27 @@ export class SecondaryContentComponent {
 
   sections: SecondaryContent[] = [
     {
-      title: "Dianes Dipsticks take on MBAs",
-      description: "#1 seed Dianes Dipsticks take on MBAs in semi-finals",
-      image: "/assets/images/dianes_vs_mansours_12-18-2023.png",
+      title: "Dianes Dipsticks DO IT",
+      description: "DIANES DIPSTICKS TAKE THE CROWN, win 4-3",
+      image: "/assets/images/2025-2026/Dianes_Win.PNG",
       link: ""
     },
     {
-      title: "Mansour Jewelers look to crush ICB",
-      description: "#2 seed Mansour Jewelers take on ICB in semi-finals",
-      image: "/assets/images/mansour_vs_icecreambar_1-13-2025.jpg",
+      title: "Mansour Jewelers fall just short",
+      description: "Late goal leads to Mansour loss in finals",
+      image: "/assets/images/2025-2026/Mansour_Loss.PNG",
       link: ""
     },
     {
-      title: "Orcutt Eliminated",
-      description: "Ice Cream Bar eliminates Orcutt Real Estate",
-      image: "/assets/images/2025-2026/Orcutt_vs_ICB.PNG",
-      link: "https://www.youtube.com/watch?v=Ip039c3nS80"
+      title: "Alton Pace Demonstrates",
+      description: "Dianes goalie Alton Pace shows why he's the #1 goalie pick",
+      image: "/assets/images/2025-2026/Pace_Wins.PNG",
+      link: ""
     },
     {
-      title: "DSP Eliminated",
-      description: "DSP Shows takes it to overtime, but MBAs come out on top",
-      image: "/assets/images/dianes_vs_blacksheep_1-7-2024.png",
+      title: "William Block stands tall",
+      description: "Mansour goaltender unfazed by Dianes Dipsticks",
+      image: "/assets/images/2025-2026/WilliamBlock_Stands_Tall.PNG",
       link: ""
     }
   ]
